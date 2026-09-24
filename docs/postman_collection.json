@@ -1,0 +1,81 @@
+{
+  "info": {
+    "name": "API_ISLAM Collection",
+    "description": "Comprehensive Postman collection for testing API_ISLAM endpoints.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Quran",
+      "item": [
+        {
+          "name": "Get All Surahs",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/quran/surahs" }
+        },
+        {
+          "name": "Get Surah Al-Fatiha (1)",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/quran/surah/1" }
+        },
+        {
+          "name": "Search Verses",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/quran/search?q=الرحمن" }
+        },
+        {
+          "name": "Get Reciters",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/quran/reciters" }
+        }
+      ]
+    },
+    {
+      "name": "Adhkar",
+      "item": [
+        {
+          "name": "Get Categories",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/adhkar/categories" }
+        },
+        {
+          "name": "Morning Adhkar",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/adhkar/category/morning" }
+        },
+        {
+          "name": "Evening Adhkar",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/adhkar/category/evening" }
+        },
+        {
+          "name": "Random Dhikr",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/adhkar/random" }
+        }
+      ]
+    },
+    {
+      "name": "Hadith",
+      "item": [
+        {
+          "name": "Get Collections",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/hadith/collections" }
+        },
+        {
+          "name": "Get 40 Nawawi Hadiths",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/hadith/collection/nawawi40" }
+        },
+        {
+          "name": "Random Hadith",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/hadith/random" }
+        }
+      ]
+    },
+    {
+      "name": "Prayer Times",
+      "item": [
+        {
+          "name": "Calculation Methods",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/prayer-times/methods" }
+        },
+        {
+          "name": "Calculate (Tunis)",
+          "request": { "method": "GET", "url": "http://localhost:8000/api/v1/prayer-times/calculate?latitude=36.8065&longitude=10.1815&timezone=1&method=EGYPT" }
+        }
+      ]
+    }
+  ]
+}
