@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قارئ المصحف الشريف الورقي | API_ISLAM</title>
+    <style>
+        :root {
+            --bg-color: #1a1e24;
+            --paper-color: #fdfbf7;
+            --gold-accent: #c5a059;
+            --primary: #059669;
+        }
+        body {
+            margin: 0;
+            background-color: var(--bg-color);
+            font-family: system-ui, -apple-system, sans-serif;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+        header {
+            background-color: #111418;
+            color: white;
+            padding: 12px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid var(--gold-accent);
+        }
+        .controls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        select, input, button {
+            background: #222831;
+            color: white;
+            border: 1px solid #444;
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: var(--primary);
+        }
+        .mushaf-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .page-card {
+            background: var(--paper-color);
+            height: 85vh;
+            aspect-ratio: 1 / 1.5;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5), inset 0 0 40px rgba(0,0,0,0.03);
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            border: 1px solid #e0d6c3;
+        }
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 20px;
+            font-size: 13px;
+            font-weight: bold;
+            color: #6b5536;
+            border-bottom: 1px solid rgba(197, 160, 89, 0.3);
+        }
+        .page-image-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding: 5px;
+        }
+        .page-image-wrapper img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .page-footer {
+            text-align: center;
+            padding: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #8c7355;
+            border-top: 1px solid rgba(197, 160, 89, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div style="font-weight: bold; font-size: 18px; color: var(--gold-accent);">📖 المصحف الشريف الإلكتروني</div>
+        <div class="controls">
+            <label>الرواية / الطبعة:</label>
+            <select id="editionSelect" onchange="changeEdition()">
+                <option value="quran-hafs-madinah">مصحف المدينة (حفص عن عاصم)</option>
+                <option value="quran-tajweed-color">مصحف التجويد الملون</option>
+                <option value="quran-warsh-madinah">مصحف المدينة (ورش عن نافع)</option>
+                <option value="quran-qaloon-madinah">مصحف المدينة (قالون عن نافع)</option>
+                <option value="quran-shamerly">مصحف الشمرلي (15 سطر)</option>
+            </select>
+
+            <button onclick="prevPage()">الصفحة السابقة ⬅️</button>
+            <span>صفحة: <input type="number" id="pageInput" min="1" max="604" value="1" style="width: 60px; text-align: center;" onchange="goToPage(this.value)"> / 604</span>
+            <button onclick="nextPage()">➡️ الصفحة التالية</button>
+        </div>
+    </header>
+
+    <div class="mushaf-container">
+        <div class="page-card">
+            <div class="page-header">
+                <span id="surahName">سورة الفاتحة</span>
+                <span id="juzNumber">الجزء 1</span>
+            </div>
+            <div class="page-image-wrapper">
+                <img id="mushafImg" src="https://raw.githubusercontent.com/TheGreatMage/quran-pages-images/master/pages/1.png" alt="صفحة المصحف">
+            </div>
+            <div class="page-footer">
+                <span id="pageFooterNum">1</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentPage = 1;
+        let currentEdition = "quran-hafs-madinah";
+
+        async function loadPage(page) {
+            currentPage = parseInt(page);
+            document.getElementById('pageInput').value = currentPage;
+            document.getElementById('pageFooterNum').innerText = currentPage;
+
+            try {
+                const res = await fetch(`http://localhost:8000/api/v1/mushaf/page/${currentPage}?edition=${currentEdition}`);
+                if (res.ok) {
+                    const data = await res.json();
+                    document.getElementById('mushafImg').src = data.media.image_url;
+                    document.getElementById('surahName').innerText = 'سورة ' + data.location.surah_name_ar;
+                    document.getElementById('juzNumber').innerText = 'الجزء ' + data.location.juz;
+                } else {
+                    document.getElementById('mushafImg').src = `https://raw.githubusercontent.com/TheGreatMage/quran-pages-images/master/pages/${currentPage}.png`;
+                }
+            } catch (err) {
+                document.getElementById('mushafImg').src = `https://raw.githubusercontent.com/TheGreatMage/quran-pages-images/master/pages/${currentPage}.png`;
+            }
+        }
+
+        function nextPage() {
+            if (currentPage < 604) loadPage(currentPage + 1);
+        }
+
+        function prevPage() {
+            if (currentPage > 1) loadPage(currentPage - 1);
+        }
+
+        function goToPage(p) {
+            const pageNum = parseInt(p);
+            if (pageNum >= 1 && pageNum <= 604) loadPage(pageNum);
+        }
+
+        function changeEdition() {
+            currentEdition = document.getElementById('editionSelect').value;
+            loadPage(currentPage);
+        }
+
+        // Keyboard arrows support
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') nextPage();
+            if (e.key === 'ArrowRight') prevPage();
+        });
+    </script>
+</body>
+</html>

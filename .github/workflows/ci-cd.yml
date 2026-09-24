@@ -1,0 +1,82 @@
+name: API_ISLAM CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  validate-datasets:
+    name: 🔍 Validate JSON Datasets & Schemas
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 🧪 Run Data Validation Script
+        run: |
+          python scripts/validate_data.py
+
+  unit-and-integration-tests:
+    name: 🧪 Run Test Suite (Python ${{ matrix.python-version }})
+    needs: validate-datasets
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+
+      - name: 📦 Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🚀 Run Pytest Suite
+        run: |
+          pytest -v
+
+  docker-build-and-test:
+    name: 🐳 Docker Build & Healthcheck Test
+    needs: unit-and-integration-tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🔧 Set up Docker Buildx
+        uses: actions/setup-buildx-action@v3
+
+      - name: 🏗️ Build Docker Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          load: true
+          tags: api_islam:test
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: 🩺 Test Container Health
+        run: |
+          docker run -d --name api_islam_test -p 8000:8000 api_islam:test
+          sleep 5
+          docker ps
+          curl -f http://localhost:8000/health || (docker logs api_islam_test && exit 1)
+          docker stop api_islam_test

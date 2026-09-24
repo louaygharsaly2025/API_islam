@@ -2,12 +2,25 @@ version: '3.8'
 
 services:
   api_islam:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: api_islam_service
+    image: api_islam:latest
+    restart: unless-stopped
     ports:
       - "8000:8000"
-    volumes:
-      - ./data:/app/data
     environment:
+      - PORT=8000
       - PYTHONUNBUFFERED=1
-    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
