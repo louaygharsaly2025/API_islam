@@ -182,3 +182,52 @@ def test_get_radios():
     assert json_data["count"] >= 10
     assert any(r["id"] == "radio_makkah" for r in json_data["data"])
 
+# 11. Asmaul Husna Endpoints
+def test_get_asmaul_husna():
+    response = client.get("/api/v1/asmaul-husna")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["count"] == 99
+    assert json_data["data"][0]["name_ar"] == "الرَّحْمَنُ"
+
+def test_get_single_name():
+    response = client.get("/api/v1/asmaul-husna/1")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["data"]["name_en"] == "Ar-Rahman"
+
+def test_get_random_name():
+    response = client.get("/api/v1/asmaul-husna/random")
+    assert response.status_code == 200
+    assert "name_ar" in response.json()["data"]
+
+# 12. Duas & Ruqyah Endpoints
+def test_get_rabbana_duas():
+    response = client.get("/api/v1/duas/rabbana")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["count"] >= 8
+    assert "رَبَّنَا" in json_data["data"][0]["arabic_text"]
+
+def test_get_ruqyah():
+    response = client.get("/api/v1/duas/ruqyah")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["count"] >= 5
+
+# 13. Zakat Calculator Endpoints
+def test_get_zakat_nisab():
+    response = client.get("/api/v1/zakat/nisab")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert "gold_nisab" in json_data["data"]
+    assert json_data["data"]["gold_nisab"]["weight_grams"] == 85.0
+
+def test_calculate_zakat():
+    response = client.get("/api/v1/zakat/calculate?cash_in_hand=10000&gold_grams=100&gold_price_per_gram=75")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["data"]["result"]["is_zakat_eligible"] == True
+    assert json_data["data"]["result"]["zakat_amount_due"] > 0
+
+

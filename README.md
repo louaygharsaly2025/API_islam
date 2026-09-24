@@ -1,17 +1,30 @@
-# 🌿 API_ISLAM
+# 🌿 API_ISLAM (v3.0 Ultimate)
 
-A modern, fast, and structured Islamic Data Repository and REST API service built with **FastAPI** and **Python 3**.
+[![CI/CD Pipeline](https://github.com/louaygharsaly2025/API_islam/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/louaygharsaly2025/API_islam/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg)](https://fastapi.tiangolo.com)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](Dockerfile)
+
+The most comprehensive, high-performance, open-source Islamic REST API and Data Repository built with **FastAPI** and **Python 3**.
 
 ---
 
-## 🌟 Features
+## 🌟 Core Features & Modules
 
 * **📖 Holy Quran**: Complete metadata for 114 Surahs, Ayahs, Translations, Reciters, and Full-text Search.
-* **🤲 Adhkar & Duas**: Morning, Evening, Sleep, and Post-Prayer Adhkar with counters, virtues, and references.
-* **📜 Authentic Hadiths**: An-Nawawi Forty Hadiths with Arabic & English translations and narrators.
-* **🕌 Astronomical Prayer Times**: Exact prayer calculation engine based on solar algorithms for any GPS coordinates.
-* **⚡ High Performance & Interactive Docs**: Built-in Swagger UI (`/docs`) and ReDoc (`/redoc`).
-* **🐳 Docker Ready**: `Dockerfile` and `docker-compose.yml` included.
+* **🖼️ High-Res Printed Mushaf**: 604 high-resolution printed pages supporting **Hafs**, **Warsh 'an Nafi'**, **Qalun 'an Nafi'**, **Color-coded Tajweed**, and **Shamerly (15 lines)**.
+* **✨ 99 Names of Allah (Asmaul Husna)**: Complete list with Arabic calligraphy names, transliterations, English meanings, and comprehensive explanations.
+* **🤲 Duas & Ruqyah Shariah**: 40 Quranic Rabbana supplications and authentic Ruqyah verses and prophetic invocations.
+* **📚 Authentic Tafsir**: Books catalog including **Al-Muyassar**, **As-Sa'di**, **Ibn Kathir**, **Al-Qurtubi**, **Al-Tabari**, and **Al-Jalalayn**.
+* **📜 Authentic Hadiths**: An-Nawawi Forty Hadiths with Arabic & English translations, narrators, and search.
+* **🕌 Astronomical Prayer Times**: Exact calculation engine based on pure solar algorithms for any GPS coordinates.
+* **🧭 Qibla Direction**: Great-circle navigation algorithm providing exact degree bearing to the Holy Kaaba and distance in kilometers.
+* **📅 Hijri Calendar & Islamic Events**: Gregorian <-> Hijri bidirectional conversion with annual Islamic holidays and occasions.
+* **📻 Live Quran Radios**: 24/7 streaming MP3 radios (Makkah, Cairo, Alafasy, Abdul Basit, Al-Minshawi, Al-Muaiqly, Al-Husary, Ruqyah, Tafsir).
+* **💰 Islamic Zakat Calculator**: Nisab thresholds (Gold/Silver) and zakat calculation on cash, gold, silver, investments, and trade assets.
+* **⚡ Interactive Docs & Postman**: Built-in Swagger UI (`/docs`), ReDoc (`/redoc`), and 1-click test file (`api_requests.http`).
+* **🐳 Docker & CI/CD**: Production-ready `Dockerfile`, `docker-compose.yml`, and GitHub Actions CI/CD with 32 automated unit tests (100% pass).
 
 ---
 
@@ -20,68 +33,57 @@ A modern, fast, and structured Islamic Data Repository and REST API service buil
 ```text
 API_islam/
 ├── app/                        # FastAPI application source code
-│   ├── main.py                 # Main entrypoint & UI landing page
-│   ├── routers/                # API Endpoints (quran, adhkar, hadith, prayer_times)
-│   └── services/               # Prayer calculation astronomical service
-├── data/                       # Core JSON datasets
-│   ├── quran/                  # Surahs index, ayahs, translations, reciters
-│   ├── adhkar/                 # Morning, evening, sleep, after_prayer
-│   ├── hadith/                 # Hadith collections
-│   └── prayer_times/           # Calculation methods metadata
-├── schemas/                    # JSON Schemas for validation
-├── scripts/                    # Automation & utility scripts
-│   ├── init_datasets.py        # Initialize baseline datasets
-│   ├── validate_data.py        # Validate JSON against schemas
-│   └── download_quran.py       # Sync all 114 surahs from Quran API
-├── docs/                       # Comprehensive documentation
-│   ├── API_DOCUMENTATION.md    # Endpoints guide & query params
-│   └── DATA_SCHEMA.md          # Architecture & data specifications
-├── .gitignore                  # Git ignore rules
+│   ├── main.py                 # Application entrypoint & UI portal
+│   ├── routers/                # 12 Modules (quran, mushaf, tafsir, asmaul_husna, duas, hadith, ...)
+│   └── services/               # Astronomical & Mathematical engines (Prayer, Qibla, Hijri, Zakat)
+├── data/                       # 25 JSON Datasets (Quran, Adhkar, Duas, Hadith, Mushaf, Radios, ...)
+├── schemas/                    # Formal JSON Schemas for validation
+├── tests/                      # 32 Automated Unit & Integration Tests (Pytest)
+├── scripts/                    # Automation & sync scripts (validate, download, generate)
+├── examples/                   # Ready-to-use SDK Clients (Flutter, JS, Python, HTML Flip Viewer)
+├── docs/                       # Documentation (COMPLETE_GUIDE.md, API_DOCUMENTATION.md)
+├── .github/workflows/          # Automated CI/CD Pipeline
+├── Dockerfile                  # Container build
+├── docker-compose.yml          # Compose orchestration
 ├── requirements.txt            # Python dependencies
-├── Dockerfile                  # Container definition
-└── docker-compose.yml          # Compose service configuration
+├── api_requests.http           # 1-Click Interactive REST tester
+└── LICENSE                     # MIT License
 ```
 
 ---
 
 ## 🚀 Quick Start
 
-### 1. Install Dependencies
+### 1. Install & Run Locally
 ```bash
 pip install -r requirements.txt
-```
-
-### 2. Run the API Server
-```bash
 uvicorn app.main:app --reload --port 8000
 ```
-Open your browser at:
-* **Interactive API Docs (Swagger UI)**: [http://localhost:8000/docs](http://localhost:8000/docs)
-* **Alternative Docs (ReDoc)**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
-* **Root Portal**: [http://localhost:8000/](http://localhost:8000/)
 
----
+Open in browser:
+* **Interactive Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
+* **Alternative ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+* **Web Landing Portal**: [http://localhost:8000/](http://localhost:8000/)
 
-## 🛠️ Utilities & Scripts
+### 2. Run with Docker
+```bash
+docker compose up -d --build
+```
 
-### Validate JSON Datasets & Schemas
+### 3. Run Automated Tests
 ```bash
 python scripts/validate_data.py
-```
-
-### Sync All 114 Quran Surahs
-```bash
-python scripts/download_quran.py
+python -m pytest -v
 ```
 
 ---
 
-## 🐳 Run with Docker
-
-```bash
-docker-compose up -d --build
-```
+## 📖 Comprehensive Documentation
+For the full guide and integration examples in **Flutter**, **React**, **Node.js**, and **Python**, check [docs/COMPLETE_GUIDE.md](docs/COMPLETE_GUIDE.md).
 
 ---
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
 
 **louay gharsaly 2026**
