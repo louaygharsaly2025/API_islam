@@ -62,12 +62,14 @@ class _MushafReaderScreenState extends State<MushafReaderScreen> {
       appBar: AppBar(
         backgroundColor: const Color(0xFF1B3B2B), // Islamic Deep Green
         foregroundColor: Colors.white,
-        title: Text(
-          _pageData != null
-              ? 'سورة ${_pageData!['location']['surah_name_ar']} | الجزء ${_pageData!['location']['juz']}'
-              : 'المصحف الشريف',
-          style: const TextStyle(fontWeight: FontWeight.bold),
-        ),
+        title: _isLoading
+            ? const Text('جاري التحميل...', style: TextStyle(fontSize: 16))
+            : Text(
+                _pageData != null
+                    ? 'سورة ${_pageData!['location']['surah_name_ar']} | الجزء ${_pageData!['location']['juz']}'
+                    : 'المصحف الشريف',
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
         actions: [
           // Riwayah Switcher Dropdown
           DropdownButton<String>(
