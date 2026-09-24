@@ -48,29 +48,56 @@ GET {{baseUrl}}/tafsir/ar-muyassar/surah/1
 ### 13. Get Tafsir for a Specific Ayah (Surah 1, Ayah 1)
 GET {{baseUrl}}/tafsir/ar-muyassar/ayah/1/1
 
+### ================= QIBLA DIRECTION =================
+
+### 14. Calculate Qibla Direction for Tunis
+GET {{baseUrl}}/qibla/calculate?latitude=36.8065&longitude=10.1815
+
+### 15. Calculate Qibla Direction for Paris
+GET {{baseUrl}}/qibla/calculate?latitude=48.8566&longitude=2.3522
+
+### ================= HIJRI CALENDAR & EVENTS =================
+
+### 16. Get Today's Hijri Date
+GET {{baseUrl}}/hijri/today
+
+### 17. Convert Gregorian Date to Hijri (e.g. 2026-09-24)
+GET {{baseUrl}}/hijri/convert?date_str=2026-09-24
+
+### 18. Get Islamic Events & Holidays Calendar
+GET {{baseUrl}}/hijri/events?year=1448
+
+### ================= LIVE QURAN RADIOS =================
+
+### 19. Get All Live Quran Radio Stations
+GET {{baseUrl}}/radios
+
+### 20. Filter Radios by Reciter
+GET {{baseUrl}}/radios?category=reciter
+
 ### ================= ADHKAR & DUAS =================
 
-### 14. Get Adhkar Categories
+### 21. Get Adhkar Categories
 GET {{baseUrl}}/adhkar/categories
 
-### 15. Get Morning Adhkar
+### 22. Get Morning Adhkar
 GET {{baseUrl}}/adhkar/category/morning
 
-### 16. Get Random Dhikr
+### 23. Get Random Dhikr
 GET {{baseUrl}}/adhkar/random
 
 ### ================= HADITH =================
 
-### 17. Get Hadith Collections
+### 24. Get Hadith Collections
 GET {{baseUrl}}/hadith/collections
 
-### 18. Get 40 Nawawi Hadiths
+### 25. Get 40 Nawawi Hadiths
 GET {{baseUrl}}/hadith/collection/nawawi40
 
-### 19. Get Random Hadith
+### 26. Get Random Hadith
 GET {{baseUrl}}/hadith/random
 
 ### ================= PRAYER TIMES =================
 
-### 20. Calculate Prayer Times (Tunis Coordinates)
+### 27. Calculate Prayer Times (Tunis Coordinates)
 GET {{baseUrl}}/prayer-times/calculate?latitude=36.8065&longitude=10.1815&timezone=1&method=EGYPT

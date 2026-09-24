@@ -1,0 +1,88 @@
+{
+  "radios": [
+    {
+      "id": "radio_makkah",
+      "name_ar": "إذاعة القرآن الكريم - مكة المكرمة",
+      "name_en": "Holy Quran Radio - Makkah",
+      "stream_url": "https://stream.radiojar.com/4wqre23fytzuv",
+      "category": "live_station"
+    },
+    {
+      "id": "radio_cairo",
+      "name_ar": "إذاعة القرآن الكريم من القاهرة",
+      "name_en": "Quran Radio Cairo (Egypt)",
+      "stream_url": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+      "category": "live_station"
+    },
+    {
+      "id": "radio_alafasy",
+      "name_ar": "إذاعة الشيخ مشاري العفاسي",
+      "name_en": "Mishary Alafasy Radio",
+      "stream_url": "https://qurango.net/radio/mishary_alafasi",
+      "category": "reciter"
+    },
+    {
+      "id": "radio_abdulbasit",
+      "name_ar": "إذاعة الشيخ عبد الباسط عبد الصمد",
+      "name_en": "Abdul Basit Abdul Samad Radio",
+      "stream_url": "https://qurango.net/radio/abdulbasit_abdulsamad_mojawwad",
+      "category": "reciter"
+    },
+    {
+      "id": "radio_minshawi",
+      "name_ar": "إذاعة الشيخ محمد صديق المنشاوي",
+      "name_en": "Mohamed Siddiq El-Minshawi Radio",
+      "stream_url": "https://qurango.net/radio/mohammed_siddiq_alminshawi",
+      "category": "reciter"
+    },
+    {
+      "id": "radio_maher",
+      "name_ar": "إذاعة الشيخ ماهر المعيقلي",
+      "name_en": "Maher Al-Muaiqly Radio",
+      "stream_url": "https://qurango.net/radio/maher",
+      "category": "reciter"
+    },
+    {
+      "id": "radio_husary",
+      "name_ar": "إذاعة الشيخ محمود خليل الحصري",
+      "name_en": "Mahmoud Khalil Al-Husary Radio",
+      "stream_url": "https://qurango.net/radio/mahmoud_khalil_alhussary",
+      "category": "reciter"
+    },
+    {
+      "id": "radio_sudais",
+      "name_ar": "إذاعة الشيخ عبد الرحمن السديس",
+      "name_en": "Abdul Rahman Al-Sudais Radio",
+      "stream_url": "https://qurango.net/radio/abdulrahman_alsudaes",
+      "category": "reciter"
+    },
+    {
+      "id": "radio_shuraim",
+      "name_ar": "إذاعة الشيخ سعود الشريم",
+      "name_en": "Saud Al-Shuraim Radio",
+      "stream_url": "https://qurango.net/radio/saud_alshuraim",
+      "category": "reciter"
+    },
+    {
+      "id": "radio_adhkar",
+      "name_ar": "إذاعة أذكار الصباح والمساء والرقية الشرعية",
+      "name_en": "Adhkar & Ruqyah Shariah Radio",
+      "stream_url": "https://qurango.net/radio/athkar_adhkar",
+      "category": "adhkar"
+    },
+    {
+      "id": "radio_tafsir",
+      "name_ar": "إذاعة تفسير القرآن الكريم",
+      "name_en": "Quran Tafsir Radio",
+      "stream_url": "https://qurango.net/radio/tafseer",
+      "category": "educational"
+    },
+    {
+      "id": "radio_fatwa",
+      "name_ar": "إذاعة الفتاوى الإسلامية (ابن عثيمين)",
+      "name_en": "Islamic Fatawa Radio",
+      "stream_url": "https://qurango.net/radio/fatwa",
+      "category": "educational"
+    }
+  ]
+}

@@ -143,3 +143,42 @@ def test_calculate_prayer_times():
     assert "Asr" in timings
     assert "Maghrib" in timings
     assert "Isha" in timings
+
+# 8. Qibla Direction Endpoints
+def test_calculate_qibla():
+    response = client.get("/api/v1/qibla/calculate?latitude=36.8065&longitude=10.1815")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["status"] == "success"
+    assert "direction_degrees" in json_data["data"]
+    assert "distance_km" in json_data["data"]
+    assert json_data["data"]["compass_direction"] in ["SE", "ESE", "SSE", "E"]
+
+# 9. Hijri Calendar & Events Endpoints
+def test_get_today_hijri():
+    response = client.get("/api/v1/hijri/today")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert "hijri" in json_data["data"]
+    assert "month_name_ar" in json_data["data"]["hijri"]
+
+def test_convert_date_to_hijri():
+    response = client.get("/api/v1/hijri/convert?date_str=2026-09-24")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["data"]["hijri"]["year"] >= 1447
+
+def test_get_islamic_events():
+    response = client.get("/api/v1/hijri/events?year=1448")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["data"]["events_count"] >= 10
+
+# 10. Live Quran Radios Endpoints
+def test_get_radios():
+    response = client.get("/api/v1/radios")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["count"] >= 10
+    assert any(r["id"] == "radio_makkah" for r in json_data["data"])
+

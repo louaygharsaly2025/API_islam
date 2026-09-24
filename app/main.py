@@ -5,12 +5,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 
-from app.routers import quran, adhkar, hadith, prayer_times, mushaf, tafsir
+from app.routers import quran, adhkar, hadith, prayer_times, mushaf, tafsir, qibla, hijri, radios
 
 app = FastAPI(
     title="API_ISLAM",
-    description="Comprehensive Islamic API providing Holy Quran, Printed Mushafs (Hafs, Warsh, Qalun, Tajweed), Authentic Hadiths, Tafsir, Daily Adhkar, and Astronomical Prayer Times.",
-    version="2.1.0",
+    description="Comprehensive Islamic API providing Holy Quran, Printed Mushafs (Hafs, Warsh, Qalun, Tajweed), Authentic Hadiths, Tafsir, Qibla Direction, Hijri Calendar, Live Radios, Daily Adhkar, and Astronomical Prayer Times.",
+    version="2.2.0",
     docs_url="/docs",
     redoc_url="/redoc"
 )
@@ -31,6 +31,9 @@ app.include_router(tafsir.router)
 app.include_router(adhkar.router)
 app.include_router(hadith.router)
 app.include_router(prayer_times.router)
+app.include_router(qibla.router)
+app.include_router(hijri.router)
+app.include_router(radios.router)
 
 @app.get("/", response_class=HTMLResponse, tags=["General"])
 def root():
@@ -171,4 +174,4 @@ def root():
 
 @app.get("/health", tags=["General"])
 def health_check():
-    return {"status": "healthy", "service": "API_ISLAM", "version": "2.1.0"}
+    return {"status": "healthy", "service": "API_ISLAM", "version": "2.2.0"}
