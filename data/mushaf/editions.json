@@ -1,0 +1,86 @@
+{
+  "editions": [
+    {
+      "id": "quran-hafs-madinah",
+      "name_ar": "مصحف المدينة النبوية (حفص عن عاصم)",
+      "name_en": "Madinah Mushaf (Hafs an Asim)",
+      "riwayah": "Hafs",
+      "total_pages": 604,
+      "page_format": "png",
+      "resolution": "high_res",
+      "image_url_template": "https://raw.githubusercontent.com/TheGreatMage/quran-pages-images/master/pages/{page}.png",
+      "svg_url_template": "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-images/pages/{page}.svg",
+      "publisher": "مجمع الملك فهد لطباعة المصحف الشريف"
+    },
+    {
+      "id": "quran-tajweed-color",
+      "name_ar": "مصحف التجويد الملون",
+      "name_en": "Color Coded Tajweed Mushaf",
+      "riwayah": "Hafs",
+      "total_pages": 604,
+      "page_format": "png",
+      "image_url_template": "https://www.searchtruth.org/quran/images2/large/page-{page}.png",
+      "publisher": "دار المعرفة - دمشق"
+    },
+    {
+      "id": "quran-warsh-madinah",
+      "name_ar": "مصحف المدينة النبوية (ورش عن نافع)",
+      "name_en": "Madinah Mushaf (Warsh an Nafi)",
+      "riwayah": "Warsh",
+      "total_pages": 604,
+      "page_format": "png",
+      "image_url_template": "https://raw.githubusercontent.com/Ghamry0x1/quran-warsh-pages/main/pages/{page}.png",
+      "publisher": "مجمع الملك فهد لطباعة المصحف الشريف"
+    },
+    {
+      "id": "quran-qaloon-madinah",
+      "name_ar": "مصحف المدينة النبوية (قالون عن نافع)",
+      "name_en": "Madinah Mushaf (Qalun an Nafi)",
+      "riwayah": "Qalun",
+      "total_pages": 604,
+      "page_format": "png",
+      "image_url_template": "https://raw.githubusercontent.com/Ghamry0x1/quran-qaloon-pages/main/pages/{page}.png",
+      "publisher": "مجمع الملك فهد لطباعة المصحف الشريف"
+    },
+    {
+      "id": "quran-shamerly",
+      "name_ar": "مصحف الشمرلي (15 سطر)",
+      "name_en": "Shamerly Mushaf (15 lines)",
+      "riwayah": "Hafs",
+      "total_pages": 522,
+      "page_format": "png",
+      "image_url_template": "https://raw.githubusercontent.com/shamerly-quran/pages/master/{page}.png",
+      "publisher": "دار الشمرلي للطبع والنشر"
+    },
+    {
+      "id": "quran-douri",
+      "name_ar": "مصحف الدوري عن أبي عمرو",
+      "name_en": "Al-Duri an Abi Amr",
+      "riwayah": "Duri",
+      "total_pages": 604,
+      "page_format": "png",
+      "image_url_template": "https://raw.githubusercontent.com/Ghamry0x1/quran-duri-pages/main/pages/{page}.png",
+      "publisher": "مجمع الملك فهد لطباعة المصحف الشريف"
+    },
+    {
+      "id": "quran-shuba",
+      "name_ar": "مصحف شعبة عن عاصم",
+      "name_en": "Shu'bah an Asim",
+      "riwayah": "Shubah",
+      "total_pages": 604,
+      "page_format": "png",
+      "image_url_template": "https://raw.githubusercontent.com/Ghamry0x1/quran-shuba-pages/main/pages/{page}.png",
+      "publisher": "مجمع الملك فهد لطباعة المصحف الشريف"
+    },
+    {
+      "id": "quran-soosi",
+      "name_ar": "مصحف السوسي عن أبي عمرو",
+      "name_en": "Al-Susi an Abi Amr",
+      "riwayah": "Susi",
+      "total_pages": 604,
+      "page_format": "png",
+      "image_url_template": "https://raw.githubusercontent.com/Ghamry0x1/quran-soosi-pages/main/pages/{page}.png",
+      "publisher": "مجمع الملك فهد لطباعة المصحف الشريف"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "tafsir_books": [
+    {
+      "id": "ar-muyassar",
+      "name_ar": "التفسير الميسر",
+      "name_en": "Al-Tafsir Al-Muyassar",
+      "author": "نخبة من علماء التفسير (مجمع الملك فهد)",
+      "language": "ar"
+    },
+    {
+      "id": "ar-saadi",
+      "name_ar": "تيسير الكريم الرحمن في تفسير كلام المنان (السعدي)",
+      "name_en": "Tafsir As-Sa'di",
+      "author": "عبد الرحمن بن ناصر السعدي",
+      "language": "ar"
+    },
+    {
+      "id": "ar-ibn-kathir",
+      "name_ar": "تفسير القرآن العظيم (ابن كثير)",
+      "name_en": "Tafsir Ibn Kathir",
+      "author": "عماد الدين إسماعيل بن كثير",
+      "language": "ar"
+    },
+    {
+      "id": "ar-qurtubi",
+      "name_ar": "الجامع لأحكام القرآن (القرطبي)",
+      "name_en": "Tafsir Al-Qurtubi",
+      "author": "أبو عبد الله القرطبي",
+      "language": "ar"
+    },
+    {
+      "id": "ar-tabari",
+      "name_ar": "جامع البيان في تأويل القرآن (الطبري)",
+      "name_en": "Tafsir Al-Tabari",
+      "author": "محمد بن جرير الطبري",
+      "language": "ar"
+    },
+    {
+      "id": "ar-jalalayn",
+      "name_ar": "تفسير الجلالين",
+      "name_en": "Tafsir Al-Jalalayn",
+      "author": "جلال الدين المحلي وجلال الدين السيوطي",
+      "language": "ar"
+    },
+    {
+      "id": "ar-baghawi",
+      "name_ar": "معالم التنزيل (البغوي)",
+      "name_en": "Tafsir Al-Baghawi",
+      "author": "أبو محمد الحسين بن مسعود البغوي",
+      "language": "ar"
+    },
+    {
+      "id": "ar-waseet",
+      "name_ar": "التفسير الوسيط",
+      "name_en": "Al-Tafsir Al-Waseet",
+      "author": "محمد سيد طنطاوي",
+      "language": "ar"
+    },
+    {
+      "id": "en-ibn-kathir",
+      "name_ar": "تفسير ابن كثير باللغة الإنجليزية",
+      "name_en": "Tafsir Ibn Kathir (Abridged English)",
+      "author": "Group of Scholars",
+      "language": "en"
+    }
+  ]
+}

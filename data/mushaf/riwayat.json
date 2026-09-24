@@ -1,0 +1,77 @@
+{
+  "qiraat": [
+    {
+      "id": "nafi",
+      "reader_name_ar": "نافع المدني",
+      "reader_name_en": "Nafi' al-Madani",
+      "riwayat": [
+        {
+          "id": "qaloon",
+          "name_ar": "قالون عن نافع",
+          "name_en": "Qalun 'an Nafi'",
+          "region": "ليبيا، تونس، أجزاء من الجزائر"
+        },
+        {
+          "id": "warsh",
+          "name_ar": "ورش عن نافع",
+          "name_en": "Warsh 'an Nafi'",
+          "region": "المغرب العربي، غرب إفريقيا"
+        }
+      ]
+    },
+    {
+      "id": "ibn_kathir",
+      "reader_name_ar": "ابن كثير المكي",
+      "reader_name_en": "Ibn Kathir al-Makki",
+      "riwayat": [
+        { "id": "al_bazzi", "name_ar": "البزي عن ابن كثير", "name_en": "Al-Bazzi" },
+        { "id": "qunbul", "name_ar": "قنبل عن ابن كثير", "name_en": "Qunbul" }
+      ]
+    },
+    {
+      "id": "abu_amr",
+      "reader_name_ar": "أبو عمرو البصري",
+      "reader_name_en": "Abu 'Amr al-Basri",
+      "riwayat": [
+        { "id": "ad_doori_abu_amr", "name_ar": "الدوري عن أبي عمرو", "name_en": "Al-Duri 'an Abi 'Amr", "region": "السودان، الصومال، تشاد" },
+        { "id": "as_soosi", "name_ar": "السوسي عن أبي عمرو", "name_en": "Al-Susi 'an Abi 'Amr" }
+      ]
+    },
+    {
+      "id": "ibn_aamir",
+      "reader_name_ar": "ابن عامر الشامي",
+      "reader_name_en": "Ibn 'Amir ash-Shami",
+      "riwayat": [
+        { "id": "hisham", "name_ar": "هشام عن ابن عامر", "name_en": "Hisham" },
+        { "id": "ibn_dhakwan", "name_ar": "ابن ذكوان عن ابن عامر", "name_en": "Ibn Dhakwan" }
+      ]
+    },
+    {
+      "id": "asim",
+      "reader_name_ar": "عاصم الكوفي",
+      "reader_name_en": "'Asim al-Kufi",
+      "riwayat": [
+        { "id": "shubah", "name_ar": "شعبة عن عاصم", "name_en": "Shu'bah 'an 'Asim" },
+        { "id": "hafs", "name_ar": "حفص عن عاصم", "name_en": "Hafs 'an 'Asim", "region": "العالم الإسلامي (الأكثر انتشاراً)" }
+      ]
+    },
+    {
+      "id": "hamzah",
+      "reader_name_ar": "حمزة الكوفي",
+      "reader_name_en": "Hamzah al-Kufi",
+      "riwayat": [
+        { "id": "khalaf_an_hamzah", "name_ar": "خلف عن حمزة", "name_en": "Khalaf 'an Hamzah" },
+        { "id": "khallad", "name_ar": "خلاد عن حمزة", "name_en": "Khallad 'an Hamzah" }
+      ]
+    },
+    {
+      "id": "al_kisai",
+      "reader_name_ar": "الكسائي الكوفي",
+      "reader_name_en": "Al-Kisa'i al-Kufi",
+      "riwayat": [
+        { "id": "abul_harith", "name_ar": "أبو الحارث عن الكسائي", "name_en": "Abul-Harith" },
+        { "id": "ad_doori_kisai", "name_ar": "الدوري عن الكسائي", "name_en": "Al-Duri 'an Al-Kisa'i" }
+      ]
+    }
+  ]
+}

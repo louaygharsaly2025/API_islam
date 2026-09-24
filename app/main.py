@@ -5,12 +5,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 
-from app.routers import quran, adhkar, hadith, prayer_times
+from app.routers import quran, adhkar, hadith, prayer_times, mushaf, tafsir
 
 app = FastAPI(
     title="API_ISLAM",
-    description="Comprehensive Islamic API providing Holy Quran, Authentic Hadiths, Daily Adhkar, and Astronomical Prayer Times.",
-    version="2.0.0",
+    description="Comprehensive Islamic API providing Holy Quran, Printed Mushafs (Hafs, Warsh, Qalun, Tajweed), Authentic Hadiths, Tafsir, Daily Adhkar, and Astronomical Prayer Times.",
+    version="2.1.0",
     docs_url="/docs",
     redoc_url="/redoc"
 )
@@ -26,6 +26,8 @@ app.add_middleware(
 
 # Register Routers
 app.include_router(quran.router)
+app.include_router(mushaf.router)
+app.include_router(tafsir.router)
 app.include_router(adhkar.router)
 app.include_router(hadith.router)
 app.include_router(prayer_times.router)
@@ -138,24 +140,24 @@ def root():
     </head>
     <body>
         <div class="card">
-            <h1>🌿 API_ISLAM</h1>
-            <p class="lead">خدمة وواجهة برمجية متكاملة للقرآن الكريم، الأحاديث النبوية، الأذكار ومواقيت الصلاة.</p>
+            <h1>🌿 API_ISLAM v2.1</h1>
+            <p class="lead">خدمة وواجهة برمجية متكاملة للقرآن الكريم، المصاحف المصورة، كتب التفسير، الأحاديث، الأذكار ومواقيت الصلاة.</p>
             <div class="grid">
                 <div class="grid-item">
-                    <h3>📖 القرآن الكريم</h3>
-                    <p>سور كاملة، آيات، تفاسير، تلاوات، وترجمات.</p>
+                    <h3>📖 القرآن والروايات</h3>
+                    <p>حفص، ورش، قالون، القراءات العشر وتلاوات بأصوات المشاهير.</p>
                 </div>
                 <div class="grid-item">
-                    <h3>🤲 الأذكار والأدعية</h3>
-                    <p>أذكار الصباح، المساء، النوم، وبعد الصلاة.</p>
+                    <h3>🖼️ المصاحف الورقية</h3>
+                    <p>مصحف المدينة، التجويد الملون، الشمرلي، صفحات عالية الدقة.</p>
                 </div>
                 <div class="grid-item">
-                    <h3>📜 الأحاديث النبوية</h3>
-                    <p>الأربعون النووية مع البحث والتخريج.</p>
+                    <h3>📚 كتب التفاسير</h3>
+                    <p>الميسر، السعدي، ابن كثير، القرطبي، الطبري، الجلالين.</p>
                 </div>
                 <div class="grid-item">
-                    <h3>🕌 مواقيت الصلاة</h3>
-                    <p>حساب فلكي دقيق حسب الإحداثيات والتوقيت.</p>
+                    <h3>🕌 مواقيت الصلاة والأذكار</h3>
+                    <p>حساب فلكي دقيق حسب الإحداثيات وأذكار المسلم اليومية.</p>
                 </div>
             </div>
             <div class="actions">
@@ -169,4 +171,4 @@ def root():
 
 @app.get("/health", tags=["General"])
 def health_check():
-    return {"status": "healthy", "service": "API_ISLAM", "version": "2.0.0"}
+    return {"status": "healthy", "service": "API_ISLAM", "version": "2.1.0"}

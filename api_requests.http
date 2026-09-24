@@ -6,50 +6,71 @@
 ### 1. Health Check
 GET http://localhost:8000/health
 
+### ================= QURAN & AUDIO =================
+
 ### 2. Get All Quran Surahs
 GET {{baseUrl}}/quran/surahs
 
-### 3. Get Meccan Surahs Only
-GET {{baseUrl}}/quran/surahs?revelation_type=Meccan
-
-### 4. Get Surah Al-Fatiha (ID: 1)
+### 3. Get Surah Al-Fatiha (ID: 1)
 GET {{baseUrl}}/quran/surah/1
 
-### 5. Search Quran Verses (e.g. "الرحمن")
+### 4. Search Quran Verses (e.g. "الرحمن")
 GET {{baseUrl}}/quran/search?q=الرحمن
 
-### 6. Get Available Quran Reciters
+### 5. Get Available Quran Reciters
 GET {{baseUrl}}/quran/reciters
 
-### 7. Get Adhkar Categories
+### ================= PRINTED MUSHAF & RIWAYAT =================
+
+### 6. Get All Printed Mushaf Editions (Madinah, Warsh, Qaloon, Tajweed, Shamerly)
+GET {{baseUrl}}/mushaf/editions
+
+### 7. Get High-Resolution Page from Madinah Mushaf (Page 1)
+GET {{baseUrl}}/mushaf/page/1?edition=quran-hafs-madinah
+
+### 8. Get Tajweed Color Coded Page (Page 604)
+GET {{baseUrl}}/mushaf/page/604?edition=quran-tajweed-color
+
+### 9. Get Warsh Mushaf Page (Page 1)
+GET {{baseUrl}}/mushaf/page/1?edition=quran-warsh-madinah
+
+### 10. Get All 10 Qira'at and 20 Authentic Riwayat
+GET {{baseUrl}}/mushaf/riwayat
+
+### ================= TAFSIR (EXPLANATIONS) =================
+
+### 11. Get Available Tafsir Books Catalog
+GET {{baseUrl}}/tafsir/books
+
+### 12. Get Tafsir Al-Muyassar for Surah Al-Fatiha (Surah 1)
+GET {{baseUrl}}/tafsir/ar-muyassar/surah/1
+
+### 13. Get Tafsir for a Specific Ayah (Surah 1, Ayah 1)
+GET {{baseUrl}}/tafsir/ar-muyassar/ayah/1/1
+
+### ================= ADHKAR & DUAS =================
+
+### 14. Get Adhkar Categories
 GET {{baseUrl}}/adhkar/categories
 
-### 8. Get Morning Adhkar
+### 15. Get Morning Adhkar
 GET {{baseUrl}}/adhkar/category/morning
 
-### 9. Get Evening Adhkar
-GET {{baseUrl}}/adhkar/category/evening
-
-### 10. Get Random Dhikr
+### 16. Get Random Dhikr
 GET {{baseUrl}}/adhkar/random
 
-### 11. Get Hadith Collections
+### ================= HADITH =================
+
+### 17. Get Hadith Collections
 GET {{baseUrl}}/hadith/collections
 
-### 12. Get 40 Nawawi Hadiths
+### 18. Get 40 Nawawi Hadiths
 GET {{baseUrl}}/hadith/collection/nawawi40
 
-### 13. Get Random Hadith
+### 19. Get Random Hadith
 GET {{baseUrl}}/hadith/random
 
-### 14. Search Hadiths (e.g. "النيات")
-GET {{baseUrl}}/hadith/search?q=النيات
+### ================= PRAYER TIMES =================
 
-### 15. Get Prayer Calculation Methods
-GET {{baseUrl}}/prayer-times/methods
-
-### 16. Calculate Prayer Times (Tunis Coordinates)
+### 20. Calculate Prayer Times (Tunis Coordinates)
 GET {{baseUrl}}/prayer-times/calculate?latitude=36.8065&longitude=10.1815&timezone=1&method=EGYPT
-
-### 17. Calculate Prayer Times (Cairo Coordinates)
-GET {{baseUrl}}/prayer-times/calculate?latitude=30.0444&longitude=31.2357&timezone=2&method=EGYPT
