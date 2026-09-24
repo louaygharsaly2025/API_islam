@@ -59,7 +59,8 @@ def test_get_mushaf_page():
     assert response.status_code == 200
     json_data = response.json()
     assert json_data["page_number"] == 1
-    assert "image_url" in json_data
+    assert "media" in json_data
+    assert "image_url" in json_data["media"]
 
 def test_get_riwayat():
     response = client.get("/api/v1/mushaf/riwayat")

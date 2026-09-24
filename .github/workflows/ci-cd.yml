@@ -49,8 +49,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: 🚀 Run Pytest Suite
+        env:
+          PYTHONPATH: .
         run: |
-          pytest -v
+          python -m pytest -v
 
   docker-build-and-test:
     name: 🐳 Docker Build & Healthcheck Test
@@ -76,7 +78,7 @@ jobs:
       - name: 🩺 Test Container Health
         run: |
           docker run -d --name api_islam_test -p 8000:8000 api_islam:test
-          sleep 5
+          sleep 6
           docker ps
-          curl -f http://localhost:8000/health || (docker logs api_islam_test && exit 1)
+          curl --retry 5 --retry-delay 2 --retry-connrefused -f http://localhost:8000/health || (docker logs api_islam_test && exit 1)
           docker stop api_islam_test
