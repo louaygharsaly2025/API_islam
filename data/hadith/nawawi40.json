@@ -1,0 +1,49 @@
+{
+  "collection_id": "nawawi40",
+  "title_ar": "الأربعون النووية",
+  "title_en": "An-Nawawi's Forty Hadiths",
+  "author": "الإمام يحيى بن شرف النووي",
+  "total_hadiths": 5,
+  "hadiths": [
+    {
+      "number": 1,
+      "narrator": "عن أمير المؤمنين أبي حفص عمر بن الخطاب رضي الله عنه",
+      "arabic_text": "سمعت رسول الله صلى الله عليه وسلم يقول: «إنما الأعمال بالنيات، وإنما لكل امرئ ما نوى، فمن كانت هجرته إلى الله ورسوله فهجرته إلى الله ورسوله، ومن كانت هجرته لدنيا يصيبها أو امرأة ينكحها فهجرته إلى ما هاجر إليه».",
+      "english_text": "I heard the Messenger of Allah (pbuh) say: Actions are according to intentions, and everyone will get what was intended...",
+      "grade": "صحيح",
+      "reference": "رواه البخاري ومسلم"
+    },
+    {
+      "number": 2,
+      "narrator": "عن عمر بن الخطاب رضي الله عنه أيضا",
+      "arabic_text": "بينما نحن عند رسول الله صلى الله عليه وسلم ذات يوم إذ طلع علينا رجل شديد بياض الثياب شديد سواد الشعر... قال: فأخبرني عن الإسلام؟ فقال رسول الله صلى الله عليه وسلم: «الإسلام أن تشهد أن لا إله إلا الله وأن محمدا رسول الله، وتقيم الصلاة، وتؤتي الزكاة، وتصوم رمضان، وتحج البيت إن استطعت إليه سبيلا»...",
+      "english_text": "While we were one day sitting with the Messenger of Allah (pbuh), there appeared before us a man dressed in extremely white clothes...",
+      "grade": "صحيح",
+      "reference": "رواه مسلم (حديث جبريل المشهور)"
+    },
+    {
+      "number": 3,
+      "narrator": "عن أبي عبد الرحمن عبد الله بن عمر بن الخطاب رضي الله عنهما",
+      "arabic_text": "سمعت رسول الله صلى الله عليه وسلم يقول: «بني الإسلام على خمس: شهادة أن لا إله إلا الله وأن محمدا رسول الله، وإقام الصلاة، وإيتاء الزكاة، وحج البيت، وصوم رمضان».",
+      "english_text": "Islam is built upon five pillars: testifying that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing prayer, paying zakah, Hajj to the House, and fasting Ramadan.",
+      "grade": "صحيح",
+      "reference": "رواه البخاري ومسلم"
+    },
+    {
+      "number": 4,
+      "narrator": "عن أبي هريرة رضي الله عنه",
+      "arabic_text": "أن رسول الله صلى الله عليه وسلم قال: «من كان يؤمن بالله واليوم الآخر فليقل خيرا أو ليصمت، ومن كان يؤمن بالله واليوم الآخر فليكرم جاره، ومن كان يؤمن بالله واليوم الآخر فليكرم ضيفه».",
+      "english_text": "Let him who believes in Allah and the Last Day speak good, or keep silent; and let him who believes in Allah and the Last Day be generous to his neighbor; and let him who believes in Allah and the Last Day be generous to his guest.",
+      "grade": "صحيح",
+      "reference": "رواه البخاري ومسلم"
+    },
+    {
+      "number": 5,
+      "narrator": "عن أبي حمزة أنس بن مالك رضي الله عنه خادم رسول الله صلى الله عليه وسلم",
+      "arabic_text": "عن النبي صلى الله عليه وسلم قال: «لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه».",
+      "english_text": "None of you truly believes until he loves for his brother what he loves for himself.",
+      "grade": "صحيح",
+      "reference": "رواه البخاري ومسلم"
+    }
+  ]
+}

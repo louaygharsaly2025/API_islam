@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ar.alafasy",
+    "name_ar": "مشاري راشد العفاسي",
+    "name_en": "Mishary Rashid Alafasy",
+    "bitrate": "128kbps",
+    "format": "mp3",
+    "subfolder": "ar.alafasy"
+  },
+  {
+    "id": "ar.abdulbasit",
+    "name_ar": "عبد الباسط عبد الصمد (مرتل)",
+    "name_en": "Abdul Basit Abdul Samad",
+    "bitrate": "192kbps",
+    "format": "mp3",
+    "subfolder": "ar.abdulbasitmurattal"
+  },
+  {
+    "id": "ar.sudais",
+    "name_ar": "عبد الرحمن السديس",
+    "name_en": "Abdur-Rahman as-Sudais",
+    "bitrate": "192kbps",
+    "format": "mp3",
+    "subfolder": "ar.abdurrahmaansudais"
+  },
+  {
+    "id": "ar.ghamidi",
+    "name_ar": "سعد الغامدي",
+    "name_en": "Saad Al-Ghamdi",
+    "bitrate": "128kbps",
+    "format": "mp3",
+    "subfolder": "ar.saadalghamidi"
+  },
+  {
+    "id": "ar.husary",
+    "name_ar": "محمود خليل الحصري",
+    "name_en": "Mahmoud Khalil Al-Husary",
+    "bitrate": "128kbps",
+    "format": "mp3",
+    "subfolder": "ar.husary"
+  }
+]

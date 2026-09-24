@@ -1,0 +1,40 @@
+{
+  "category_id": "evening",
+  "category_name_ar": "أذكار المساء",
+  "category_name_en": "Evening Remembrance",
+  "description": "أذكار تقال بعد صلاة العصر إلى غروب الشمس",
+  "items": [
+    {
+      "id": 1,
+      "arabic_text": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ لا إِلَهَ إِلا اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ.",
+      "translation_en": "We have reached the evening and the kingdom belongs to Allah...",
+      "repeat_count": 1,
+      "reference": "صحيح مسلم",
+      "benefit": "حفظ وحرز حتى يصبح"
+    },
+    {
+      "id": 2,
+      "arabic_text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ.",
+      "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created.",
+      "repeat_count": 3,
+      "reference": "صحيح مسلم",
+      "benefit": "لم يضره شيء حتى يصبح"
+    },
+    {
+      "id": 3,
+      "arabic_text": "بِسْمِ اللَّهِ الَّذِي لا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الأَرْضِ وَلا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ.",
+      "translation_en": "In the Name of Allah, with whose name nothing can cause harm in the earth nor in the heavens, and He is the All-Hearing, the All-Knowing.",
+      "repeat_count": 3,
+      "reference": "سنن أبي داود والترمذي",
+      "benefit": "حماية من كل مكروه وفجأة بلاء"
+    },
+    {
+      "id": 4,
+      "arabic_text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ.",
+      "translation_en": "Glory is to Allah and praise is to Him.",
+      "repeat_count": 100,
+      "reference": "صحيح مسلم",
+      "benefit": "حُطت خطاياه وإن كانت مثل زبد البحر"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  api_islam:
+    build: .
+    container_name: api_islam_service
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

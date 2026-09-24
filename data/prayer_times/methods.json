@@ -1,0 +1,54 @@
+{
+  "methods": [
+    {
+      "id": "MWL",
+      "name": "Muslim World League (رابطة العالم الإسلامي)",
+      "fajr_angle": 18.0,
+      "isha_angle": 17.0,
+      "region": "Europe, Far East, Parts of US"
+    },
+    {
+      "id": "ISNA",
+      "name": "Islamic Society of North America (ISNA)",
+      "fajr_angle": 15.0,
+      "isha_angle": 15.0,
+      "region": "North America"
+    },
+    {
+      "id": "EGYPT",
+      "name": "Egyptian General Authority of Survey (الهيئة العامة المصرية للمساحة)",
+      "fajr_angle": 19.5,
+      "isha_angle": 17.5,
+      "region": "Africa, Middle East, Tunisia, Egypt"
+    },
+    {
+      "id": "MAKKAH",
+      "name": "Umm Al-Qura University, Makkah (جامعة أم القرى بمكة المكرمة)",
+      "fajr_angle": 18.5,
+      "isha_interval_min": 90,
+      "region": "Arabian Peninsula"
+    },
+    {
+      "id": "KARACHI",
+      "name": "University of Islamic Sciences, Karachi",
+      "fajr_angle": 18.0,
+      "isha_angle": 18.0,
+      "region": "Pakistan, Afghanistan, Bangladesh, India"
+    },
+    {
+      "id": "TEHRAN",
+      "name": "Institute of Geophysics, University of Tehran",
+      "fajr_angle": 17.7,
+      "isha_angle": 14.0,
+      "maghrib_angle": 4.5,
+      "region": "Iran, Some Shia communities"
+    },
+    {
+      "id": "GULF",
+      "name": "Gulf Region (منطقة الخليج)",
+      "fajr_angle": 19.5,
+      "isha_interval_min": 90,
+      "region": "Gulf Countries"
+    }
+  ]
+}

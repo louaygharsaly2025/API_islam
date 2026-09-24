@@ -1,0 +1,71 @@
+{
+  "number": 114,
+  "name_arabic": "الناس",
+  "name_english": "An-Naas",
+  "name_translation": "Mankind",
+  "revelation_type": "Meccan",
+  "total_verses": 6,
+  "bismillah_pre": true,
+  "verses": [
+    {
+      "number": 6231,
+      "number_in_surah": 1,
+      "juz": 30,
+      "page": 604,
+      "text_uthmani": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+      "text_simple": "قل أعوذ برب الناس",
+      "translation_en": "Say, I seek refuge in the Lord of mankind,",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6231.mp3"
+    },
+    {
+      "number": 6232,
+      "number_in_surah": 2,
+      "juz": 30,
+      "page": 604,
+      "text_uthmani": "مَلِكِ النَّاسِ",
+      "text_simple": "ملك الناس",
+      "translation_en": "The Sovereign of mankind,",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6232.mp3"
+    },
+    {
+      "number": 6233,
+      "number_in_surah": 3,
+      "juz": 30,
+      "page": 604,
+      "text_uthmani": "إِلَٰهِ النَّاسِ",
+      "text_simple": "إله الناس",
+      "translation_en": "The God of mankind,",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6233.mp3"
+    },
+    {
+      "number": 6234,
+      "number_in_surah": 4,
+      "juz": 30,
+      "page": 604,
+      "text_uthmani": "مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+      "text_simple": "من شر الوسواس الخناس",
+      "translation_en": "From the evil of the retreating whisperer -",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6234.mp3"
+    },
+    {
+      "number": 6235,
+      "number_in_surah": 5,
+      "juz": 30,
+      "page": 604,
+      "text_uthmani": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+      "text_simple": "الذي يوسوس في صدور الناس",
+      "translation_en": "Who whispers into the breasts of mankind -",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6235.mp3"
+    },
+    {
+      "number": 6236,
+      "number_in_surah": 6,
+      "juz": 30,
+      "page": 604,
+      "text_uthmani": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+      "text_simple": "من الجنة والناس",
+      "translation_en": "From among the jinn and mankind.",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6236.mp3"
+    }
+  ]
+}

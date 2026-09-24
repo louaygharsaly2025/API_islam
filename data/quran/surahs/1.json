@@ -1,0 +1,81 @@
+{
+  "number": 1,
+  "name_arabic": "الفاتحة",
+  "name_english": "Al-Faatiha",
+  "name_translation": "The Opening",
+  "revelation_type": "Meccan",
+  "total_verses": 7,
+  "bismillah_pre": false,
+  "verses": [
+    {
+      "number": 1,
+      "number_in_surah": 1,
+      "juz": 1,
+      "page": 1,
+      "text_uthmani": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "text_simple": "بسم الله الرحمن الرحيم",
+      "translation_en": "In the name of Allah, the Entirely Merciful, the Especially Merciful.",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/1.mp3"
+    },
+    {
+      "number": 2,
+      "number_in_surah": 2,
+      "juz": 1,
+      "page": 1,
+      "text_uthmani": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "text_simple": "الحمد لله رب العالمين",
+      "translation_en": "[All] praise is [due] to Allah, Lord of the worlds -",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/2.mp3"
+    },
+    {
+      "number": 3,
+      "number_in_surah": 3,
+      "juz": 1,
+      "page": 1,
+      "text_uthmani": "الرَّحْمَٰنِ الرَّحِيمِ",
+      "text_simple": "الرحمن الرحيم",
+      "translation_en": "The Entirely Merciful, the Especially Merciful,",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/3.mp3"
+    },
+    {
+      "number": 4,
+      "number_in_surah": 4,
+      "juz": 1,
+      "page": 1,
+      "text_uthmani": "مَالِكِ يَوْمِ الدِّينِ",
+      "text_simple": "مالك يوم الدين",
+      "translation_en": "Sovereign of the Day of Recompense.",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/4.mp3"
+    },
+    {
+      "number": 5,
+      "number_in_surah": 5,
+      "juz": 1,
+      "page": 1,
+      "text_uthmani": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "text_simple": "إياك نعبد وإياك نستعين",
+      "translation_en": "It is You we worship and You we ask for help.",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/5.mp3"
+    },
+    {
+      "number": 6,
+      "number_in_surah": 6,
+      "juz": 1,
+      "page": 1,
+      "text_uthmani": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "text_simple": "اهدنا الصراط المستقيم",
+      "translation_en": "Guide us to the straight path -",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/6.mp3"
+    },
+    {
+      "number": 7,
+      "number_in_surah": 7,
+      "juz": 1,
+      "page": 1,
+      "text_uthmani": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "text_simple": "صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين",
+      "translation_en": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.",
+      "audio_url": "https://cdn.islamic.network/quran/audio/128/ar.alafasy/7.mp3"
+    }
+  ]
+}

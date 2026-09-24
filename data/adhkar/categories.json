@@ -1,0 +1,26 @@
+[
+  {
+    "id": "morning",
+    "title_ar": "أذكار الصباح",
+    "title_en": "Morning Remembrance",
+    "count": 4
+  },
+  {
+    "id": "evening",
+    "title_ar": "أذكار المساء",
+    "title_en": "Evening Remembrance",
+    "count": 4
+  },
+  {
+    "id": "sleep",
+    "title_ar": "أذكار النوم",
+    "title_en": "Remembrance before sleep",
+    "count": 3
+  },
+  {
+    "id": "after_prayer",
+    "title_ar": "أذكار بعد الصلاة",
+    "title_en": "Remembrance after prayer",
+    "count": 4
+  }
+]

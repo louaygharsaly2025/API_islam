@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AdhkarCollection",
+  "type": "object",
+  "required": ["category_id", "category_name_ar", "category_name_en", "items"],
+  "properties": {
+    "category_id": {
+      "type": "string"
+    },
+    "category_name_ar": {
+      "type": "string"
+    },
+    "category_name_en": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "arabic_text", "repeat_count"],
+        "properties": {
+          "id": { "type": "integer" },
+          "arabic_text": { "type": "string" },
+          "translation_en": { "type": "string" },
+          "transliteration": { "type": "string" },
+          "repeat_count": { "type": "integer", "minimum": 1 },
+          "reference": { "type": "string" },
+          "benefit": { "type": "string" },
+          "audio_url": { "type": "string" }
+        }
+      }
+    }
+  }
+}

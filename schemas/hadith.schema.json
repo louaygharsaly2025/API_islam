@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HadithCollection",
+  "type": "object",
+  "required": ["collection_id", "title_ar", "title_en", "author", "hadiths"],
+  "properties": {
+    "collection_id": {
+      "type": "string"
+    },
+    "title_ar": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "total_hadiths": {
+      "type": "integer"
+    },
+    "hadiths": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["number", "arabic_text"],
+        "properties": {
+          "number": { "type": "integer" },
+          "chapter_id": { "type": "integer" },
+          "chapter_title_ar": { "type": "string" },
+          "chapter_title_en": { "type": "string" },
+          "narrator": { "type": "string" },
+          "arabic_text": { "type": "string" },
+          "english_text": { "type": "string" },
+          "french_text": { "type": "string" },
+          "grade": { "type": "string" },
+          "reference": { "type": "string" }
+        }
+      }
+    }
+  }
+}

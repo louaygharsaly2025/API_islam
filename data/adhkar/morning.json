@@ -1,0 +1,40 @@
+{
+  "category_id": "morning",
+  "category_name_ar": "أذكار الصباح",
+  "category_name_en": "Morning Remembrance",
+  "description": "أذكار تقال بعد صلاة الفجر إلى شروق الشمس",
+  "items": [
+    {
+      "id": 1,
+      "arabic_text": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ لا إِلَهَ إِلا اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ.",
+      "translation_en": "We have entered the morning and kingdom belongs to Allah, and all praise is for Allah. None has the right to be worshipped except Allah alone, without partner.",
+      "repeat_count": 1,
+      "reference": "صحيح مسلم",
+      "benefit": "من قالها حين يصبح وحين يمسي كفته من كل شيء"
+    },
+    {
+      "id": 2,
+      "arabic_text": "اللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ.",
+      "translation_en": "O Allah, by You we enter the morning and by You we enter the evening, by You we live and by You we die, and unto You is the resurrection.",
+      "repeat_count": 1,
+      "reference": "سنن الترمذي",
+      "benefit": "بركة اليوم وحفظ النفس"
+    },
+    {
+      "id": 3,
+      "arabic_text": "اللَّهُمَّ أَنْتَ رَبِّي لا إِلَهَ إِلا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لا يَغْفِرُ الذُّنُوبَ إِلا أَنْتَ.",
+      "translation_en": "O Allah, You are my Lord, none has the right to be worshipped except You, You created me and I am Your servant...",
+      "repeat_count": 1,
+      "reference": "صحيح البخاري (سيد الاستغفار)",
+      "benefit": "من قالها موقناً بها حين يمسي فمات دخل الجنة، وكذلك إذا أصبح"
+    },
+    {
+      "id": 4,
+      "arabic_text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ، وَزِنَةَ عَرْشِهِ، وَمِدَادَ كَلِمَاتِهِ.",
+      "translation_en": "Glory is to Allah and praise is to Him, by the number of His creation and by His pleasure and by the weight of His Throne and by the ink of His words.",
+      "repeat_count": 3,
+      "reference": "صحيح مسلم",
+      "benefit": "تعدل ساعات طويلة من الذكر"
+    }
+  ]
+}

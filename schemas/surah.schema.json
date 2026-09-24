@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Surah",
+  "type": "object",
+  "required": ["number", "name_arabic", "name_english", "name_translation", "revelation_type", "total_verses", "verses"],
+  "properties": {
+    "number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "name_arabic": {
+      "type": "string"
+    },
+    "name_english": {
+      "type": "string"
+    },
+    "name_translation": {
+      "type": "string"
+    },
+    "revelation_type": {
+      "type": "string",
+      "enum": ["Meccan", "Medinan"]
+    },
+    "total_verses": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "bismillah_pre": {
+      "type": "boolean"
+    },
+    "verses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["number", "number_in_surah", "juz", "page", "text_uthmani"],
+        "properties": {
+          "number": { "type": "integer" },
+          "number_in_surah": { "type": "integer" },
+          "juz": { "type": "integer" },
+          "page": { "type": "integer" },
+          "text_uthmani": { "type": "string" },
+          "text_simple": { "type": "string" },
+          "translation_en": { "type": "string" },
+          "translation_fr": { "type": "string" },
+          "audio_url": { "type": "string" }
+        }
+      }
+    }
+  }
+}
