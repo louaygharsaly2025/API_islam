@@ -1,0 +1,16 @@
+name: api_islam
+description: A comprehensive Dart & Flutter SDK for API_ISLAM — Quran with 9 Qiraat, Tajweed rules, Prayer times, Hijri calendar, Azkar, 99 Names of Allah, Zakat calculator, and Islamic Radios.
+version: 1.0.0
+homepage: https://github.com/louaygharsaly/API_islam
+repository: https://github.com/louaygharsaly/API_islam/tree/main/packages/api_islam
+issue_tracker: https://github.com/louaygharsaly/API_islam/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.2.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
