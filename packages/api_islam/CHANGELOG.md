@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.1
+
+- Updated official GitHub repository URLs to `louaygharsaly2025/API_islam`.
+
 ## 1.0.0
 
 - Initial release of `api_islam` SDK for Dart and Flutter.
