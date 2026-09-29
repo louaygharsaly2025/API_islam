@@ -7,7 +7,7 @@ import os
 import json
 from typing import Optional
 from fastapi import APIRouter, HTTPException, Query, Response
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, RedirectResponse
 
 router = APIRouter(prefix="/api/v1/mushaf", tags=["Printed Mushaf & Riwayat"])
 
@@ -77,7 +77,9 @@ def get_mushaf_page_image(
                 headers={"Cache-Control": "public, max-age=31536000, immutable"}
             )
 
-    raise HTTPException(status_code=404, detail=f"Page image {page_number} not found locally for edition '{edition}'")
+    # Fallback to high-resolution CDN redirect
+    cdn_url = f"https://cdn.islamic.network/quran/images/high-resolution/{page_number}.png"
+    return RedirectResponse(url=cdn_url, status_code=307)
 
 
 @router.get("/page/{page_number}", summary="Get High-Resolution image URL and book layout metadata for a specific Mushaf page")

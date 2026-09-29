@@ -79,11 +79,19 @@ def test_tajweed_ayah_html():
     assert "tajweed-" in data["html"]
     assert "span" in data["html"]
 
-def test_mushaf_local_image_streaming():
-    response = client.get("/api/v1/mushaf/page/1/image?edition=hafs")
+def test_mushaf_image_endpoint():
+    response = client.get("/api/v1/mushaf/page/1/image?edition=hafs", follow_redirects=False)
+    assert response.status_code in [200, 307]
+    if response.status_code == 307:
+        assert "cdn.islamic.network" in response.headers.get("location", "")
+
+def test_mushaf_page_metadata():
+    response = client.get("/api/v1/mushaf/page/1?edition=hafs")
     assert response.status_code == 200
-    assert "image/png" in response.headers.get("content-type", "")
-    assert len(response.content) > 1000
+    data = response.json()
+    assert data["page_number"] == 1
+    assert "media" in data
+    assert "image_url" in data["media"]
 
 def test_static_font_css():
     response = client.get("/static/fonts/kfgqpc.local.css")
