@@ -1,6 +1,6 @@
-# api-islam-client
+# api-islam
 
-[![npm version](https://img.shields.io/npm/v/api-islam-client.svg)](https://www.npmjs.com/package/api-islam-client)
+[![npm version](https://img.shields.io/npm/v/api-islam.svg)](https://www.npmjs.com/package/api-islam)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Official, fully-typed **TypeScript & JavaScript SDK** for **API_ISLAM** — The Ultimate Open-Source Islamic Platform API.
@@ -28,13 +28,13 @@ Works seamlessly in **Node.js, Browser, Next.js, React, Vue, Svelte, Angular, Re
 ## 📦 Installation
 
 ```bash
-npm install api-islam-client
+npm install api-islam
 # or
-yarn add api-islam-client
+yarn add api-islam
 # or
-pnpm add api-islam-client
+pnpm add api-islam
 # or
-bun add api-islam-client
+bun add api-islam
 ```
 
 ---
@@ -42,7 +42,7 @@ bun add api-islam-client
 ## 🚀 Quick Start
 
 ```typescript
-import { ApiIslam } from 'api-islam-client';
+import { ApiIslam } from 'api-islam';
 
 const api = new ApiIslam({
   baseUrl: 'https://your-api-islam-instance.com', // or 'http://localhost:8000'

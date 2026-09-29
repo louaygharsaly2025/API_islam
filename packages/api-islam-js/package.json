@@ -1,6 +1,6 @@
 {
-  "name": "api-islam-client",
-  "version": "1.0.0",
+  "name": "api-islam",
+  "version": "1.0.1",
   "description": "The official TypeScript & JavaScript SDK for API_ISLAM — Quran with 9 Qiraat, Tajweed rules, Prayer times, Hijri calendar, Azkar, 99 Names of Allah, Zakat calculator and Islamic Radios.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -44,14 +44,14 @@
   ],
   "author": "Louay Gharsallah",
   "license": "MIT",
-  "homepage": "https://github.com/louaygharsaly/API_islam",
+  "homepage": "https://github.com/louaygharsaly2025/API_islam",
   "repository": {
     "type": "git",
-    "url": "https://github.com/louaygharsaly/API_islam.git",
+    "url": "git+https://github.com/louaygharsaly2025/API_islam.git",
     "directory": "packages/api-islam-js"
   },
   "bugs": {
-    "url": "https://github.com/louaygharsaly/API_islam/issues"
+    "url": "https://github.com/louaygharsaly2025/API_islam/issues"
   },
   "devDependencies": {
     "tsup": "^8.3.5",
