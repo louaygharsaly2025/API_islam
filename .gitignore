@@ -55,3 +55,7 @@ wheels/
 logs/
 temp/
 tmp/
+
+# Large Mushaf Images (Kept locally / served via CDN fallback)
+static/images/
+

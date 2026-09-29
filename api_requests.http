@@ -8,33 +8,65 @@ GET http://localhost:8000/health
 
 ### ================= QURAN & AUDIO =================
 
-### 2. Get All Quran Surahs
+### 2. Get All 9 Supported Qiraat & Riwayat (KFGQPC)
+GET {{baseUrl}}/quran/editions
+
+### 3. Get All Quran Surahs
 GET {{baseUrl}}/quran/surahs
 
-### 3. Get Surah Al-Fatiha (ID: 1)
-GET {{baseUrl}}/quran/surah/1
+### 4. Get Surah Al-Fatiha in Hafs (ID: 1)
+GET {{baseUrl}}/quran/surah/1?edition=hafs
 
-### 4. Search Quran Verses (e.g. "الرحمن")
-GET {{baseUrl}}/quran/search?q=الرحمن
+### 5. Get Surah Al-Fatiha in Warsh
+GET {{baseUrl}}/quran/surah/1?edition=warsh
 
-### 5. Get Available Quran Reciters
+### 6. Get Surah Al-Fatiha in Qaloon
+GET {{baseUrl}}/quran/surah/1?edition=qaloon
+
+### 7. Get Verses on Page 1
+GET {{baseUrl}}/quran/page/1?edition=hafs
+
+### 8. Get Verses in Juz 30
+GET {{baseUrl}}/quran/juz/30?edition=hafs
+
+### 9. Search Quran Verses (e.g. "الرحمن")
+GET {{baseUrl}}/quran/search?q=الرحمن&edition=hafs
+
+### 10. Get Available Quran Reciters
 GET {{baseUrl}}/quran/reciters
 
-### ================= PRINTED MUSHAF & RIWAYAT =================
+### ================= TAJWEED ENGINE =================
 
-### 6. Get All Printed Mushaf Editions (Madinah, Warsh, Qaloon, Tajweed, Shamerly)
+### 11. Get All 18 Tajweed Rules & Colors Catalog
+GET {{baseUrl}}/tajweed/rules
+
+### 12. Get Character Annotations for Al-Fatiha (Ayah 1)
+GET {{baseUrl}}/tajweed/ayah/1/1
+
+### 13. Get Pre-Rendered Color-Coded HTML for Ayah (Surah 1, Ayah 1)
+GET {{baseUrl}}/tajweed/ayah/1/1/html
+
+### 14. Get All Tajweed Annotations for Surah Al-Fatiha
+GET {{baseUrl}}/tajweed/surah/1
+
+### ================= PRINTED MUSHAF & IMAGES =================
+
+### 15. Stream High-Res Page 1 Image (Direct File)
+GET {{baseUrl}}/mushaf/page/1/image?edition=hafs
+
+### 16. Get Page 1 Image for Warsh
+GET {{baseUrl}}/mushaf/page/1/image?edition=warsh
+
+### 17. Get Page 1 Image for Tajweed
+GET {{baseUrl}}/mushaf/page/1/image?edition=tajweed
+
+### 18. Get High-Resolution Page Metadata (Page 1)
+GET {{baseUrl}}/mushaf/page/1?edition=hafs
+
+### 19. Get All Printed Mushaf Editions
 GET {{baseUrl}}/mushaf/editions
 
-### 7. Get High-Resolution Page from Madinah Mushaf (Page 1)
-GET {{baseUrl}}/mushaf/page/1?edition=quran-hafs-madinah
-
-### 8. Get Tajweed Color Coded Page (Page 604)
-GET {{baseUrl}}/mushaf/page/604?edition=quran-tajweed-color
-
-### 9. Get Warsh Mushaf Page (Page 1)
-GET {{baseUrl}}/mushaf/page/1?edition=quran-warsh-madinah
-
-### 10. Get All 10 Qira'at and 20 Authentic Riwayat
+### 20. Get All 10 Qira'at and 20 Authentic Riwayat
 GET {{baseUrl}}/mushaf/riwayat
 
 ### ================= TAFSIR (EXPLANATIONS) =================

@@ -1,16 +1,19 @@
 """
 Mushaf Router for API_ISLAM.
-Provides printed Mushaf page images, editions (Madinah, Tajweed, Warsh, Qaloon, Shamerly),
-Qira'at & Riwayat, and complete 604 printed page layout mapping.
+Provides printed Mushaf page images (Hafs, Warsh, Tajweed), Qira'at editions,
+and 604 printed page layout mapping with direct local image serving.
 """
 import os
 import json
 from typing import Optional
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, HTTPException, Query, Response
+from fastapi.responses import FileResponse
 
 router = APIRouter(prefix="/api/v1/mushaf", tags=["Printed Mushaf & Riwayat"])
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data", "mushaf")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DATA_DIR = os.path.join(BASE_DIR, "data", "mushaf")
+STATIC_IMAGES_DIR = os.path.join(BASE_DIR, "static", "images", "mushaf")
 
 def load_json(filepath):
     if not os.path.exists(filepath):
@@ -22,7 +25,14 @@ def load_json(filepath):
 def get_mushaf_editions():
     data = load_json(os.path.join(DATA_DIR, "editions.json"))
     if not data:
-        raise HTTPException(status_code=500, detail="Editions metadata not found")
+        return {
+            "status": "success",
+            "data": [
+                {"id": "hafs", "name_ar": "مصحف المدينة النبوية (رواية حفص)", "riwayah": "حفص عن عاصم", "total_pages": 604, "local_available": True},
+                {"id": "warsh", "name_ar": "مصحف المدينة النبوية (رواية ورش)", "riwayah": "ورش عن نافع", "total_pages": 604, "local_available": True},
+                {"id": "tajweed", "name_ar": "مصحف التجويد الملون", "riwayah": "حفص عن عاصم (تجويد)", "total_pages": 604, "local_available": True}
+            ]
+        }
     return {
         "status": "success",
         "count": len(data.get("editions", [])),
@@ -39,48 +49,61 @@ def get_riwayat():
         "data": data.get("qiraat", [])
     }
 
+@router.get("/page/{page_number}/image", summary="Stream high-resolution Mushaf page image directly from local storage")
+def get_mushaf_page_image(
+    page_number: int,
+    edition: str = Query("hafs", description="Edition: hafs, warsh, tajweed")
+):
+    if page_number < 1 or page_number > 604:
+        raise HTTPException(status_code=400, detail="Page number must be between 1 and 604")
+
+    edition_folder = edition.lower().replace("quran-", "").replace("-madinah", "").replace("-color", "")
+    
+    # Check possible local image paths
+    candidates = [
+        os.path.join(STATIC_IMAGES_DIR, edition_folder, f"{page_number}.png"),
+        os.path.join(STATIC_IMAGES_DIR, edition_folder, f"{page_number}.jpg"),
+        os.path.join(STATIC_IMAGES_DIR, edition_folder, f"{page_number:03d}.png"),
+        os.path.join(STATIC_IMAGES_DIR, edition_folder, f"{page_number:03d}.jpg"),
+        os.path.join(STATIC_IMAGES_DIR, "hafs", f"{page_number}.png") # Fallback to hafs
+    ]
+
+    for candidate in candidates:
+        if os.path.exists(candidate):
+            media_type = "image/png" if candidate.endswith(".png") else "image/jpeg"
+            return FileResponse(
+                path=candidate,
+                media_type=media_type,
+                headers={"Cache-Control": "public, max-age=31536000, immutable"}
+            )
+
+    raise HTTPException(status_code=404, detail=f"Page image {page_number} not found locally for edition '{edition}'")
+
+
 @router.get("/page/{page_number}", summary="Get High-Resolution image URL and book layout metadata for a specific Mushaf page")
 def get_mushaf_page(
     page_number: int,
-    edition: Optional[str] = Query("quran-hafs-madinah", description="Edition ID: quran-hafs-madinah, quran-tajweed-color, quran-warsh-madinah, quran-qaloon-madinah, quran-shamerly, quran-douri, quran-shuba, quran-soosi")
+    edition: Optional[str] = Query("hafs", description="Edition: hafs, warsh, tajweed, quran-hafs-madinah, quran-tajweed-color, quran-warsh-madinah")
 ):
-    editions_data = load_json(os.path.join(DATA_DIR, "editions.json")) or {}
-    editions = editions_data.get("editions", [])
-    
-    selected_edition = next((e for e in editions if e["id"] == edition), None)
-    if not selected_edition:
-        raise HTTPException(status_code=404, detail=f"Edition '{edition}' not found")
-    
-    max_pages = selected_edition.get("total_pages", 604)
-    if page_number < 1 or page_number > max_pages:
-        raise HTTPException(status_code=400, detail=f"Page number must be between 1 and {max_pages} for this edition")
+    if page_number < 1 or page_number > 604:
+        raise HTTPException(status_code=400, detail="Page number must be between 1 and 604")
     
     # Load 604 page mapping
     pages_mapping = load_json(os.path.join(DATA_DIR, "pages_mapping.json")) or []
     page_meta = next((p for p in pages_mapping if p["page_number"] == page_number), None)
     
-    page_str_3 = f"{page_number:03d}"
-    page_str = str(page_number)
-    
-    img_template = selected_edition.get("image_url_template", "")
-    page_url = img_template.replace("{page}", page_str_3 if "001" in img_template else page_str)
-    
-    svg_template = selected_edition.get("svg_url_template")
-    svg_url = svg_template.replace("{page}", page_str_3) if svg_template else None
+    norm_edition = edition.lower().replace("quran-", "").replace("-madinah", "").replace("-color", "")
 
-    # Alternate mirror URLs for high reliability
-    backup_url = f"https://cdn.islamic.network/quran/images/high-resolution/{page_number}.png"
+    local_image_url = f"/api/v1/mushaf/page/{page_number}/image?edition={norm_edition}"
+    cdn_backup_url = f"https://cdn.islamic.network/quran/images/high-resolution/{page_number}.png"
 
     return {
         "status": "success",
-        "edition_id": selected_edition["id"],
-        "edition_name": selected_edition["name_ar"],
-        "riwayah": selected_edition["riwayah"],
-        "publisher": selected_edition.get("publisher"),
+        "edition": norm_edition,
         "page_number": page_number,
-        "total_pages": max_pages,
+        "total_pages": 604,
         "prev_page": page_number - 1 if page_number > 1 else None,
-        "next_page": page_number + 1 if page_number < max_pages else None,
+        "next_page": page_number + 1 if page_number < 604 else None,
         "layout": {
             "side": page_meta.get("layout_side") if page_meta else ("right" if page_number % 2 != 0 else "left"),
             "is_right_page": page_meta.get("is_right_page") if page_meta else (page_number % 2 != 0)
@@ -92,25 +115,8 @@ def get_mushaf_page(
             "surah_name_ar": page_meta.get("surah_name_ar") if page_meta else "الفاتحة"
         },
         "media": {
-            "image_url": page_url,
-            "backup_image_url": backup_url,
-            "svg_url": svg_url
+            "image_url": local_image_url,
+            "local_image_endpoint": local_image_url,
+            "cdn_backup_url": cdn_backup_url
         }
-    }
-
-@router.get("/surah/{surah_number}/page", summary="Get the starting printed page for a given Surah")
-def get_surah_start_page(surah_number: int):
-    if surah_number < 1 or surah_number > 114:
-        raise HTTPException(status_code=400, detail="Surah number must be between 1 and 114")
-    
-    start_pages = load_json(os.path.join(DATA_DIR, "surah_start_pages.json")) or {}
-    page = start_pages.get(str(surah_number)) or start_pages.get(surah_number)
-    
-    if not page:
-        raise HTTPException(status_code=404, detail="Surah start page not found")
-        
-    return {
-        "status": "success",
-        "surah_number": surah_number,
-        "start_page": page
     }
