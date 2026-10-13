@@ -6,6 +6,15 @@ Base URL: `http://localhost:8000` (or your deployed URL)
 
 ---
 
+## 📦 Official SDKs & Client Libraries
+
+| Platform | Package | Install Command | Link |
+| :--- | :--- | :--- | :--- |
+| **Flutter / Dart** | `api_islam` | `flutter pub add api_islam` | [pub.dev/packages/api_islam](https://pub.dev/packages/api_islam) |
+| **Node.js / Web / TS** | `api-islam` | `npm install api-islam` | [npmjs.com/package/api-islam](https://www.npmjs.com/package/api-islam) |
+
+---
+
 ## 1. Quran Endpoints
 
 ### 1.1 List all Surahs

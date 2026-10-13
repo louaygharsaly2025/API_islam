@@ -1,5 +1,10 @@
 // ============================================================================
 // API_ISLAM JavaScript / Node.js / Browser Client
+//
+// 📦 Official Package Available on npm:
+//   npm install api-islam
+//   https://www.npmjs.com/package/api-islam
+//
 // Works in Browser (React, Vue, Svelte, Vanilla) and Node.js (18+)
 // ============================================================================
 

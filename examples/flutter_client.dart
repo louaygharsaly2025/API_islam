@@ -1,6 +1,11 @@
 // ============================================================================
 // API_ISLAM Flutter / Dart Helper Client
-// Copy this file directly into your Flutter project (e.g. lib/services/islamic_api.dart)
+//
+// 📦 Official Package Available on pub.dev:
+//   flutter pub add api_islam
+//   https://pub.dev/packages/api_islam
+//
+// Or copy this file directly into your Flutter project:
 // ============================================================================
 
 import 'dart:convert';

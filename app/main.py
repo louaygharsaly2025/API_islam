@@ -300,12 +300,40 @@ def root():
             <div class="btn-group">
                 <a href="/docs" class="btn btn-primary">📖 استكشاف الـ Swagger Docs</a>
                 <a href="/redoc" class="btn btn-secondary">📑 توثيق ReDoc</a>
+                <a href="https://pub.dev/packages/api_islam" class="btn btn-secondary" target="_blank" rel="noopener">💙 حزمة Flutter (pub.dev)</a>
+                <a href="https://www.npmjs.com/package/api-islam" class="btn btn-secondary" target="_blank" rel="noopener">💛 حزمة Node.js (npm)</a>
                 <a href="/api/v1/quran/surahs" class="btn btn-secondary" target="_blank">📋 قائمة السور الـ 114</a>
                 <a href="/api/v1/mushaf/page/1/image" class="btn btn-secondary" target="_blank">🖼️ صورة الصفحة 1</a>
             </div>
         </header>
 
         <main class="container">
+            <!-- Official SDKs Section -->
+            <section class="demo-section" style="border-color: rgba(16, 185, 129, 0.3); background: linear-gradient(180deg, rgba(16, 185, 129, 0.05) 0%, rgba(17, 24, 39, 0.6) 100%);">
+                <h2 class="section-title">📦 حزم ومكتبات المطورين الرسمية (Official SDKs)</h2>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+                    حزم رسمية منشورة ومجهزة للاستخدام المباشر في تطبيقات الهواتف الذكية وتطبيقات الويب الحديثة:
+                </p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;">
+                    <div style="background: rgba(0,0,0,0.3); padding: 16px 20px; border-radius: 12px; border: 1px solid rgba(1, 117, 194, 0.3);">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+                            <strong style="color: #38bdf8; font-size: 1.1rem;">💙 Flutter & Dart (pub.dev)</strong>
+                            <span style="font-size: 0.8rem; background: rgba(1,117,194,0.2); color: #38bdf8; padding: 2px 8px; border-radius: 6px;">v1.0.1</span>
+                        </div>
+                        <code style="display: block; background: #000; padding: 8px 12px; border-radius: 6px; font-family: monospace; font-size: 0.85rem; color: #a7f3d0; margin-bottom: 10px;">flutter pub add api_islam</code>
+                        <a href="https://pub.dev/packages/api_islam" target="_blank" rel="noopener" style="color: #38bdf8; text-decoration: none; font-size: 0.9rem; font-weight: 600;">🔗 صفحة الحزمة على pub.dev &larr;</a>
+                    </div>
+                    <div style="background: rgba(0,0,0,0.3); padding: 16px 20px; border-radius: 12px; border: 1px solid rgba(203, 56, 55, 0.3);">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+                            <strong style="color: #fbbf24; font-size: 1.1rem;">💛 Node.js & TypeScript (npm)</strong>
+                            <span style="font-size: 0.8rem; background: rgba(203,56,55,0.2); color: #f87171; padding: 2px 8px; border-radius: 6px;">v1.0.1</span>
+                        </div>
+                        <code style="display: block; background: #000; padding: 8px 12px; border-radius: 6px; font-family: monospace; font-size: 0.85rem; color: #a7f3d0; margin-bottom: 10px;">npm install api-islam</code>
+                        <a href="https://www.npmjs.com/package/api-islam" target="_blank" rel="noopener" style="color: #fbbf24; text-decoration: none; font-size: 0.9rem; font-weight: 600;">🔗 صفحة الحزمة على npmjs &larr;</a>
+                    </div>
+                </div>
+            </section>
+
             <!-- Quran & Tajweed Live Demo -->
             <section class="demo-section">
                 <h2 class="section-title">✨ تجربة مباشرة: التجويد الملون والرسم العثماني</h2>

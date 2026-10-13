@@ -2,12 +2,43 @@
 
 [![CI/CD Pipeline](https://github.com/louaygharsaly2025/API_islam/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/louaygharsaly2025/API_islam/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
+[![npm package](https://img.shields.io/npm/v/api-islam.svg?logo=npm&color=CB3837)](https://www.npmjs.com/package/api-islam)
+[![pub package](https://img.shields.io/pub/v/api_islam.svg?logo=dart&color=0175C2)](https://pub.dev/packages/api_islam)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg)](https://fastapi.tiangolo.com)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](Dockerfile)
 [![Tests](https://img.shields.io/badge/tests-42%20passed-success.svg)](tests/)
 
 The most comprehensive, high-performance, open-source Islamic REST API and Data Repository built with **FastAPI** and **Python 3**.
+
+---
+
+## 📦 Official Client Libraries & SDKs (حزم ومكتبات المطورين)
+
+Official packages are published and maintained for rapid integration into web and mobile applications:
+
+| Platform / Ecosystem | Package | Installation | Package Registry |
+| :--- | :--- | :--- | :--- |
+| **Flutter / Dart** | [`api_islam`](packages/api_islam) | `flutter pub add api_islam` | [![pub package](https://img.shields.io/pub/v/api_islam.svg?logo=dart&color=0175C2)](https://pub.dev/packages/api_islam)<br>[pub.dev/packages/api_islam](https://pub.dev/packages/api_islam) |
+| **Node.js / JS / TS** | [`api-islam`](packages/api-islam-js) | `npm install api-islam` | [![npm package](https://img.shields.io/npm/v/api-islam.svg?logo=npm&color=CB3837)](https://www.npmjs.com/package/api-islam)<br>[npmjs.com/package/api-islam](https://www.npmjs.com/package/api-islam) |
+
+### 💙 Flutter & Dart (`pub.dev`)
+```bash
+flutter pub add api_islam
+# or using Dart CLI
+dart pub add api_islam
+```
+* **Package Link**: [https://pub.dev/packages/api_islam](https://pub.dev/packages/api_islam)
+* **Source Folder**: [`packages/api_islam/`](packages/api_islam)
+
+### 💛 JavaScript, TypeScript & Node.js (`npm`)
+```bash
+npm install api-islam
+# or using yarn / pnpm / bun
+pnpm add api-islam
+```
+* **Package Link**: [https://www.npmjs.com/package/api-islam](https://www.npmjs.com/package/api-islam)
+* **Source Folder**: [`packages/api-islam-js/`](packages/api-islam-js)
 
 ---
 
@@ -38,6 +69,9 @@ API_islam/
 │   ├── main.py                 # Application entrypoint & UI portal
 │   ├── routers/                # 12 Modules (quran, mushaf, tafsir, asmaul_husna, duas, hadith, ...)
 │   └── services/               # Astronomical & Mathematical engines (Prayer, Qibla, Hijri, Zakat)
+├── packages/                   # Official Published SDKs
+│   ├── api_islam/              # Flutter / Dart SDK (pub.dev/packages/api_islam)
+│   └── api-islam-js/           # TypeScript / Node.js SDK (npmjs.com/package/api-islam)
 ├── data/                       # 25 JSON Datasets (Quran, Adhkar, Duas, Hadith, Mushaf, Radios, ...)
 ├── schemas/                    # Formal JSON Schemas for validation
 ├── tests/                      # 32 Automated Unit & Integration Tests (Pytest)

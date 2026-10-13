@@ -117,7 +117,33 @@ API_islam/
 
 ## 💻 5. كيفية الدمج في التطبيقات
 
-### أمثلة الكود الجاهزة للنسخ داخل مجلد `examples/`:
+### 📦 الحزم الرسمية المنشورة للمطورين (Official SDK Packages):
+يمكنك تثبيت الحزم الرسمية الجاهزة مباشرة في مشروعك بدلاً من كتابة كود الاتصال يدوياً:
+
+| المنصة | اسم الحزمة | أمر التثبيت | رابط الحزمة |
+| :--- | :--- | :--- | :--- |
+| **Flutter / Dart** | `api_islam` | `flutter pub add api_islam` | [pub.dev/packages/api_islam](https://pub.dev/packages/api_islam) |
+| **Node.js / JS / TS** | `api-islam` | `npm install api-islam` | [npmjs.com/package/api-islam](https://www.npmjs.com/package/api-islam) |
+
+#### 1. تثبيت حزمة فلاتر (Flutter / Dart):
+* **الرابط على pub.dev**: [https://pub.dev/packages/api_islam](https://pub.dev/packages/api_islam)
+* **كود المصدر**: مجلد [`packages/api_islam`](../packages/api_islam)
+```bash
+flutter pub add api_islam
+# أو في مشاريع Dart الخالصة:
+dart pub add api_islam
+```
+
+#### 2. تثبيت حزمة Node.js / TypeScript / Web:
+* **الرابط على npmjs**: [https://www.npmjs.com/package/api-islam](https://www.npmjs.com/package/api-islam)
+* **كود المصدر**: مجلد [`packages/api-islam-js`](../packages/api-islam-js)
+```bash
+npm install api-islam
+# أو عبر pnpm / yarn
+pnpm add api-islam
+```
+
+### 📂 أمثلة الكود الجاهزة داخل مجلد `examples/`:
 * **Flutter**: [flutter_client.dart](file:///C:/Users/louaygharsaly/Desktop/API_islam/examples/flutter_client.dart) و [flutter_mushaf_view.dart](file:///C:/Users/louaygharsaly/Desktop/API_islam/examples/flutter_mushaf_view.dart).
 * **JavaScript / TypeScript / React / Node**: [js_client.js](file:///C:/Users/louaygharsaly/Desktop/API_islam/examples/js_client.js).
 * **Python**: [python_client.py](file:///C:/Users/louaygharsaly/Desktop/API_islam/examples/python_client.py).
