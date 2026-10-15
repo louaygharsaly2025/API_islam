@@ -169,4 +169,4 @@ python -m pytest -v
 ## 📄 License
 This project is open-source and available under the [MIT License](LICENSE). All sacred Islamic texts (Quran and Hadith) belong to the entire Muslim Ummah and humanity.
 
-**louay gharsaly 2026**
+**louay gharsalli 2026**
