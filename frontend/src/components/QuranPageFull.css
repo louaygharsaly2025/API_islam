@@ -1,0 +1,61 @@
+/* File: src/components/QuranPageFull.css */
+.quran-page-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(15, 1fr);
+    height: 90vh;
+    max-height: 800px;
+    font-family: 'Scheherazade New', 'Traditional Arabic', serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.verse-item {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem 0;
+}
+
+.verse-text {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.verse-number-arabic {
+    font-family: inherit;
+    margin-left: 0.5rem;
+    color: #0d9488;
+}
+
+/* Media queries untuk responsivitas */
+@media (max-width: 1024px) {
+    .quran-page-container {
+        font-size: 1.8rem;
+        height: 85vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .quran-page-container {
+        font-size: 1.6rem;
+        height: 80vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .quran-page-container {
+        font-size: 1.4rem;
+        height: 75vh;
+    }
+    
+    .verse-number-arabic {
+        margin-left: 0.25rem;
+    }
+}
+
+/* Untuk halaman 1 dan 2 (7 baris) */
+.first-two-pages {
+    grid-template-rows: repeat(7, 1fr);
+}

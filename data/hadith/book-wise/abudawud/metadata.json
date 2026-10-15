@@ -1,0 +1,310 @@
+{
+  "book_name_english": "abudawud",
+  "book_name_arabic": "سنن أبي داود",
+  "book_short_desc": "Sunan Abī Dāwūd is a collection of ḥadīth compiled by Imām Abū Dāwūd Sulaymān ibn al-Ash`ath as-Sijistānī (raḥimahullāh). It is widely considered to be among the six canonical collections of ḥadīth (Kutub as-Sittah) of the Sunnah of the Prophet (saws). It consists of 5274 aḥādīth in 43 books.",
+  "total_hadiths_inBook": 5276,
+  "total_chapters_inBook": 43,
+  "all_chapters_detail": [
+    {
+      "chapter_title_english": "Purification (Kitab Al-Taharah)",
+      "chapter_title_arabic": "كتاب الطهارة",
+      "total_hadiths_inChapter": 390,
+      "chapter_first_hadith": 1,
+      "chapter_last_hadith": 390
+    },
+    {
+      "chapter_title_english": "Prayer (Kitab Al-Salat)",
+      "chapter_title_arabic": "كتاب الصلاة",
+      "total_hadiths_inChapter": 771,
+      "chapter_first_hadith": 391,
+      "chapter_last_hadith": 1161
+    },
+    {
+      "chapter_title_english": "The Book Of The Prayer For Rain (Kitab al-Istisqa')",
+      "chapter_title_arabic": "كتاب الاستسقاء",
+      "total_hadiths_inChapter": 37,
+      "chapter_first_hadith": 1162,
+      "chapter_last_hadith": 1198
+    },
+    {
+      "chapter_title_english": "Prayer (Kitab Al-Salat): Detailed Rules of Law about the Prayer during Journey",
+      "chapter_title_arabic": "كتاب صلاة السفر",
+      "total_hadiths_inChapter": 52,
+      "chapter_first_hadith": 1199,
+      "chapter_last_hadith": 1250
+    },
+    {
+      "chapter_title_english": "Prayer (Kitab Al-Salat): Voluntary Prayers",
+      "chapter_title_arabic": "كتاب التطوع",
+      "total_hadiths_inChapter": 121,
+      "chapter_first_hadith": 1251,
+      "chapter_last_hadith": 1371
+    },
+    {
+      "chapter_title_english": "Prayer (Kitab Al-Salat): Detailed Injunctions about Ramadan",
+      "chapter_title_arabic": "كتاب شهر رمضان",
+      "total_hadiths_inChapter": 30,
+      "chapter_first_hadith": 1372,
+      "chapter_last_hadith": 1401
+    },
+    {
+      "chapter_title_english": "Prayer (Kitab Al-Salat): Prostration while reciting the Qur'an",
+      "chapter_title_arabic": "كتاب سجود القرآن",
+      "total_hadiths_inChapter": 15,
+      "chapter_first_hadith": 1402,
+      "chapter_last_hadith": 1416
+    },
+    {
+      "chapter_title_english": "Prayer (Kitab Al-Salat): Detailed Injunctions about Witr",
+      "chapter_title_arabic": "كتاب الوتر",
+      "total_hadiths_inChapter": 140,
+      "chapter_first_hadith": 1417,
+      "chapter_last_hadith": 1556
+    },
+    {
+      "chapter_title_english": "Zakat (Kitab Al-Zakat)",
+      "chapter_title_arabic": "كتاب الزكاة",
+      "total_hadiths_inChapter": 145,
+      "chapter_first_hadith": 1557,
+      "chapter_last_hadith": 1701
+    },
+    {
+      "chapter_title_english": "The Book of Lost and Found Items",
+      "chapter_title_arabic": "كتاب اللقطة",
+      "total_hadiths_inChapter": 20,
+      "chapter_first_hadith": 1702,
+      "chapter_last_hadith": 1721
+    },
+    {
+      "chapter_title_english": "The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)",
+      "chapter_title_arabic": "كتاب المناسك",
+      "total_hadiths_inChapter": 325,
+      "chapter_first_hadith": 1722,
+      "chapter_last_hadith": 2046
+    },
+    {
+      "chapter_title_english": "Marriage (Kitab Al-Nikah)",
+      "chapter_title_arabic": "كتاب النكاح",
+      "total_hadiths_inChapter": 129,
+      "chapter_first_hadith": 2047,
+      "chapter_last_hadith": 2175
+    },
+    {
+      "chapter_title_english": "Divorce (Kitab Al-Talaq)",
+      "chapter_title_arabic": "كتاب الطلاق",
+      "total_hadiths_inChapter": 138,
+      "chapter_first_hadith": 2176,
+      "chapter_last_hadith": 2313
+    },
+    {
+      "chapter_title_english": "Fasting (Kitab Al-Siyam)",
+      "chapter_title_arabic": "كتاب الصوم",
+      "total_hadiths_inChapter": 164,
+      "chapter_first_hadith": 2314,
+      "chapter_last_hadith": 2477
+    },
+    {
+      "chapter_title_english": "Jihad (Kitab Al-Jihad)",
+      "chapter_title_arabic": "كتاب الجهاد",
+      "total_hadiths_inChapter": 311,
+      "chapter_first_hadith": 2478,
+      "chapter_last_hadith": 2788
+    },
+    {
+      "chapter_title_english": "Sacrifice (Kitab Al-Dahaya)",
+      "chapter_title_arabic": "كتاب الضحايا",
+      "total_hadiths_inChapter": 56,
+      "chapter_first_hadith": 2789,
+      "chapter_last_hadith": 2844
+    },
+    {
+      "chapter_title_english": "Game (Kitab Al-Said)",
+      "chapter_title_arabic": "كتاب الصيد",
+      "total_hadiths_inChapter": 18,
+      "chapter_first_hadith": 2845,
+      "chapter_last_hadith": 2862
+    },
+    {
+      "chapter_title_english": "Wills (Kitab Al-Wasaya)",
+      "chapter_title_arabic": "كتاب الوصايا",
+      "total_hadiths_inChapter": 23,
+      "chapter_first_hadith": 2863,
+      "chapter_last_hadith": 2885
+    },
+    {
+      "chapter_title_english": "Shares of Inheritance (Kitab Al-Fara'id)",
+      "chapter_title_arabic": "كتاب الفرائض",
+      "total_hadiths_inChapter": 43,
+      "chapter_first_hadith": 2886,
+      "chapter_last_hadith": 2928
+    },
+    {
+      "chapter_title_english": "Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)",
+      "chapter_title_arabic": "كتاب الخراج والإمارة والفىء",
+      "total_hadiths_inChapter": 161,
+      "chapter_first_hadith": 2929,
+      "chapter_last_hadith": 3089
+    },
+    {
+      "chapter_title_english": "Funerals (Kitab Al-Jana'iz)",
+      "chapter_title_arabic": "كتاب الجنائز",
+      "total_hadiths_inChapter": 153,
+      "chapter_first_hadith": 3090,
+      "chapter_last_hadith": 3242
+    },
+    {
+      "chapter_title_english": "Oaths and Vows (Kitab Al-Aiman Wa Al-Nudhur)",
+      "chapter_title_arabic": "كتاب الأيمان والنذور",
+      "total_hadiths_inChapter": 84,
+      "chapter_first_hadith": 3243,
+      "chapter_last_hadith": 3326
+    },
+    {
+      "chapter_title_english": "Commercial Transactions (Kitab Al-Buyu)",
+      "chapter_title_arabic": "كتاب البيوع",
+      "total_hadiths_inChapter": 90,
+      "chapter_first_hadith": 3327,
+      "chapter_last_hadith": 3416
+    },
+    {
+      "chapter_title_english": "Wages (Kitab Al-Ijarah)",
+      "chapter_title_arabic": "كتاب الإجارة",
+      "total_hadiths_inChapter": 155,
+      "chapter_first_hadith": 3417,
+      "chapter_last_hadith": 3571
+    },
+    {
+      "chapter_title_english": "The Office of the Judge (Kitab Al-Aqdiyah)",
+      "chapter_title_arabic": "كتاب الأقضية",
+      "total_hadiths_inChapter": 70,
+      "chapter_first_hadith": 3572,
+      "chapter_last_hadith": 3641
+    },
+    {
+      "chapter_title_english": "Knowledge (Kitab Al-Ilm)",
+      "chapter_title_arabic": "كتاب العلم",
+      "total_hadiths_inChapter": 28,
+      "chapter_first_hadith": 3642,
+      "chapter_last_hadith": 3669
+    },
+    {
+      "chapter_title_english": "Drinks (Kitab Al-Ashribah)",
+      "chapter_title_arabic": "كتاب الأشربة",
+      "total_hadiths_inChapter": 67,
+      "chapter_first_hadith": 3670,
+      "chapter_last_hadith": 3736
+    },
+    {
+      "chapter_title_english": "Foods (Kitab Al-At'imah)",
+      "chapter_title_arabic": "كتاب الأطعمة",
+      "total_hadiths_inChapter": 119,
+      "chapter_first_hadith": 3737,
+      "chapter_last_hadith": 3855
+    },
+    {
+      "chapter_title_english": "Medicine (Kitab Al-Tibb)",
+      "chapter_title_arabic": "كتاب الطب",
+      "total_hadiths_inChapter": 49,
+      "chapter_first_hadith": 3856,
+      "chapter_last_hadith": 3904
+    },
+    {
+      "chapter_title_english": "Divination and Omens (Kitab Al-Kahanah Wa Al-Tatayyur)",
+      "chapter_title_arabic": "كتاب الكهانة و التطير",
+      "total_hadiths_inChapter": 22,
+      "chapter_first_hadith": 3905,
+      "chapter_last_hadith": 3926
+    },
+    {
+      "chapter_title_english": "The Book of Manumission of Slaves",
+      "chapter_title_arabic": "كتاب العتق",
+      "total_hadiths_inChapter": 43,
+      "chapter_first_hadith": 3927,
+      "chapter_last_hadith": 3969
+    },
+    {
+      "chapter_title_english": "Dialects and Readings of the Qur'an (Kitab Al-Huruf Wa Al-Qira'at)",
+      "chapter_title_arabic": "كتاب الحروف والقراءات",
+      "total_hadiths_inChapter": 40,
+      "chapter_first_hadith": 3970,
+      "chapter_last_hadith": 4009
+    },
+    {
+      "chapter_title_english": "Hot Baths (Kitab Al-Hammam)",
+      "chapter_title_arabic": "كتاب الحمَّام",
+      "total_hadiths_inChapter": 11,
+      "chapter_first_hadith": 4010,
+      "chapter_last_hadith": 4020
+    },
+    {
+      "chapter_title_english": "Clothing (Kitab Al-Libas)",
+      "chapter_title_arabic": "كتاب اللباس",
+      "total_hadiths_inChapter": 139,
+      "chapter_first_hadith": 4021,
+      "chapter_last_hadith": 4159
+    },
+    {
+      "chapter_title_english": "Combing the Hair (Kitab Al-Tarajjul)",
+      "chapter_title_arabic": "كتاب الترجل",
+      "total_hadiths_inChapter": 55,
+      "chapter_first_hadith": 4160,
+      "chapter_last_hadith": 4214
+    },
+    {
+      "chapter_title_english": "Signet-Rings (Kitab Al-Khatam)",
+      "chapter_title_arabic": "كتاب الخاتم",
+      "total_hadiths_inChapter": 26,
+      "chapter_first_hadith": 4215,
+      "chapter_last_hadith": 4240
+    },
+    {
+      "chapter_title_english": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+      "chapter_title_arabic": "كتاب الفتن والملاحم",
+      "total_hadiths_inChapter": 39,
+      "chapter_first_hadith": 4241,
+      "chapter_last_hadith": 4279
+    },
+    {
+      "chapter_title_english": "The Promised Deliverer (Kitab Al-Mahdi)",
+      "chapter_title_arabic": "كتاب المهدى",
+      "total_hadiths_inChapter": 13,
+      "chapter_first_hadith": 4280,
+      "chapter_last_hadith": 4292
+    },
+    {
+      "chapter_title_english": "Battles (Kitab Al-Malahim)",
+      "chapter_title_arabic": "كتاب الملاحم",
+      "total_hadiths_inChapter": 60,
+      "chapter_first_hadith": 4293,
+      "chapter_last_hadith": 4352
+    },
+    {
+      "chapter_title_english": "Prescribed Punishments (Kitab Al-Hudud)",
+      "chapter_title_arabic": "كتاب الحدود",
+      "total_hadiths_inChapter": 143,
+      "chapter_first_hadith": 4353,
+      "chapter_last_hadith": 4495
+    },
+    {
+      "chapter_title_english": "Types of Blood-Wit (Kitab Al-Diyat)",
+      "chapter_title_arabic": "كتاب الديات",
+      "total_hadiths_inChapter": 102,
+      "chapter_first_hadith": 4496,
+      "chapter_last_hadith": 4597
+    },
+    {
+      "chapter_title_english": "Model Behavior of the Prophet (Kitab Al-Sunnah)",
+      "chapter_title_arabic": "كتاب السنة",
+      "total_hadiths_inChapter": 177,
+      "chapter_first_hadith": 4598,
+      "chapter_last_hadith": 4774
+    },
+    {
+      "chapter_title_english": "General Behavior (Kitab Al-Adab)",
+      "chapter_title_arabic": "كتاب الأدب",
+      "total_hadiths_inChapter": 502,
+      "chapter_first_hadith": 4775,
+      "chapter_last_hadith": 5276
+    }
+  ]
+}

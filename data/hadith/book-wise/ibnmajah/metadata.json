@@ -1,0 +1,275 @@
+{
+  "book_name_english": "ibnmajah",
+  "book_name_arabic": "سنن ابن ماجه",
+  "book_short_desc": "Sunan Ibn Mājah is a collection of hadīth compiled by Imām Muḥammad bin Yazīd Ibn Mājah al-Qazvīnī (raḥimahullāh). It is widely considered to be the sixth of the six canonical collection of Ḥadīth (Kutub as-Sittah) of the Sunnah of the Prophet (saws). It consists of 4341 aḥādīth in 37 books.",
+  "total_hadiths_inBook": 4345,
+  "total_chapters_inBook": 38,
+  "all_chapters_detail": [
+    {
+      "chapter_title_english": "The Book of the Sunnah",
+      "chapter_title_arabic": "كتاب المقدمة",
+      "total_hadiths_inChapter": 266,
+      "chapter_first_hadith": 1,
+      "chapter_last_hadith": 266
+    },
+    {
+      "chapter_title_english": "The Book of Purification and its Sunnah",
+      "chapter_title_arabic": "كتاب الطهارة وسننها",
+      "total_hadiths_inChapter": 400,
+      "chapter_first_hadith": 267,
+      "chapter_last_hadith": 666
+    },
+    {
+      "chapter_title_english": "The Book of the Prayer",
+      "chapter_title_arabic": "كتاب الصلاة",
+      "total_hadiths_inChapter": 39,
+      "chapter_first_hadith": 667,
+      "chapter_last_hadith": 705
+    },
+    {
+      "chapter_title_english": "The Book of the Adhan and the Sunnah Regarding It",
+      "chapter_title_arabic": "كتاب الأذان والسنة فيها",
+      "total_hadiths_inChapter": 29,
+      "chapter_first_hadith": 706,
+      "chapter_last_hadith": 734
+    },
+    {
+      "chapter_title_english": "The Book On The Mosques And The Congregations",
+      "chapter_title_arabic": "كتاب المساجد والجماعات",
+      "total_hadiths_inChapter": 68,
+      "chapter_first_hadith": 735,
+      "chapter_last_hadith": 802
+    },
+    {
+      "chapter_title_english": "Establishing the Prayer and the Sunnah Regarding Them",
+      "chapter_title_arabic": "كتاب إقامة الصلاة والسنة فيها",
+      "total_hadiths_inChapter": 630,
+      "chapter_first_hadith": 803,
+      "chapter_last_hadith": 1432
+    },
+    {
+      "chapter_title_english": "Chapters Regarding Funerals",
+      "chapter_title_arabic": "كتاب الجنائز",
+      "total_hadiths_inChapter": 205,
+      "chapter_first_hadith": 1433,
+      "chapter_last_hadith": 1637
+    },
+    {
+      "chapter_title_english": "Fasting",
+      "chapter_title_arabic": "كتاب الصيام",
+      "total_hadiths_inChapter": 145,
+      "chapter_first_hadith": 1638,
+      "chapter_last_hadith": 1782
+    },
+    {
+      "chapter_title_english": "The Chapters Regarding Zakat",
+      "chapter_title_arabic": "كتاب الزكاة",
+      "total_hadiths_inChapter": 62,
+      "chapter_first_hadith": 1783,
+      "chapter_last_hadith": 1844
+    },
+    {
+      "chapter_title_english": "The Chapters on Marriage",
+      "chapter_title_arabic": "كتاب النكاح",
+      "total_hadiths_inChapter": 171,
+      "chapter_first_hadith": 1845,
+      "chapter_last_hadith": 2015
+    },
+    {
+      "chapter_title_english": "The Chapters on Divorce",
+      "chapter_title_arabic": "كتاب الطلاق",
+      "total_hadiths_inChapter": 74,
+      "chapter_first_hadith": 2016,
+      "chapter_last_hadith": 2089
+    },
+    {
+      "chapter_title_english": "The Chapters on Expiation",
+      "chapter_title_arabic": "كتاب الكفارات",
+      "total_hadiths_inChapter": 47,
+      "chapter_first_hadith": 2090,
+      "chapter_last_hadith": 2136
+    },
+    {
+      "chapter_title_english": "The Chapters on Business Transactions",
+      "chapter_title_arabic": "كتاب التجارات",
+      "total_hadiths_inChapter": 171,
+      "chapter_first_hadith": 2137,
+      "chapter_last_hadith": 2307
+    },
+    {
+      "chapter_title_english": "The Chapters on Rulings",
+      "chapter_title_arabic": "كتاب الأحكام",
+      "total_hadiths_inChapter": 67,
+      "chapter_first_hadith": 2308,
+      "chapter_last_hadith": 2374
+    },
+    {
+      "chapter_title_english": "The Chapters on Gifts",
+      "chapter_title_arabic": "كتاب الهبات",
+      "total_hadiths_inChapter": 15,
+      "chapter_first_hadith": 2375,
+      "chapter_last_hadith": 2389
+    },
+    {
+      "chapter_title_english": "The Chapters on Charity",
+      "chapter_title_arabic": "كتاب الصدقات",
+      "total_hadiths_inChapter": 46,
+      "chapter_first_hadith": 2390,
+      "chapter_last_hadith": 2435
+    },
+    {
+      "chapter_title_english": "The Chapters on Pawning",
+      "chapter_title_arabic": "كتاب الرهون",
+      "total_hadiths_inChapter": 57,
+      "chapter_first_hadith": 2436,
+      "chapter_last_hadith": 2492
+    },
+    {
+      "chapter_title_english": "The Chapters on Pre-emption",
+      "chapter_title_arabic": "كتاب الشفعة",
+      "total_hadiths_inChapter": 11,
+      "chapter_first_hadith": 2493,
+      "chapter_last_hadith": 2503
+    },
+    {
+      "chapter_title_english": "The Chapters on Lost Property",
+      "chapter_title_arabic": "كتاب اللقطة",
+      "total_hadiths_inChapter": 10,
+      "chapter_first_hadith": 2504,
+      "chapter_last_hadith": 2513
+    },
+    {
+      "chapter_title_english": "The Chapters on Manumission (of Slaves)",
+      "chapter_title_arabic": "كتاب العتق",
+      "total_hadiths_inChapter": 21,
+      "chapter_first_hadith": 2514,
+      "chapter_last_hadith": 2534
+    },
+    {
+      "chapter_title_english": "The Chapters on Legal Punishments",
+      "chapter_title_arabic": "كتاب الحدود",
+      "total_hadiths_inChapter": 82,
+      "chapter_first_hadith": 2535,
+      "chapter_last_hadith": 2616
+    },
+    {
+      "chapter_title_english": "The Chapters on Blood Money",
+      "chapter_title_arabic": "كتاب الديات",
+      "total_hadiths_inChapter": 80,
+      "chapter_first_hadith": 2617,
+      "chapter_last_hadith": 2696
+    },
+    {
+      "chapter_title_english": "The Chapters on Wills",
+      "chapter_title_arabic": "كتاب الوصايا",
+      "total_hadiths_inChapter": 24,
+      "chapter_first_hadith": 2697,
+      "chapter_last_hadith": 2720
+    },
+    {
+      "chapter_title_english": "Chapters on Shares of Inheritance",
+      "chapter_title_arabic": "كتاب الفرائض",
+      "total_hadiths_inChapter": 34,
+      "chapter_first_hadith": 2721,
+      "chapter_last_hadith": 2754
+    },
+    {
+      "chapter_title_english": "The Chapters on Jihad",
+      "chapter_title_arabic": "كتاب الجهاد",
+      "total_hadiths_inChapter": 129,
+      "chapter_first_hadith": 2755,
+      "chapter_last_hadith": 2883
+    },
+    {
+      "chapter_title_english": "Chapters on Hajj Rituals",
+      "chapter_title_arabic": "كتاب المناسك",
+      "total_hadiths_inChapter": 238,
+      "chapter_first_hadith": 2884,
+      "chapter_last_hadith": 3121
+    },
+    {
+      "chapter_title_english": "Chapters on Sacrifices",
+      "chapter_title_arabic": "كتاب الأضاحي",
+      "total_hadiths_inChapter": 42,
+      "chapter_first_hadith": 3122,
+      "chapter_last_hadith": 3163
+    },
+    {
+      "chapter_title_english": "Chapters on Slaughtering",
+      "chapter_title_arabic": "كتاب الذبائح",
+      "total_hadiths_inChapter": 38,
+      "chapter_first_hadith": 3164,
+      "chapter_last_hadith": 3201
+    },
+    {
+      "chapter_title_english": "Chapters on Hunting",
+      "chapter_title_arabic": "كتاب الصيد",
+      "total_hadiths_inChapter": 51,
+      "chapter_first_hadith": 3202,
+      "chapter_last_hadith": 3252
+    },
+    {
+      "chapter_title_english": "Chapters on Food",
+      "chapter_title_arabic": "كتاب الأطعمة",
+      "total_hadiths_inChapter": 120,
+      "chapter_first_hadith": 3253,
+      "chapter_last_hadith": 3372
+    },
+    {
+      "chapter_title_english": "Chapters on Drinks",
+      "chapter_title_arabic": "كتاب الأشربة",
+      "total_hadiths_inChapter": 65,
+      "chapter_first_hadith": 3373,
+      "chapter_last_hadith": 3437
+    },
+    {
+      "chapter_title_english": "Chapters on Medicine",
+      "chapter_title_arabic": "كتاب الطب",
+      "total_hadiths_inChapter": 114,
+      "chapter_first_hadith": 3438,
+      "chapter_last_hadith": 3551
+    },
+    {
+      "chapter_title_english": "Chapters on Dress",
+      "chapter_title_arabic": "كتاب اللباس",
+      "total_hadiths_inChapter": 107,
+      "chapter_first_hadith": 3552,
+      "chapter_last_hadith": 3658
+    },
+    {
+      "chapter_title_english": "Etiquette",
+      "chapter_title_arabic": "كتاب الأدب",
+      "total_hadiths_inChapter": 170,
+      "chapter_first_hadith": 3659,
+      "chapter_last_hadith": 3828
+    },
+    {
+      "chapter_title_english": "Supplication",
+      "chapter_title_arabic": "كتاب الدعاء",
+      "total_hadiths_inChapter": 66,
+      "chapter_first_hadith": 3829,
+      "chapter_last_hadith": 3894
+    },
+    {
+      "chapter_title_english": "Interpretation of Dreams",
+      "chapter_title_arabic": "كتاب تعبير الرؤيا",
+      "total_hadiths_inChapter": 34,
+      "chapter_first_hadith": 3895,
+      "chapter_last_hadith": 3928
+    },
+    {
+      "chapter_title_english": "Tribulations",
+      "chapter_title_arabic": "كتاب الفتن",
+      "total_hadiths_inChapter": 175,
+      "chapter_first_hadith": 3929,
+      "chapter_last_hadith": 4103
+    },
+    {
+      "chapter_title_english": "Zuhd",
+      "chapter_title_arabic": "كتاب الزهد",
+      "total_hadiths_inChapter": 242,
+      "chapter_first_hadith": 4104,
+      "chapter_last_hadith": 4345
+    }
+  ]
+}

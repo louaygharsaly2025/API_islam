@@ -1,0 +1,352 @@
+{
+  "book_name_english": "tirmidhi",
+  "book_name_arabic": "جامع الترمذي",
+  "book_short_desc": "Jāmi` at-Tirmidhī is a collection of hadīth compiled by Imām Abu `Isa Muhammad at-Tirmidhī (rahimahullāh). His collection is unanimously considered to be one of the six canonical collections of hadith (Kutub as-Sittah) of the Sunnah of the Prophet (). It contains roughly 4400 hadīth (with repetitions) in 49 books.",
+  "total_hadiths_inBook": 4053,
+  "total_chapters_inBook": 49,
+  "all_chapters_detail": [
+    {
+      "chapter_title_english": "The Book on Purification",
+      "chapter_title_arabic": "كتاب الطهارة عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 148,
+      "chapter_first_hadith": 1,
+      "chapter_last_hadith": 148
+    },
+    {
+      "chapter_title_english": "The Book on Salat (Prayer)",
+      "chapter_title_arabic": "كتاب الصلاة",
+      "total_hadiths_inChapter": 304,
+      "chapter_first_hadith": 149,
+      "chapter_last_hadith": 452
+    },
+    {
+      "chapter_title_english": "The Book on Al-Witr",
+      "chapter_title_arabic": "أَبْوَابُ الْوِتْرِ",
+      "total_hadiths_inChapter": 35,
+      "chapter_first_hadith": 453,
+      "chapter_last_hadith": 487
+    },
+    {
+      "chapter_title_english": "The Book on the Day of Friday",
+      "chapter_title_arabic": "كِتَاب الْجُمُعَةِ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+      "total_hadiths_inChapter": 42,
+      "chapter_first_hadith": 488,
+      "chapter_last_hadith": 529
+    },
+    {
+      "chapter_title_english": "The Book on the Two Eids",
+      "chapter_title_arabic": "أَبْوَابُ الْعِيدَيْنِ عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+      "total_hadiths_inChapter": 14,
+      "chapter_first_hadith": 530,
+      "chapter_last_hadith": 543
+    },
+    {
+      "chapter_title_english": "The Book on Traveling",
+      "chapter_title_arabic": "أَبْوَابُ السَّفَرِ",
+      "total_hadiths_inChapter": 73,
+      "chapter_first_hadith": 544,
+      "chapter_last_hadith": 616
+    },
+    {
+      "chapter_title_english": "The Book on Zakat",
+      "chapter_title_arabic": "كتاب الزكاة عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 65,
+      "chapter_first_hadith": 617,
+      "chapter_last_hadith": 681
+    },
+    {
+      "chapter_title_english": "The Book on Fasting",
+      "chapter_title_arabic": "كتاب الصوم عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 127,
+      "chapter_first_hadith": 682,
+      "chapter_last_hadith": 808
+    },
+    {
+      "chapter_title_english": "The Book on Hajj",
+      "chapter_title_arabic": "كتاب الحج عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 158,
+      "chapter_first_hadith": 809,
+      "chapter_last_hadith": 966
+    },
+    {
+      "chapter_title_english": "The Book on Jana''iz (Funerals)",
+      "chapter_title_arabic": "كتاب الجنائز عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 115,
+      "chapter_first_hadith": 967,
+      "chapter_last_hadith": 1081
+    },
+    {
+      "chapter_title_english": "The Book on Marriage",
+      "chapter_title_arabic": "كتاب النكاح عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 67,
+      "chapter_first_hadith": 1082,
+      "chapter_last_hadith": 1148
+    },
+    {
+      "chapter_title_english": "The Book on Suckling",
+      "chapter_title_arabic": "كتاب الرضاع",
+      "total_hadiths_inChapter": 29,
+      "chapter_first_hadith": 1149,
+      "chapter_last_hadith": 1177
+    },
+    {
+      "chapter_title_english": "The Book on Divorce and Li'an",
+      "chapter_title_arabic": "كتاب الطلاق واللعان عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 31,
+      "chapter_first_hadith": 1178,
+      "chapter_last_hadith": 1208
+    },
+    {
+      "chapter_title_english": "The Book on Business",
+      "chapter_title_arabic": "كتاب البيوع عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 125,
+      "chapter_first_hadith": 1209,
+      "chapter_last_hadith": 1333
+    },
+    {
+      "chapter_title_english": "The Chapters On Judgements From The Messenger of Allah",
+      "chapter_title_arabic": "كتاب الأحكام عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 66,
+      "chapter_first_hadith": 1334,
+      "chapter_last_hadith": 1399
+    },
+    {
+      "chapter_title_english": "The Book on Blood Money",
+      "chapter_title_arabic": "كتاب الديات عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 39,
+      "chapter_first_hadith": 1400,
+      "chapter_last_hadith": 1438
+    },
+    {
+      "chapter_title_english": "The Book on Legal Punishments (Al-Hudud)",
+      "chapter_title_arabic": "كتاب الحدود عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 47,
+      "chapter_first_hadith": 1439,
+      "chapter_last_hadith": 1485
+    },
+    {
+      "chapter_title_english": "The Book on Hunting",
+      "chapter_title_arabic": "كتاب الصيد والذبائح عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 36,
+      "chapter_first_hadith": 1486,
+      "chapter_last_hadith": 1521
+    },
+    {
+      "chapter_title_english": "The Book on Sacrifices",
+      "chapter_title_arabic": "كتاب الأضاحى عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 36,
+      "chapter_first_hadith": 1522,
+      "chapter_last_hadith": 1557
+    },
+    {
+      "chapter_title_english": "The Book on Vows and Oaths",
+      "chapter_title_arabic": "كتاب النذور والأيمان عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 26,
+      "chapter_first_hadith": 1558,
+      "chapter_last_hadith": 1583
+    },
+    {
+      "chapter_title_english": "The Book on Military Expeditions",
+      "chapter_title_arabic": "كتاب السير عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 83,
+      "chapter_first_hadith": 1584,
+      "chapter_last_hadith": 1666
+    },
+    {
+      "chapter_title_english": "The Book on Virtues of Jihad",
+      "chapter_title_arabic": "كتاب فضائل الجهاد عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 52,
+      "chapter_first_hadith": 1667,
+      "chapter_last_hadith": 1718
+    },
+    {
+      "chapter_title_english": "The Book on Jihad",
+      "chapter_title_arabic": "كتاب الجهاد عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 53,
+      "chapter_first_hadith": 1719,
+      "chapter_last_hadith": 1771
+    },
+    {
+      "chapter_title_english": "The Book on Clothing",
+      "chapter_title_arabic": "كتاب اللباس",
+      "total_hadiths_inChapter": 76,
+      "chapter_first_hadith": 1772,
+      "chapter_last_hadith": 1847
+    },
+    {
+      "chapter_title_english": "The Book on Food",
+      "chapter_title_arabic": "كتاب الأطعمة عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 78,
+      "chapter_first_hadith": 1848,
+      "chapter_last_hadith": 1925
+    },
+    {
+      "chapter_title_english": "The Book on Drinks",
+      "chapter_title_arabic": "كتاب الأشربة عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 37,
+      "chapter_first_hadith": 1926,
+      "chapter_last_hadith": 1962
+    },
+    {
+      "chapter_title_english": "Chapters on Righteousness And Maintaining Good Relations With Relatives",
+      "chapter_title_arabic": "كتاب البر والصلة عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 141,
+      "chapter_first_hadith": 1963,
+      "chapter_last_hadith": 2103
+    },
+    {
+      "chapter_title_english": "Chapters on Medicine",
+      "chapter_title_arabic": "كتاب الطب عن رسول اللَّهِ صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 53,
+      "chapter_first_hadith": 2104,
+      "chapter_last_hadith": 2156
+    },
+    {
+      "chapter_title_english": "Chapters On Inheritance",
+      "chapter_title_arabic": "كتاب الفرائض عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 26,
+      "chapter_first_hadith": 2157,
+      "chapter_last_hadith": 2182
+    },
+    {
+      "chapter_title_english": "Chapters On Wasaya (Wills and Testament)",
+      "chapter_title_arabic": "كتاب الوصايا عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 9,
+      "chapter_first_hadith": 2183,
+      "chapter_last_hadith": 2191
+    },
+    {
+      "chapter_title_english": "Chapters On Wala' And Gifts",
+      "chapter_title_arabic": "كتاب الولاء والهبة عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 9,
+      "chapter_first_hadith": 2192,
+      "chapter_last_hadith": 2200
+    },
+    {
+      "chapter_title_english": "Chapters On Al-Qadar",
+      "chapter_title_arabic": "كتاب القدر عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 25,
+      "chapter_first_hadith": 2201,
+      "chapter_last_hadith": 2225
+    },
+    {
+      "chapter_title_english": "Chapters On Al-Fitan",
+      "chapter_title_arabic": "كتاب الفتن عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 112,
+      "chapter_first_hadith": 2226,
+      "chapter_last_hadith": 2337
+    },
+    {
+      "chapter_title_english": "Chapters On Dreams",
+      "chapter_title_arabic": "كتاب الرؤيا عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 25,
+      "chapter_first_hadith": 2338,
+      "chapter_last_hadith": 2362
+    },
+    {
+      "chapter_title_english": "Chapters On Witnesses",
+      "chapter_title_arabic": "كتاب الشهادات عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 10,
+      "chapter_first_hadith": 2363,
+      "chapter_last_hadith": 2372
+    },
+    {
+      "chapter_title_english": "Chapters On Zuhd",
+      "chapter_title_arabic": "كتاب الزهد عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 112,
+      "chapter_first_hadith": 2373,
+      "chapter_last_hadith": 2484
+    },
+    {
+      "chapter_title_english": "Chapters on the description of the Day of Judgement, Ar-Riqaq, and Al-Wara'",
+      "chapter_title_arabic": "كتاب صفة القيامة والرقائق والورع عن رسول الله صلى الله",
+      "total_hadiths_inChapter": 108,
+      "chapter_first_hadith": 2485,
+      "chapter_last_hadith": 2592
+    },
+    {
+      "chapter_title_english": "Chapters on the description of Paradise",
+      "chapter_title_arabic": "كتاب صفة الجنة عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 50,
+      "chapter_first_hadith": 2593,
+      "chapter_last_hadith": 2642
+    },
+    {
+      "chapter_title_english": "The Book on the Description of Hellfire",
+      "chapter_title_arabic": "كتاب صفة جهنم عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 33,
+      "chapter_first_hadith": 2643,
+      "chapter_last_hadith": 2675
+    },
+    {
+      "chapter_title_english": "The Book on Faith",
+      "chapter_title_arabic": "كتاب الإيمان عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 39,
+      "chapter_first_hadith": 2676,
+      "chapter_last_hadith": 2714
+    },
+    {
+      "chapter_title_english": "Chapters on Knowledge",
+      "chapter_title_arabic": "كتاب العلم عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 43,
+      "chapter_first_hadith": 2715,
+      "chapter_last_hadith": 2757
+    },
+    {
+      "chapter_title_english": "Chapters on Seeking Permission",
+      "chapter_title_arabic": "كتاب الاستئذان والآداب عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 48,
+      "chapter_first_hadith": 2758,
+      "chapter_last_hadith": 2805
+    },
+    {
+      "chapter_title_english": "Chapters on Manners",
+      "chapter_title_arabic": "كتاب الأدب عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 135,
+      "chapter_first_hadith": 2806,
+      "chapter_last_hadith": 2940
+    },
+    {
+      "chapter_title_english": "Chapters on Parables",
+      "chapter_title_arabic": "كتاب الأمثال عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 17,
+      "chapter_first_hadith": 2941,
+      "chapter_last_hadith": 2957
+    },
+    {
+      "chapter_title_english": "Chapters on The Virtues of the Qur'an",
+      "chapter_title_arabic": "كتاب ثواب القرآن عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 52,
+      "chapter_first_hadith": 2958,
+      "chapter_last_hadith": 3009
+    },
+    {
+      "chapter_title_english": "Chapters on Recitation",
+      "chapter_title_arabic": "كتاب القراءات عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 23,
+      "chapter_first_hadith": 3010,
+      "chapter_last_hadith": 3032
+    },
+    {
+      "chapter_title_english": "Chapters on Tafsir",
+      "chapter_title_arabic": "كتاب تفسير القرآن عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 421,
+      "chapter_first_hadith": 3033,
+      "chapter_last_hadith": 3453
+    },
+    {
+      "chapter_title_english": "Chapters on Supplication",
+      "chapter_title_arabic": "كتاب الدعوات عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 244,
+      "chapter_first_hadith": 3454,
+      "chapter_last_hadith": 3697
+    },
+    {
+      "chapter_title_english": "Chapters on Virtues",
+      "chapter_title_arabic": "كتاب المناقب عن رسول الله صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 356,
+      "chapter_first_hadith": 3698,
+      "chapter_last_hadith": 4053
+    }
+  ]
+}

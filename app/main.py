@@ -25,9 +25,9 @@ from app.routers import (
 )
 
 app = FastAPI(
-    title="API_ISLAM (v4.0 Quran Ultimate)",
-    description="Comprehensive Islamic REST API with 9 authentic Quran Qira'at (King Fahd Complex), Tajweed Rule Annotations, Printed Mushaf 604 High-Res Pages, Hadith, Tafsir, Adhkar, Prayer Times, Qibla, and Zakat.",
-    version="4.0.0",
+    title="API_ISLAM (v5.0 Ultimate Islamic Engine)",
+    description="Comprehensive Islamic REST API with 9 authentic Quran Qira'at (King Fahd Complex), 97 Multilingual Quran Translations, Kutub as-Sittah Hadith Encyclopedia (34,100+ Hadiths), Tajweed Annotations, Printed Mushaf 604 High-Res Pages, AlFath Web Portal, Tafsir, Adhkar, Prayer Times, Qibla, and Zakat.",
+    version="5.0.0",
     docs_url="/docs",
     redoc_url="/redoc"
 )
@@ -68,7 +68,7 @@ def health_check():
     return {
         "status": "healthy",
         "service": "API_ISLAM",
-        "version": "4.0.0"
+        "version": "5.0.0"
     }
 
 
@@ -294,7 +294,7 @@ def root():
     </head>
     <body>
         <header>
-            <div class="badge">🚀 v4.0 Ultimate Quran Engine</div>
+            <div class="badge">🚀 v5.0 Ultimate Islamic Engine</div>
             <h1>API_ISLAM <span>المصحف الشريف</span></h1>
             <p class="lead">محرك وواجهة برمجية متكاملة لبيانات القرآن الكريم برواياته الـ 9 الرسمية (مجمع الملك فهد)، محرك التجويد الملون، صور المصحف 604 صفحة بدقة فائقة، والخدمات الإسلامية.</p>
             <div class="btn-group">
@@ -400,11 +400,25 @@ def root():
                     <a href="/api/v1/prayer-times/today?latitude=36.8065&longitude=10.1815" class="card-link" target="_blank">مواقيت تونس &larr;</a>
                 </div>
 
-                <div class="card">
+                <div class="card" style="border-color: rgba(245, 158, 11, 0.4);">
                     <div class="card-icon">📜</div>
-                    <div class="card-title">الأحاديث النبوية والأذكار</div>
-                    <div class="card-desc">الأربعون النووية مع الشرح والترجمة، أذكار الصباح والمساء، الرقية الشرعية، وأدعية ربنا الأربعين.</div>
-                    <a href="/api/v1/hadith/nawawi" class="card-link" target="_blank">الأربعون النووية &larr;</a>
+                    <div class="card-title">الكتب الستة في الحديث النبوي</div>
+                    <div class="card-desc">موسوعة السنة النبوية الكبرى (صحيح البخاري، صحيح مسلم، سنن أبي داود، جامع الترمذي، سنن النسائي، سنن ابن ماجه، الأربعون النووية) تضم أكثر من 34,000 حديثاً باللغتين العربية والإنجليزية.</div>
+                    <a href="/api/v1/hadith/books" class="card-link" target="_blank">استعراض أمهات كتب الحديث الـ 7 &larr;</a>
+                </div>
+
+                <div class="card" style="border-color: rgba(56, 189, 248, 0.4);">
+                    <div class="card-icon">🌍</div>
+                    <div class="card-title">ترجمات القرآن بـ 97 لغة</div>
+                    <div class="card-desc">ترجمات معتمدة لآيات وسور القرآن الكريم بـ 97 لغة عالمية (الإنجليزية، الفرنسية، الأردية، الإندونيسية، الروسية، التركية، وغيرها) مع بيانات المترجمين واتجاه النص.</div>
+                    <a href="/api/v1/quran/translations/languages" class="card-link" target="_blank">استعراض اللغات الـ 97 &larr;</a>
+                </div>
+
+                <div class="card" style="border-color: rgba(16, 185, 129, 0.4);">
+                    <div class="card-icon">🕌</div>
+                    <div class="card-title">بوابة الفتح ويب (AlFath Daily)</div>
+                    <div class="card-desc">تطبيق ويب تفاعلي حديث متكامل مبني بتقنيات React و TailwindCSS و Vite يضم المصحف، الأحاديث، مواقيت الصلاة، الأذكار، البوصلة، والألعاب التعليمية (مجلد frontend/).</div>
+                    <a href="/docs" class="card-link">توثيق الواجهة والربط &larr;</a>
                 </div>
 
                 <div class="card">
@@ -417,7 +431,7 @@ def root():
         </main>
 
         <footer>
-            <p>API_ISLAM v4.0 &bull; مجمع الملك فهد لطباعة المصحف الشريف &bull; تطوير 2026</p>
+            <p>API_ISLAM v5.0 &bull; مجمع الملك فهد لطباعة المصحف الشريف &bull; تطوير 2026</p>
         </footer>
     </body>
     </html>

@@ -231,3 +231,103 @@ def test_calculate_zakat():
     assert json_data["data"]["result"]["zakat_amount_due"] > 0
 
 
+# 14. Kutub as-Sittah Hadith Endpoints (Newly Integrated)
+def test_get_all_hadith_books():
+    response = client.get("/api/v1/hadith/books")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["status"] == "success"
+    assert json_data["count"] == 7
+    assert json_data["total_hadiths_in_all_books"] >= 34000
+    book_ids = [b["id"] for b in json_data["data"]]
+    assert "bukhari" in book_ids
+    assert "muslim" in book_ids
+    assert "abudawud" in book_ids
+    assert "tirmidhi" in book_ids
+    assert "nasai" in book_ids
+    assert "ibnmajah" in book_ids
+    assert "nawawi40" in book_ids
+
+
+def test_get_hadith_book_details():
+    response = client.get("/api/v1/hadith/book/bukhari")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["status"] == "success"
+    assert json_data["data"]["total_chapters"] == 97
+    assert json_data["data"]["name_ar"] == "صحيح البخاري"
+
+
+def test_get_hadith_book_chapters():
+    response = client.get("/api/v1/hadith/book/bukhari/chapters")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["total_chapters"] == 97
+    assert len(json_data["data"]) == 97
+    assert json_data["data"][0]["chapter_number"] == 1
+
+
+def test_get_hadith_chapter_both_languages():
+    response = client.get("/api/v1/hadith/book/bukhari/chapter/1?lang=both")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["chapter_number"] == 1
+    assert json_data["total_hadiths"] == 7
+    first_h = json_data["hadiths"][0]
+    assert "arabic_text" in first_h and len(first_h["arabic_text"]) > 0
+    assert "english_text" in first_h and len(first_h["english_text"]) > 0
+
+
+def test_get_hadith_by_number():
+    response = client.get("/api/v1/hadith/book/bukhari/hadith/1")
+    assert response.status_code == 200
+    json_data = response.json()
+    data = json_data["data"]
+    assert data["hadith_number_in_book"] == 1
+    assert "arabic_text" in data
+    assert "english_text" in data
+    assert "Umar bin Al-Khattab" in data.get("narrator", "") or "عمر" in data.get("arabic_text", "")
+
+
+# 15. Quran Multilingual Translations & Metadata Endpoints (Newly Integrated)
+def test_get_quran_full_metadata():
+    response = client.get("/api/v1/quran/metadata")
+    assert response.status_code == 200
+    json_data = response.json()
+    data = json_data["data"]
+    assert data["total_surahs"] == 114
+    assert data["total_juz"] == 30
+    assert data["total_ayat_al_sajda"] == 14
+    assert len(data["chapter_details"]) == 114
+
+
+def test_get_quran_translation_languages():
+    response = client.get("/api/v1/quran/translations/languages")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["total_languages"] >= 90
+    langs = [item["language"].lower() for item in json_data["data"]]
+    assert "english" in langs
+    assert "french" in langs
+
+
+def test_get_quran_surah_translation():
+    response = client.get("/api/v1/quran/translations/english/surah/1")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["language"] == "English"
+    assert json_data["verses_count"] == 7
+    assert len(json_data["verses"]) == 7
+    assert "Mercy" in json_data["verses"][0]["translation_text"]
+
+
+def test_get_quran_ayah_translation():
+    response = client.get("/api/v1/quran/translations/english/ayah/1/1")
+    assert response.status_code == 200
+    json_data = response.json()
+    assert json_data["surah_id"] == 1
+    assert json_data["ayah_id"] == 1
+    assert "Mercy" in json_data["translation_text"]
+
+
+

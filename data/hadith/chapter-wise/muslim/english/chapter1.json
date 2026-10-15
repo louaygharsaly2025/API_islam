@@ -1,0 +1,734 @@
+{
+    "chapterNum": 1,
+    "english_title": "Introduction",
+    "totalHadiths_inChapter": 91,
+    "hadith_list": [{
+            "hadithNum_inChapter": 1,
+            "hadithNum_inBook": 1,
+            "title": "Sahih Muslim 1",
+            "narrator": "Abū Bakr ibn Abī Shaybah narrated to us that Ghundar narrated to us, on authority of Shu’bah; and Muhammad bin ul-Muthannā and Ibn Bashār both narrated to us, they said:",
+            "english_text": "Muhammad bin Ja’far narrated to us, Shu’bah narrated to us, on authority of Mansūr, on authority of Rab’iy ibn Hirāsh, that he heard Alī, may Allah be pleased with him, giving a Khutbah and he said that the Messenger of Allah, peace and blessings of Allah upon him, said: ‘Do not lie upon me; indeed whoever lies upon me will enter the Fire’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 2,
+            "hadithNum_inBook": 2,
+            "title": "Sahih Muslim 2",
+            "narrator": "Zuhayr bin Harb narrated to me, Ismā’īl, rather, Ibn Ulayyah narrated to us, on authority of Abd il-Azīz ibn Suhayb, on authority of Anas bin Mālik, that he said:",
+            "english_text": "‘Indeed what prevents me from relating to you a great number of Ḥadīth is that the Messenger of Allah, peace and blessings of Allah upon him, said: ‘Whoever intends to lie upon me, then let him take his seat in the Fire.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 3,
+            "hadithNum_inBook": 3,
+            "title": "Sahih Muslim 3",
+            "narrator": "Muhammad bin Ubayd il-Ghubarī narrated to us, Abū Awānah narrated to us, on authority of Abī Hasīn, on authority of Abī Sālih, on authority of Abū Hurayrah, he said, the Messenger of Allah, peace and blessings of Allah upon him, said:",
+            "english_text": "‘Whoever lies upon me intentionally, then let him take his seat in the Fire’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 4,
+            "hadithNum_inBook": 4,
+            "title": "Sahih Muslim 4 a",
+            "narrator": "Muhammad bin Abd Allah ibn Numayr narrated to us, my father narrated to us, Sa’īd bin Ubayd narrated to us, Alī bin Rabī’ah narrated to us, he said:",
+            "english_text": "‘I arrived at the Masjid and al-Mughīrah, the Amīr of al-Kūfah said: ‘I heard the Messenger of Allah, peace and blessings of Allah upon him, saying, ‘Indeed a lie upon me is not like a lie upon anyone else, for whoever lies upon me intentionally, then he shall take his seat in the Fire’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 5,
+            "hadithNum_inBook": 5,
+            "title": "Sahih Muslim 4 b",
+            "narrator": "",
+            "english_text": "’ Alī bin Hujr as-Sa’dī narrated to us, Alī bin Mushir narrated to us, Muhammad bin Qays il-Asadī informed us, on authority of Alī ibn Rabī’at al-Asadī, on authority of al-Mughīrat ibn Shu’bah, on authority of the Prophet, peace and blessings of Allah upon him a similar narration, however he did not mention the words ‘Indeed a lie upon me is not like a lie upon anyone else’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 6,
+            "hadithNum_inBook": 6,
+            "title": "Sahih Muslim 5",
+            "narrator": "Ubayd Allah bin Mu’ādh al-Anbarī narrated to us, my father narrated to us; and Muhammad bin ul-Muthannā narrated to us, Abd ur-Rahman bin Mahdī both narrated to us:",
+            "english_text": "Shu’bah narrated to us, on authority of Khubayb bin Abd ir-Rahman, on authority of Hafs bin Āsim, on authority of Abī Hurayrah, he said, the Messenger of Allah, peace and blessings of Allah upon him, said: ‘It is enough of a lie for a man to narrate everything he hears’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 7,
+            "hadithNum_inBook": 7,
+            "title": "Sahih Muslim Introduction 8",
+            "narrator": "",
+            "english_text": "Abū Bakr bin Abī Shaybah narrated to us, Alī bin Hafs narrated to us, Shu’bah narrated to us, on authority of Khubayb bin Abd ir-Rahman, on authority of Hafs bin Āsim, on authority of Abī Hurayrah, on authority of the Prophet, peace and blessings of Allah upon him, the same as that.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 8,
+            "hadithNum_inBook": 8,
+            "title": "Sahih Muslim Introduction 9",
+            "narrator": "Yahyā bin Yahyā narrated to us, Hushaym informed us, on authority of Sulaymān at-Taymī, on authority of Abī Uthmān an-Nahdī, he said, Umar bin ul-Khattāb, may Allah be pleased with him, said:",
+            "english_text": "‘It is enough of a lie for a man that he narrates everything he hears’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 9,
+            "hadithNum_inBook": 9,
+            "title": "Sahih Muslim Introduction 10",
+            "narrator": "Abūt-Tāhir Ahmad bin Amr bin Sarh narrated to me, he said, Ibn Wahb narrated to us, he said, Mālik said to me:",
+            "english_text": "‘Know that a man who relates everything he hears is not safe, and he can never be an Imām, as long as he narrates everything he hears’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 10,
+            "hadithNum_inBook": 10,
+            "title": "Sahih Muslim Introduction 11",
+            "narrator": "Muhammad bin ul-Muthannā narrated to us, he said Abd ur-Rahman narrated to us, he said Sufyān narrated to us, on authority of Abī Ishāq, on authority of Abīl-Ahwas, on authority of Abd Illah, he said:",
+            "english_text": "‘It is enough of a lie for a man that he narrates everything he hears’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 11,
+            "hadithNum_inBook": 11,
+            "title": "Sahih Muslim Introduction 12",
+            "narrator": "Muhammad bin ul-Muthannā narrated to us, he said I heard Abd ar-Rahman bin Mahdī saying:",
+            "english_text": "‘A man cannot be an Imām whose example is followed until he withholds from some of what he hears’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 12,
+            "hadithNum_inBook": 12,
+            "title": "Sahih Muslim Introduction 13",
+            "narrator": "Yahyā bin Yahyā narrated to us, Umar bin Alī bin Muqaddam informed us, on authority of Sufyān bin Husayn, he said:",
+            "english_text": "‘Iyās bin Mu’āwiyah asked me saying: ‘Indeed I see that you love knowledge of the Qur’ān, so recite for me a Sūrah and explain it until I can reflect on what you know’. [Sufyān] said, so I did that, and [Iyās] said to me: ‘Memorize from me what I am about to say to you- Beware of abominations in Ḥadīth for indeed rarely does anyone convey them except he lowers himself and his Ḥadīth are denied’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 13,
+            "hadithNum_inBook": 13,
+            "title": "Sahih Muslim Introduction 14",
+            "narrator": "Abūt-Tāhir and Harmalah bin Yahyā narrated to me, they said Ibn Wahb narrated to us, he said Yūnus informed me, on authority of Ibn Shihāb, on authority of Ubayd Allah bin Abd Allah bin Utbah, that Abd Allah bin Mas’ūd said:",
+            "english_text": "‘It is the case that you do not relate to the people a narration which their minds cannot grasp except that it becomes a Fitnah for some of them’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 14,
+            "hadithNum_inBook": 14,
+            "title": "Sahih Muslim 6",
+            "narrator": "Muhammad bin Abd Allah bin Numayr and Zuhayr bin Harb narrated to me, they said Abd Allah bin Yazīd narrated to us, he said Sa’īd bin Abī Ayyūb narrated to me, he said Abū Hāni’ narrated to me, on authority of Uthmān Muslim bin Yasār, on authority of Abī Hurayrah, on authority of the Messenger of Allah, peace and blessings of Allah upon him, he said:",
+            "english_text": "‘There will be in the last of my nation a people narrating to you what you nor your fathers heard, so beware of them’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 15,
+            "hadithNum_inBook": 15,
+            "title": "Sahih Muslim 7",
+            "narrator": "Harmalah bin Yahyā bin Abd Allah bin Harmalah bin Imrān at-Tujībī narrated to me, he said Ibn Wahb narrated to us, he said Abū Shurayh narrated to me that he heard Sharāhīl bin Yazīd saying ‘Muslim bin Yasār informed me that he heard Abā Hurayrah saying, the Messenger of Allah, peace and blessings of Allah upon him, said:",
+            "english_text": "‘There will be in the end of time charlatan liars coming to you with narrations that you nor your fathers heard, so beware of them lest they misguide you and cause you tribulations’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 16,
+            "hadithNum_inBook": 16,
+            "title": "Sahih Muslim Introduction 17",
+            "narrator": "Abū Sa’īd al-Ashajj narrated to me, Wakī’ narrated to us, al-A’mash narrated to us, on authority of al-Musayyab bin Rāfi’, on authority of Āmir bin Abdah, he said, Abd Allah [bin Mas’ūd] said:",
+            "english_text": "‘Indeed Satan will appear in the form of a man and he will come to the people, narrating to them false Ḥadīth, and they will then depart. Then a man among them will say: ‘I heard a man whose face I recognize but I do not know his name narrating [such and such]…’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 17,
+            "hadithNum_inBook": 17,
+            "title": "Sahih Muslim Introduction 18",
+            "narrator": "Muhammad bin Rāfi’ narrated to me, Abd ur-Razzāq narrated to us, Ma’mar informed us, on authority of Ibn Tāwus, on authority of his father, on authority Abd Allah bin Amr bin al-Ās, he said:",
+            "english_text": "‘Indeed in the sea are devils chained up, whom Sulaymān shackled and they are at the point of emerging. Then they will recite a Qur’ān upon the people.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 18,
+            "hadithNum_inBook": 18,
+            "title": "Sahih Muslim Introduction 19",
+            "narrator": "Muhammad bin Abbād and Sa’īd bin Amr al-Ash’athī narrated to me on authority of Ibn Uyaynah; Sa’īd said Sufyān informed us on authority of Hishām bin Hujayr, on authority of Tāwus, he said (Bushayr bin Ka’b) came to Ibn Abbās so he set about narrating to him. Ibn Abbās said to him:",
+            "english_text": "‘Go back to such-and-such narration‘. Then [Bushayr] returned to it and narrated it. So [Ibn Abbās] said to him: ‘Go back to such-and-such narration’. Then [Bushayr] returned to it and narrated it. Thus [Bushayr] said to him: ‘I do not know whether you know all of my Ḥadīth and you reject this one and that, or if you reject all of my Ḥadīth and know this one and that?’ Ibn Abbās said to him: ‘Indeed we would be narrated to on authority of the Messenger of Allah, peace and blessings of Allah upon him, at a time when one would not lie upon him, however when the people took the difficult [Munkar] and the docile [Sahīh], we abandoned listening to Ḥadīth from them’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 19,
+            "hadithNum_inBook": 19,
+            "title": "Sahih Muslim Introduction 20",
+            "narrator": "Muhammad bin Rāfi’ narrated to me, Abd ur-Razzāq narrated to us, Ma’mar informed us, on authority of Ibn Tāwus, on authority of his father, on authority of Ibn Abbās, he said:",
+            "english_text": "‘Indeed we would take Ḥadīth and they would be taken on authority of the Messenger of Allah, peace and blessings of Allah upon him. However if you take every difficult and docile [narration] then how far that is [from being upright]!",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 20,
+            "hadithNum_inBook": 20,
+            "title": "Sahih Muslim Introduction 21",
+            "narrator": "Abū Ayyūb Sulaymān bin Ubayd Allah al-Ghaylānī narrated to us, Abū Āmir, meaning al-Aqadī, narrated to us, Rabāh narrated to us, on authority of Qays bin Sa’d, on authority of Mujāhid, he said Bushayr ul-Adawī came to Ibn Abbās then he set about narrating to him, saying:",
+            "english_text": "‘The Messenger of Allah, peace and blessings of Allah upon him, said…’, ‘the Messenger of Allah, peace and blessings of Allah upon him, said…’. Then it seemed that Ibn Abbās was not listening to his Ḥadīth and not reflecting on them, so [Bushayr] said: ‘Oh Ibn Abbās, why is it that I see you not listening to my Ḥadīth? I narrate to you on authority of the Messenger of Allah, peace and blessings of Allah upon him, however you are not listening’. Ibn Abbās said: ‘Indeed once upon a time we would listen to a man saying, ‘the Messenger of Allah, peace and blessings of Allah upon him, said…’ rushing towards him with our eyes and harkening towards him with our ears; then when the people took the difficult and the docile we no longer took from people except those whom we knew’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 21,
+            "hadithNum_inBook": 21,
+            "title": "Sahih Muslim Introduction 22",
+            "narrator": "Dāwud bin Amr aḍ-Ḍabbī narrated to us, Nāfi’ bin Umar narrated to us, on authority of Ibn Abī Mulaykah, he said:",
+            "english_text": "‘I wrote to Ibn Abbās asking him to write something [pertaining to knowledge] for me and he withheld from me quite a bit, and said: ‘As [if he were] a sincere child, I will write for him something especially suited to his status withholding from him what would not benefit him’. [Ibn Abī Mulaykah] said: ‘So [Ibn Abbās] called for the judgment of Alī [bin Abī Tālib which was a book with which Alī would pass verdicts in Kuffah], and he began to write from it [with respect to the request of Ibn Abī Mulaykah] and he came upon something [not appropriate to the station of Alī regarding the science of verdicts]. So [Ibn Abbās] said: ‘By Allah, Alī did not give judgment according to this unless he was astray’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 22,
+            "hadithNum_inBook": 22,
+            "title": "Sahih Muslim Introduction 23",
+            "narrator": "Amr an-Nāqid narrated to us, Sufyān bin Uyaynah narrated to us, on authority of Hishām bin Hujayr, on authority of Tāwus, he said:",
+            "english_text": "‘A book was brought to Ibn Abbās which contained the verdicts of Alī, may Allah be pleased with him, and he effaced but a small amount,’ and Sufyān bin Uyaynah indicated with his arm [the amount].",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 23,
+            "hadithNum_inBook": 23,
+            "title": "Sahih Muslim Introduction 24",
+            "narrator": "Hasan bin Alī al-Hulwānī narrated to us, Yahyā bin Ādam narrated to us, Ibn Idrīs narrated to us, on authority of al-A’mash, on authority of Abī Ishāq who said:",
+            "english_text": "‘When they narrated these things after Alī, may Allah be pleased with him, a man from the companions of Alī said: ‘May Allah curse them. Did they corrupt every [type of] knowledge!?’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 24,
+            "hadithNum_inBook": 24,
+            "title": "Sahih Muslim Introduction 25",
+            "narrator": "Alī bin Khashram narrated to us, Abū Bakr, meaning Ibn Ayyāsh, informed us, he said ‘I heard al-Mughīrah saying:",
+            "english_text": "‘There are no Ḥadīth on authority of Alī, may Allah be pleased with him, that are confirmed except from the companions of Abd Allah bin Mas’ūd.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 25,
+            "hadithNum_inBook": 25,
+            "title": "Sahih Muslim Introduction 26",
+            "narrator": "Hasan bin ur-Rabī’ narrated to us, Hammād bin Zayd narrated to us, on authority of Ayyūb and Hishām [bin Hassān], on authority of Muhammad [bin Sīrīn] ; and Fuḍayl [bin Īyāḍ] narrated to us on authority of Hishām [bin Hassān]; he said Mukhlad bin Husayn narrated to us, on authority of Hishām [bin Hassān], on authority of Muhammad bin Sīrīn , that he said:",
+            "english_text": "‘Indeed this knowledge is faith, so carefully consider from whom you take your faith’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 26,
+            "hadithNum_inBook": 26,
+            "title": "Sahih Muslim Introduction 27",
+            "narrator": "Abū Ja’far Muhammad bin us-Sabbāh narrated to us, Ismā’īl bin Zakariyyā’ narrated to us, on authority of Āsim il-Ahwal, on authority of Ibn Sīrīn that he said:",
+            "english_text": "‘They would not ask about the chains of narration, and when the Fitnah occurred, they said: ‘Name for us your men’. So Ahl us-Sunnah would be regarded, and their Ḥadīth were then taken, and Ahl ul-Bi’dah would be regarded, and their Ḥadīth were not taken’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 27,
+            "hadithNum_inBook": 27,
+            "title": "Sahih Muslim Introduction 28",
+            "narrator": "Ishāq bin Ibrāhīm al-Hanthalī narrated to us, Īsā, and he is Ibn Yūnus, informed us, al-Awzā’ī narrated to us, on authority of Sulyamān bin Mūsā, he said:",
+            "english_text": "‘I came across Tāwus and said: ‘So-and-so narrated to me such-and-such’. Then he said: ‘If your companion is trustworthy, then take from him.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 28,
+            "hadithNum_inBook": 28,
+            "title": "Sahih Muslim Introduction 29",
+            "narrator": "Abd Allah bin Abd ir-Rahman ad-Dārimī narrated to us, Marwān, meaning Ibn Muhammad ad-Dimashqī informed us, Sa’īd bin Abd il-Azīz narrated to us, on authority of Sulaymān bin Mūsā, he said, I said to Tāwus:",
+            "english_text": "‘So-and-so narrated to me like this-and-that’. He said: ‘If your companion is trustworthy, then take from him.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 29,
+            "hadithNum_inBook": 29,
+            "title": "Sahih Muslim Introduction 30",
+            "narrator": "Nasr bin Alī al-Jahdhamī narrated to us, al-Asma’ī narrated to us, on authority of Ibn Abī-Zinād, on authority of his father, he said:",
+            "english_text": "‘I met one hundred [transmitters] in al-Madīnah, each of whom were reliable. Narrations were not taken from one about who it was said, ‘he is not from its people’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 30,
+            "hadithNum_inBook": 30,
+            "title": "Sahih Muslim Introduction 31",
+            "narrator": "Muhammad bin Abī Umar al-Makkī narrated to us, Sufyān narrated to us; and Abū Bakr bin Khallād al-Bāhilī narrated to us – and the wording is his, he said, I heard Sufyān bin Uyaynah, on authority of Mis’ar, he said, I heard Sa’d bin Ibrāhīm saying:",
+            "english_text": "‘There is to be no narrating on authority of the Messenger of Allah, may Allah send blessings and peace upon him, except by trustworthy narrators (Thiqāt)’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 31,
+            "hadithNum_inBook": 31,
+            "title": "Sahih Muslim Introduction 32",
+            "narrator": "Muhammad bin Abd Allah bin Quhzādh from the people of Marw narrated to us, he said I heard Abdān bin Uthmān saying, I heard Abd Allah bin al-Mubārak saying:",
+            "english_text": "‘The chain of narration is from the Dīn, and were it not for the chain of narration whoever wished could say what he wanted’.\n\nMuhammad bin Abd Allah said, al-Abbās bin Abī Rizmah narrated to me, he said I heard Abd Allah [bin al-Mubārak] saying: ‘Between us and the people are ‘the legs’ (meaning the chain of narration, i.e. if a Ḥadīth was like a creature)’.\n\nMuhammad said, I heard Abā Ishāq Ibrāhīm bin Īsā at-Tālqānī say, I said to Abd Allah bin al-Mubārak: ‘Oh Abā Abd ir-Rahman! How is the Ḥadīth which goes ‘Indeed from al-Birr after al-Birr is that you pray for your parents after you pray for yourself and you fast for them both after you fast for yourself’? So [Ibn al-Mubārak] said: ‘Oh Abā Ishāq! On whose authority is this?’ I said to him: ‘This is a Ḥadīth from Shihāb bin Khirāsh’. [Ibn al-Mubārak] said: ‘[He is] trustworthy. On whose authority [did he transmit]?’ I said: ‘on authority of al-Hajjāj bin Dīnār’. [Ibn al-Mubārak] said: ‘[He is] trustworthy. On whose authority [did he transmit]?’ I said: ‘He [al-Hajjāj said] the Messenger of Allah, peace and blessings of Allah upon him, said…’ [Ibn al-Mubārak] said: ‘Oh Abā Ishāq! Indeed between al-Hajjāj bin Dīnār and the Prophet, peace and blessings of Allah upon him, is a wilderness in which the necks of the mounts are severed, however, there is no difference of opinion regarding charity [offered on behalf of one’s parents]’.\n\nMuhammad said, I heard Alī bin Shaqīq saying, I heard Abd Allah bin al-Mubārak saying in front of the people: ‘Abandon the Ḥadīth of Amr bin Thābit for indeed he would curse the Salaf [i.e., the Companions, may Allah be pleased with them]’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 32,
+            "hadithNum_inBook": 32,
+            "title": "Sahih Muslim Introduction 33",
+            "narrator": "Abū Bakr ibn in-Naḍr bin Abīn-Naḍr narrated to me, he said Abūn-Naḍr Hāshim bin ul-Qāsim narrated to me, Abū Aqīl, companion of Buhayyah, narrated to us, he said:",
+            "english_text": "‘I was sitting near al-Qāsim bin Ubayd Allah and Yahyā bin Sa’īd [bin Qays al-Madanī al-Qāḍī], when Yahyā said to al-Qāsim: ‘Oh Abā Muhammad! Indeed it is gravely harmful for the likes of you to be asked about something from the affair of this Dīn, and then knowledge of it is not found with you, and no relief [in the form of an answer]’ -or- ‘…knowledge and no articulation’. So al-Qāsim said [to Yahyā bin Sa’īd]: ‘Where did that come from?’ [Yahyā] said: ‘It is because you are the son of two Imāms of guidance- a descendent of Abu Bakr and Umar.’ [al-Qāsim] said to him: ‘More harmful than that- according to whoever reflects about Allah- is to speak without knowledge or to take [Ḥadīth] from someone who is not trustworthy’. [Abū Aqīl] said: ‘So [Yahyā bin Sa’īd] was quiet and did not respond to him’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 33,
+            "hadithNum_inBook": 33,
+            "title": "Sahih Muslim Introduction 34",
+            "narrator": "Bishr bin ul-Hakam al-Abdī narrated to me, he said, I heard Sufyān bin Uyaynah saying, they informed me on authority of Abī Aqīl, companion of Buhayyah, that a descendent of Abd Allah bin Umar was asked about something that he did not have knowledge about, so Yahyā bin Sa’īd said to him:",
+            "english_text": "‘By Allah, indeed it is a grave matter that the likes of you, a descendent of two Imāms of guidance – meaning Umar and Ibn Umar – is asked about a matter and you have no knowledge of it’. So [al-Qāsim] said: ‘By Allah, more grave than that according to Allah, and to whoever reflects about Allah, is to speak without knowledge or to report on authority of one who is not trustworthy’. [Ibn Uyaynah] said that Abū Aqīl Yahyā bin al-Mutawakkil witnessed them both when they said that.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 34,
+            "hadithNum_inBook": 34,
+            "title": "Sahih Muslim Introduction 35",
+            "narrator": "Amr bin Alī Abū Hafs narrated to us, he said I heard Yahyā bin Sa’īd, he said:",
+            "english_text": "‘I asked Sufyān ath-Thawrī , Shu’bah, Mālik, and Ibn Uyaynah about a man who is not reliable (Thabt) in Ḥadīth, and someone comes and asks me about him, and they said: ‘Inform [others] against him that he is not reliable’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 35,
+            "hadithNum_inBook": 35,
+            "title": "Sahih Muslim Introduction 36",
+            "narrator": "Ubayd Allah bin Sa’īd narrated to us, he said, I heard an-Naḍr saying:",
+            "english_text": "‘Ibn Awn was asked about the Ḥadīth of Shahr and he was standing at the threshold of the door, so [Ibn Awn] said: ‘Indeed they criticized Shahr, indeed they criticized Shahr’. Muslim, may Allah have mercy on him, said ‘He means- the tongues of men were busy criticizing him’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 36,
+            "hadithNum_inBook": 36,
+            "title": "Sahih Muslim Introduction 37",
+            "narrator": "Hajjāj bin ush-Shā’ir narrated to me, Shabābah narrated to us, he said, Shu’bah said:",
+            "english_text": "‘I had met Shahr then abandoned transmitting from him’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 37,
+            "hadithNum_inBook": 37,
+            "title": "Sahih Muslim Introduction 38",
+            "narrator": "Muhammad bin Abd Allah bin Quhzādh, from the people of Marw, narrated to me, he said Alī bin Husayn bin Wāqid informed me, he said Abd Allah bin al-Mubārak said, I said to Sufyān ath-Thawrī:",
+            "english_text": "‘Indeed Abbād bin Kathīr, about whose condition you are aware, when he related [narrations] he introduced a grave matter- do you believe that it should be said to the people ‘Do not take from him?’ Sufyān said: ‘Indeed!’ Abd Allah [bin al-Mubārak] said: ‘So when I was in an assembly and Abbād was mentioned there, I praised him regarding his Dīn and said: ‘Do not take from him.’ \n\nMuhammad said, Abd Allah bin Uthmān narrated to us, he said, my father said, Abd Allah bin al-Mubārak said: ‘I ended up in an assembly of Shu’bah, and he said: ‘This is Abbād bin Kathīr so be warned against him.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 38,
+            "hadithNum_inBook": 38,
+            "title": "Sahih Muslim Introduction 39",
+            "narrator": "Al-Faḍl bin Sahl narrated to me, he said, I asked Mu’allā ar-Rāzī about Muhammad bin Sa’īd whom Abbād transmitted from, so he informed me about what Īsā bin Yūnus said:",
+            "english_text": "‘I was at his door and Sufyān was with [Muhammad bin Sa’īd], then when he came out I asked [Sufyān] about him. So he informed me that he was a liar.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 39,
+            "hadithNum_inBook": 39,
+            "title": "Sahih Muslim Introduction 40",
+            "narrator": "Muhammad bin Abī Attāb narrated to me, he said Affān narrated to me, on authority of Muhammad bin Yahyā bin Sa’īd al-Qattān, on authority of his father, he said:",
+            "english_text": "‘We do not see the righteous more false in anything than they are regarding Ḥadīth’. \n\nIbn Abī Attāb said: ‘So Muhammad bin Yahyā bin Sa’īd al-Qattān and I met and I asked him about it and he said on authority of his father: ‘You will not see the people of good (Ahl ul-Khayr) more false in anything than they are regarding Ḥadīth.’ Muslim said: ‘He was saying that falsehood flows upon their tongues although they do not intend to lie’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 40,
+            "hadithNum_inBook": 40,
+            "title": "Sahih Muslim Introduction 41",
+            "narrator": "Al-Faḍl bin Sahl narrated to me, he said Yazīd bin Hārūn narrated to us, he said Khalīfah bin Mūsā informed me, he said:",
+            "english_text": "‘I entered upon Ghālib bin Ubayd Allah so he began dictating to me ‘Mak’hūl narrated to me this’ and ‘Mak’hūl narrated to me that’. So he prepared to answer the call of nature and stood up, then I looked in his notebook and in it was ‘Abān narrated to me, on authority of Anas’ and ‘Abān on authority of so-and-so’. So I abandoned [listening to his Ḥadīth] and stood up [to leave]’.\n\nI heard al-Hasan bin Alī al-Hulwānī saying: ‘I saw in one of the books of Affān a Ḥadīth of Hishām Abīl-Miqdām meaning a Ḥadīth of Umar bin Abd il-Azīz. [In it was written] ‘Hishām said: ‘A man said to be Yahyā bin so-and-so narrated to me, on authority of Muhammad bin Ka’b…’ [Al-Hulwānī] said, I said to Affān: ‘They would say Hishām heard it [directly] from Muhammad bin Ka’b’. So [Affān] said: ‘Indeed Hishām was stricken [with accusations of lying] with regards to this Ḥadīth for he would say ‘Yahyā narrated to me on authority of Muhammad’, then he claimed afterwards that he heard it from Muhammad [directly]’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 41,
+            "hadithNum_inBook": 41,
+            "title": "Sahih Muslim Introduction 42",
+            "narrator": "Muhammad bin Abd Allah bin Quhzādh narrated to me, he said I heard Abd Allah bin Uthmān bin Jabalah saying, I said to Abd Allah bin al-Mubārak:",
+            "english_text": "‘Who is this man from whom you transmit the Ḥadīth of Abd Allah bin Amr, ‘The day of Fitr is the day of prizes…’?’ [Abd Allah] said: ‘Sulaymān bin al-Hajjāj. Look at what I placed in your hands [of praise] about him’.\n\nIbn Quhzādh said I heard Wahb bin Zam’ah mentioning about Sufyān bin Abd il-Mālik, he said, Abd Allah –meaning Ibn al-Mubārak- said: ‘I saw Rawh bin Ghutayf, the companion of blood the amount of a Dirham , and I took a seat in one of his audiences. Then I began to become ashamed for my companions to see me sitting with him while his Ḥadīth are disapproved of.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 42,
+            "hadithNum_inBook": 42,
+            "title": "Sahih Muslim Introduction 43",
+            "narrator": "Ibn Quhzādh narrated to me, he said, I heard Wahb [bin Zam’ah] saying, on authority of Sufyān [bin Abd il-Mālik], on authority of Ibn al-Mubārak, he said:",
+            "english_text": "‘Baqiyyah [bin al-Walīd] is truthful of tongue however he transmits [Ḥadīth] from those who approach [the Muhaddithīn, i.e. are trustworthy] and from those who turn their backs on [the Muhaddithīn, i.e. and are weak]’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 43,
+            "hadithNum_inBook": 43,
+            "title": "Sahih Muslim Introduction 44",
+            "narrator": "Qutaybah bin Sa’īd narrated to us, Jarīr narrated to us, on authority of Mughīrah, on authority of ash-Sha’bī, he said:",
+            "english_text": "‘al-Hārith al-A’war ul-Hamdānī narrated to me, and he is a liar’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 44,
+            "hadithNum_inBook": 44,
+            "title": "Sahih Muslim Introduction 45",
+            "narrator": "Abū Āmir Abd Allah bin Barrād al-Ash’arī narrated to us, Abū Usāmah narrated to us, on authority of Mufaḍḍal, on authority of Mughīrah, he said I heard ash-Sha’bī saying:",
+            "english_text": "‘al-Hārith al-A’war narrated to me,’ and he [ash-Sha’bī] was testifying that he was one of the liars’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 45,
+            "hadithNum_inBook": 45,
+            "title": "Sahih Muslim Introduction 46",
+            "narrator": "Qutaybah bin Sa’īd narrated to us, Jarīr narrated to us, on authority of Mughīrah, on authority of Ibrāhīm [bin Yazīd an-Nakhā’ī], he said, Alqamah said:",
+            "english_text": "‘I memorized the Qur’ān in two years’. Al-Hārith said: ‘The Qur’ān is easy; the revelation [i.e. the secret revelation to Alī in the belief of the Shī’ah] is more difficult ’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 46,
+            "hadithNum_inBook": 46,
+            "title": "Sahih Muslim Introduction 47",
+            "narrator": "Hajjāj bin ash-Shā’ir narrated to me, Ahmad- meaning Ibn Yūnus- narrated to us, Zā’idah narrated to us, on authority of al-A’mash, on authority of Ibrāhīm that al-Hārith said:",
+            "english_text": "‘I studied the Qur’ān for three years and the revelation for two years’; or he said: ‘…the revelation in three years and the Qur’ān in two years ’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 47,
+            "hadithNum_inBook": 47,
+            "title": "Sahih Muslim Introduction 48",
+            "narrator": "",
+            "english_text": "Hajjāj narrated to me, he said Ahmad- and he is Ibn Yūnus- narrated to me, Zā’idah narrated to us, on authority of Mansūr and al-Mughīrah, on authority of Ibrāhīm that al-Hārith was imputed.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 48,
+            "hadithNum_inBook": 48,
+            "title": "Sahih Muslim Introduction 49",
+            "narrator": "Qutaybah bin Sa’īd narrated to us, Jarīr narrated to us, on authority of Hamzah az-Zayyāt, he said:",
+            "english_text": "‘Murrah al-Hamdānī heard something from al-Hārith and said to him: ‘sit by the door’. [Hamzah] said: ‘So Murrah went inside and took his sword and al-Hārith sensed evil and left’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 49,
+            "hadithNum_inBook": 49,
+            "title": "Sahih Muslim Introduction 50",
+            "narrator": "Ubayd Allah bin Sa’īd narrated to me, Abd ur-Rahman- meaning Ibn Mahdī- narrated to us, Hammād bin Zayd narrated to us, on authority of Ibn Awn, he said, Ibrāhīm said to us:",
+            "english_text": "‘Beware of al-Mughīrah bin Sa’īd and Abū Abd ar-Rahīm for they are both liars’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 50,
+            "hadithNum_inBook": 50,
+            "title": "Sahih Muslim Introduction 51",
+            "narrator": "Abū Kāmil al-Jahdarī narrated to us, Hammād- and he is Ibn Zayd- narrated to us, he said Āsim [bin Bahdalah] narrated to us, he said:",
+            "english_text": "‘We would catch up with Abū Abd ar-Rahman as-Sulamī and at the time we were young men, so he would say to us: ‘Do not sit with story-tellers other than Abūl-Ahwas and beware of Shaqīq [Abū Abd ar-Rahīm]’. [Muslim] said: ‘This Shaqīq held the view of the Khawārij and is not Abū Wā’il [Shaqīq bin Salamah, the righteous Tabi’ī]’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 51,
+            "hadithNum_inBook": 51,
+            "title": "Sahih Muslim Introduction 52",
+            "narrator": "Abū Ghassān Muhammad bin Amr ar-Rāzī narrated to us, he said, I heard Jarīr [bin Abd al-Hamīd bin Qurt aḍ-Ḍabbī] saying:",
+            "english_text": "‘I met Jābir bin Yazīd al-Ju’fī and did not write [Ḥadīth] from him; he believed in ar-Raj’ah’ [A Rāfiḍī belief regarding Alī returning].",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 52,
+            "hadithNum_inBook": 52,
+            "title": "Sahih Muslim Introduction 53",
+            "narrator": "Al-Hasan al-Hulwānī narrated to us, Yahyā bin Ādam narrated to us, Mis’ar narrated to us, he said:",
+            "english_text": "‘Jābir bin Yazīd narrated to us before there took place what happened [i.e. before his false beliefs] ’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 53,
+            "hadithNum_inBook": 53,
+            "title": "Sahih Muslim Introduction 54",
+            "narrator": "Salamah bin Shabīb narrated to me, al-Humaydī narrated to us, Sufyān narrated to us, he said:",
+            "english_text": "‘The people would transmit from Jābir before there appeared what appeared, then when there appeared what appeared, the people imputed him in his Ḥadīth and some of the people abandoned him’. So it was said to [Sufyān]: ‘What appeared?’ [Sufyān] said: ‘Belief in ar-Raj’ah’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 54,
+            "hadithNum_inBook": 54,
+            "title": "Sahih Muslim Introduction 55",
+            "narrator": "Hasan al-Hulwānī narrated to us, Abū Yahyā al-Himmānī narrated to us, Qabīsah and his brother [Sufyān bin Uqbah] narrated to us, that they heard al-Jarrāh bin Malīh saying, I heard Jābir say:",
+            "english_text": "‘I have 70,000 Ḥadīth all of which are on authority of Abū Ja’far on authority of the Prophet, peace and blessings upon him’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 55,
+            "hadithNum_inBook": 55,
+            "title": "Sahih Muslim Introduction 56",
+            "narrator": "Hajjāj bin ash-Shā’ir narrated to me, Ahmad bin Yūnus narrated to us, he said, I heard Zuhayr saying, Jābir said, or, I heard Jābir saying:",
+            "english_text": "‘Indeed I have fifty thousand Ḥadīth that I have not narrated from at all’. [Zuhayr] said: ‘Then that day he related a Ḥadīth and said, ‘This is from the fifty thousand’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 56,
+            "hadithNum_inBook": 56,
+            "title": "Sahih Muslim Introduction 57",
+            "narrator": "Ibrāhīm bin Khālid al-Yashkurī narrated to me, he said, I heard Abūl-Walīd saying, I heard Sallām bin Abī Mutī’ saying, I heard Jābir al-Ju’fī saying:",
+            "english_text": "‘I have fifty thousand Ḥadīth on authority of the Prophet, peace and blessings upon him’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 57,
+            "hadithNum_inBook": 57,
+            "title": "Sahih Muslim Introduction 58",
+            "narrator": "Salamah bin Shabīb narrated to me, al-Humaydī narrated to us, Sufyān narrated to us, he said, I heard a man ask Jābir about the verse:",
+            "english_text": "{Thus I will never depart from the land until my father permits me or Allah decides for me, and He is the best of Judges}[Yūsuf: 80]. Jābir said: ‘An interpretation has not come to me about these [verses]’. Sufyān said: ‘He lied’. We said to Sufyān: ‘What did he mean by this?’ [Sufyān] said: ‘Indeed the Rāfiḍah say, ‘Alī is in the clouds and we will not emerge along with he who will emerge from his children [the Khalīfah] until a caller calls from the heaven, meaning Alī: ‘Ride out along with so-and-so [meaning the promised Mahdī]’. Jābir said, ‘that is an interpretation for these verses’, and he would lie as they were regarding the brothers of Yūsuf, peace be upon him’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 58,
+            "hadithNum_inBook": 58,
+            "title": "Sahih Muslim Introduction 59",
+            "narrator": "Salamah narrated to me, al-Humaydī narrated to us, Sufyān narrated to us, he said:",
+            "english_text": "‘I heard Jābir talking about something like 30,000 Ḥadīth [that] I did not regard as permissible to mention anything from, and that to me was like this and that [Ḥadīth].’\n\nMuslim said, I heard Abū Ghassān Muhammad bin Amr ar-Rāzī say, ‘I asked Jarīr bin Abd il-Hamīd: ‘Did you meet al-Hārith bin Hasīrah? He said: ‘Yes, [he is a] Shaykh of lengthy silence; he persisted in a grave matter.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 59,
+            "hadithNum_inBook": 59,
+            "title": "Sahih Muslim Introduction 60",
+            "narrator": "Ahmad bin Ibrāhīm ad-Dawraqī narrated to me, he said Abd ur-Rahman bin Mahdī narrated to me, on authority Hammād bin Zayd, he said, Ayyūb mentioned a man one day and said [about him]:",
+            "english_text": "‘He is not upright in speech [i.e. he lies]’, and he mentioned another [person] and said: ‘He adds to records [i.e. he lies]’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 60,
+            "hadithNum_inBook": 60,
+            "title": "Sahih Muslim Introduction 61",
+            "narrator": "Hajjāj bin ash-Shā’ir narrated to me, Sulaymān bin Harb narrated to us, Hammād bin Zayd narrated to us, he said, Ayyūb said:",
+            "english_text": "‘Indeed I have a neighbor’ and he mentioned some of his virtues, [and continued] ‘…even if he testified to me about two dates I would not see his testimony as permissible’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 61,
+            "hadithNum_inBook": 61,
+            "title": "Sahih Muslim Introduction 62",
+            "narrator": "Muhammad bin Rāfi’ and Hajjāj bin ash-Shā’ir narrated to me, they said Abd ur-Razzāq narrated to us, he said Ma’mar said:",
+            "english_text": "‘I did not see Ayyūb speaking ill of anyone, ever, except for Abd al-Karīm- meaning Abū Umayyah’. So he mentioned him and said, may Allah have mercy on him ‘He is not trustworthy- he had asked me about a Ḥadīth of Ikrimah then said ‘I heard from Ikrimah’ [when relating the Ḥadīth].’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 62,
+            "hadithNum_inBook": 62,
+            "title": "Sahih Muslim Introduction 63",
+            "narrator": "Al-Faḍl bin Sahl narrated to me, he said Affān bin Muslim narrated to us, Hammām narrated to us, he said, Abū Dāwud al-A’mā came to us and began saying:",
+            "english_text": "‘Al-Barā’ [bin Āzib, the Companion] narrated to us’; he said: ‘Zayd bin Arqam narrated to us’- and he mentioned that [those chains] to Qatādah. [Qatādah] said ‘He lied; he did not hear from them. He would beg the people asking [about Ḥadīth] at the time of the plague’ [circa 67H].",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 63,
+            "hadithNum_inBook": 63,
+            "title": "Sahih Muslim Introduction 64",
+            "narrator": "Hasan bin Alī al-Hulwānī narrated to me, he said Yazīd bin Hārūn narrated to us, Hammām informed us, he said ‘Abū Dāwud al-A’mā entered upon Qatādah and when he stood, they said:",
+            "english_text": "‘Indeed this one alleges he has met eighteen of the warriors of the battle of Badr’. Qatādah said: ‘This one was barely asking [about Ḥadīth] before the plague; he did not attend to anything from [seeking Ḥadīth] and he did not speak [to any scholars] regarding it. By Allah, al-Hasan did not narrate to us from a witness of the battle of Badr without an intermediary; and Sa’īd bin al-Musayyib did not narrate to us from a witness of the battle of Badr without an intermediary except from Sa’d bin Mālik’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 64,
+            "hadithNum_inBook": 64,
+            "title": "Sahih Muslim Introduction 65",
+            "narrator": "",
+            "english_text": "Uthmān bin Abī Shaybah narrated to us, Jarīr narrated to us, on authority of Raqabah that ‘Abū Ja’far al-Hāshimī al-Madanī was fabricating narrations with words of truth, and they were not from the narrations of the Prophet, peace and blessings of Allah upon him, though he was transmitting them on authority of the Prophet, peace and blessings of Allah upon him.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 65,
+            "hadithNum_inBook": 65,
+            "title": "Sahih Muslim Introduction 66",
+            "narrator": "Al-Hasan al-Hulwānī narrated to us, he said Nu’aym bin Hammād narrated to us, he said Abū Ishāq Ibrāhīm bin Muhammad bin Sufyān said; and Muhammad bin Yahyā narrated to us, he said, Nu’aym bin Hammād narrated to us, Abū Dāwud at-Tayālisī narrated to us, on authority of Shu’bah, on authority of Yūnus bin Ubayd, he said:",
+            "english_text": "‘Amr bin Ubayd would lie regarding Ḥadīth’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 66,
+            "hadithNum_inBook": 66,
+            "title": "Sahih Muslim Introduction 67",
+            "narrator": "Amr bin Alī Abū Hafs narrated to me, he said I heard Mu’ādh bin Mu’ādh saying, I said to Awf bin Abī Jamīlah ‘Indeed Amr bin Ubayd narrated to us on authority of al-Hasan that the Messenger of Allah, peace and blessings of Allah upon him, said:",
+            "english_text": "‘Whoever carries arms against us then he is not from us’. [Awf bin Abī Jamīlah] said ‘Amr lied, by Allah. Rather he intended it as a way to permit his filthy opinion.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 67,
+            "hadithNum_inBook": 67,
+            "title": "Sahih Muslim Introduction 68",
+            "narrator": "Ubayd Allah bin Umar al-Qawārīrī narrated to us, Hammād bin Zayd narrated to us, he said:",
+            "english_text": "‘A man kept company with Ayyūb and listened [to Ḥadīth] from him, but then Ayyūb did not find him [one day]. [When Ayyūb asked, the people] said: ‘Oh Abā Bakr, indeed he keeps company with Amr bin Ubayd [now]’. Hammād said: ‘One day we were with Ayyūb, and we went to the market early in the morning. A man came to meet Ayyūb so he gave Salām to him, asked how he was doing, and then Ayyūb said to him: ‘It reached me that you kept company with that man’. Hammād said: ‘[Ayyūb] designated him, that is to say ‘Amr’.’ [The man] said: ‘Yes, Oh Abā Bakr. Indeed he came to us with strange things [i.e. reports]’. Ayyūb said to him: ‘Indeed we flee…’ or ‘…we fear from these strange things [transmissions]’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 68,
+            "hadithNum_inBook": 68,
+            "title": "Sahih Muslim Introduction 69",
+            "narrator": "Hajjāj bin ash-Shā’ir narrated to me, Sulaymān bin Harb narrated to us, Ibn Zayd, rather Hammād, narrated to us, he said, it was said to Ayyūb, ‘Indeed Amr bin Ubayd transmitted on authority of al-Hasan that he said:",
+            "english_text": "‘There is no flogging the one who gets drunk from Nabīdh’.’ [Ayyūb] said: ‘He lied, for I heard al-Hasan saying, ‘Flog the one who gets drunk from Nabīdh’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 69,
+            "hadithNum_inBook": 69,
+            "title": "Sahih Muslim Introduction 70",
+            "narrator": "Hajjāj narrated to me, Sulaymān bin Harb narrated to us, he said, I heard Sallām bin Abī Mutī’ saying, it reached Ayyūb that I would go to Amr so he turned to me and said:",
+            "english_text": "‘Have you seen a man whose Dīn you do not trust- how do you trust him regarding Ḥadīth?’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 70,
+            "hadithNum_inBook": 70,
+            "title": "Sahih Muslim Introduction 71",
+            "narrator": "Salamah bin Shabīb narrated to me, al-Humaydī narrated to us, Sufyān narrated to us, he said I heard Abū Mūsā [Isrā’īl bin Mūsā al-Basrī] saying:",
+            "english_text": "‘Amr bin Ubayd narrated to us before what happened’ [i.e. before he became Mu’tazilī].",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 71,
+            "hadithNum_inBook": 71,
+            "title": "Sahih Muslim Introduction 72",
+            "narrator": "Ubayd Allah bin Mu’ādh al-Anbarī narrated to me, my father narrated to us, he said:",
+            "english_text": "‘I wrote to Shu’bah asking him about Abū Shaybah , a judge of Wāsit, so he wrote to me: ‘Do not write anything from him [of Ḥadīth] and tear up my letter [to you about this]’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 72,
+            "hadithNum_inBook": 72,
+            "title": "Sahih Muslim Introduction 73",
+            "narrator": "Al-Hulwānī narrated to us, he said, I heard Affān [bin Muslim] say:",
+            "english_text": "‘I narrated to Hammād bin Salamah [bin Dīnār al-Basrī], on authority of Sālih al-Murrī , a Ḥadīth on authority of Thābit [bin Aslam al-Banānī], then [Hammād] said: ‘[Sālih] lied’. I also narrated to Hammām on authority of Sālih al-Murrī a Ḥadīth then [Hammām] said: ‘[Sālih] lied’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 73,
+            "hadithNum_inBook": 73,
+            "title": "Sahih Muslim Introduction 74",
+            "narrator": "Mahmūd bin Ghaylān narrated to us, Abū Dāwud narrated to us, he said, Shu’bah said to me:",
+            "english_text": "‘Go to Jarīr bin Hāzim and say to him, ‘It is not allowed for you to transmit from al-Hasan bin Umārah for indeed he lies’.’ Abū Dāwud said, I said to Shu’bah: ‘And how do you know that?’ So [Shu’bah] said: ‘He narrated to us on authority of al-Hakam things that were not found to have any basis’. [Abū Dāwud] said: ‘What things?’ [Shu’bah] said, I said to al-Hakam: ‘Did the Prophet, peace and blessings of Allah upon him, pray over the martyrs of Uhud?’ [al-Hakam] said: ‘He did not pray over them’. Al-Hasan bin Umārah said, on authority of al-Hakam, on authority of Miqsam, on authority of Ibn Abbās: ‘Indeed the Prophet, peace and blessings of Allah upon him, prayed over them and buried them ’. I [Shu’bah] said to al-Hakam: ‘What do you say about the children born from fornication?’ [Al-Hakam] said: ‘Pray over them ’. I [Shu’bah] said: ‘From whose Ḥadīth is it transmitted?’ [Al-Hakam] said: ‘It is transmitted on authority of al-Hasan al-Basrī’.’ Al-Hasan bin Umārah said: ‘Al-Hakam narrated to us, on authority of Yahyā bin al-Jazzār, on authority of Alī.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 74,
+            "hadithNum_inBook": 74,
+            "title": "Sahih Muslim Introduction 75",
+            "narrator": "Al-Hasan al-Hulwānī narrated to us, he said, I heard Yazīd bin Hārūn mention Ziyād bin Maymūn, and he said:",
+            "english_text": "‘I swore that I would not transmit anything from him or Khālid bin Mahdūj’. [Yazīd] said: ‘I met Ziyād bin Maymūn and asked him about a Ḥadīth, so he narrated it to me on authority of Bakr al-Muzanī, then I returned to him and he narrated [the same Ḥadīth] to me on authority of Muwarriq; then I returned to him and he narrated it to me on authority of al-Hasan.’ [Al-Hulwānī said]: ‘He [Yazīd] would charge both of them with lying [i.e. Ziyād bin Maymūn and Khālid bin Mahdūj].’\nAl-Hulwānī said: ‘I heard [Ḥadīth] from Abd as-Samad and I mentioned Ziyād bin Maymūn near him and he charged him with lying’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 75,
+            "hadithNum_inBook": 75,
+            "title": "Sahih Muslim Introduction 76",
+            "narrator": "Mahmūd bin Ghaylān narrated to us, he said, I said to Abū Dāwud at-Tayālisī:",
+            "english_text": "‘You transmit a great deal on authority of Abbād bin Mansūr - so how is it that you did not hear the Ḥadīth of ‘the lady perfume seller’ from him which an-Naḍr bin Shumayl transmitted to us?’ [Abū Dāwud] said to me: ‘Be quiet, for Abd ar-Rahma bin Mahdī and I met Ziyād bin Maymūn and asked him, saying to him, ‘Are these Ḥadīth you transmit on authority of Anas?’ [Ziyād] said: ‘Have you seen a man sin and then repent- does Allah not turn to him?’ [Abū Dāwud] said: ‘We said, ‘Yes’.’ [Ziyād] said: ‘I did not hear from Anas whether a little or a lot; if the people did not know, then you two would not know that I did not meet Anas’. Abū Dāwud said: ‘So it reached us afterwards that he was transmitting [from Anas], then Abd ar-Rahman and I went to him and he said: ‘I repented’. Then afterwards he was narrating [again in the same fashion] so we abandoned him ’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 76,
+            "hadithNum_inBook": 76,
+            "title": "Sahih Muslim Introduction 77",
+            "narrator": "Hasan al-Hulwānī narrated to us, he said, I heard Shabābah say:",
+            "english_text": "‘Abd ul-Quddūs was narrating to us saying,‘Suwayd bin Aqalah said…’ [when it should be ‘bin Ghafalah’] Shabābah said: ‘And I heard Abd ul-Quddūs saying, ‘The Messenger of Allah, peace and blessings of Allah upon him, prohibited taking a Rawḥ by accident’. [Shabābah] said: ‘So it was said to him, ‘What does this mean?’ [Abd ul-Quddūs] said: ‘It means to make an opening in a wall [thus letting] a breeze enter [by accident]’.’ [He changed the original Ḥadīth, switching ‘Rūḥ’ meaning ‘soul’ to ‘Rawḥ’ or ‘breeze’, and he switched ‘Gharaḍān’ meaning ‘as a target’ to ‘Arḍān’ or ‘accidentally’. All simply by changing a few letters in the words]\n\nMuslim said, I heard Ubayd Allah bin Umar al-Qawārīrī saying, I heard Hammād bin Zayd saying to a man after he sat with Mahdī bin Hilāl for days: ‘What is this salty well [i.e. useless or harmful] which has sprung up in your direction?’ He said: ‘Yes, oh Abā Ismā’īl [in agreement]’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 77,
+            "hadithNum_inBook": 77,
+            "title": "Sahih Muslim Introduction 78",
+            "narrator": "Al-Hasan al-Hulwānī narrated to us, he said, I heard Affān say, I heard Abū Awānah say:",
+            "english_text": "‘A Ḥadīth did not reach me on authority of al-Hasan except I presented it to Abān bin Abī Ayyāsh , then he read it to me ’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 78,
+            "hadithNum_inBook": 78,
+            "title": "Sahih Muslim Introduction 79",
+            "narrator": "Suwayd bin Sa’īd narrated to us, Alī bin Mus’hir narrated to us, he said:",
+            "english_text": "‘Hamzah az-Zayyāt and I heard from Abān bin Abī Ayyāsh something like one thousand Ḥadīth’. Alī said: ‘So I met Hamzah then he informed me that he saw the Prophet, peace and blessings of Allah upon him, [in a dream], and he produced for him what he heard from Abān. However he [the Prophet] didn’t recognize any except a small amount [like] five or six [Ḥadīth]’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 79,
+            "hadithNum_inBook": 79,
+            "title": "Sahih Muslim Introduction 80",
+            "narrator": "Abd Allah bin Abd ar-Rahman ad-Dārimī narrated to us, Zakariyyā’ bin Adī informed us, he said, Abū Ishāq al-Fazarī said to me:",
+            "english_text": "‘Write from Baqiyyah what he transmits on authority of those who are well-known, and do not write from him what he transmits on authority of those who are not; do not write from Ismā’īl bin Ayyāsh what he transmits on authority of those who are well-known or otherwise ’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 80,
+            "hadithNum_inBook": 80,
+            "title": "Sahih Muslim Introduction 81",
+            "narrator": "Ishāq bin Ibrāhīm al-Hanthalī [bin Rāhwayh] narrated to us, he said, I heard one of the companions of Abd Allah [bin al-Mubārak] say, Ibn al-Mubārak said:",
+            "english_text": "‘What an excellent man is Baqiyyah, if it were not for the fact that he would provide a nickname for [those who were better-known by] the birth name, and he would provide the birth name for [those who were better-known by] a nickname. For a long time he would narrated to us on authority of Abī Sa’īd al-Wuhāthī, then when we investigated [we were surprised that] he was Abd ul-Quddūs ’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 81,
+            "hadithNum_inBook": 81,
+            "title": "Sahih Muslim Introduction 82",
+            "narrator": "Ahmad bin Yūsuf al-Azdī narrated to me, he said, I heard Abd ar-Razzāq saying:",
+            "english_text": "‘I did not see Ibn al-Mubārak express so plainly the charge of ‘lying’ except towards Abd ul-Quddūs; for indeed I heard him saying to him ‘[You are] a liar’.’",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 82,
+            "hadithNum_inBook": 82,
+            "title": "Sahih Muslim Introduction 83",
+            "narrator": "Abd Allah bin Abd ar-Rahman ad-Dārimī narrated to me, he said:",
+            "english_text": "‘I heard Abū Nu’aym and he mentioned al-Mu’allā bin Urfān, so [Abū Nu’aym] said, [al-Mu’allā] said: ‘Abū Wā’il narrated to us, he said ‘Ibn Mas’ūd attacked us on the day of Siffīn’. So Abū Nu’aym said: ‘Do you think he was raised after death? [Ibn Mas’ūd passed away in 32 or 33H, several years before the day in question]",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 83,
+            "hadithNum_inBook": 83,
+            "title": "Sahih Muslim Introduction 84",
+            "narrator": "Amr bin Alī and Hasan al-Hulwānī narrated to me, both of them on authority of Affān bin Muslim, he said:",
+            "english_text": "‘We were near Ismā’īl bin Ulayyah, and a man narrated on authority of another man, so I said: ‘Indeed this is not reliable (Thabt)’. So the man said: ‘Are you backbiting him?’ Ismā’īl said: ‘He is not backbiting him; rather he is judging him unreliable’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 84,
+            "hadithNum_inBook": 84,
+            "title": "Sahih Muslim Introduction 85",
+            "narrator": "Abū Ja’far ad-Dārimī narrated to us, Bishr bin Umar narrated to us, he said:",
+            "english_text": "‘I asked Mālik bin Anas about Muhammad bin Abd ar-Rahman who transmits on authority of Sa’īd bin al-Musayyib, so he said: ‘He is not trustworthy ‘. I asked him about Sālih, a freed slave of at-Taw’amah, then he said: ‘He is not trustworthy’. I asked him about Abūl-Huwayrith , and he said: ‘He is not trustworthy’. I asked him about Shu’bah on whose authority Ibn Abī Dhi’b transmitted, and he said: ‘He is not trustworthy’. I asked him about Harām bin Uthmān , and he said ‘He is not trustworthy’. I asked Mālik about these five and he said: ‘They are not trustworthy in terms of their Ḥadīth’. I asked him about another man whose name I forget just now, and he said: ‘Did you see him in my book?’ I said: ‘No’. [Then] he said: ‘If he was trustworthy you would see him in my book’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 85,
+            "hadithNum_inBook": 85,
+            "title": "Sahih Muslim Introduction 86",
+            "narrator": "Al-Faḍl bin Sahl narrated to me, he said:",
+            "english_text": "‘Yahyā bin Ma’īn narrated to me, Hajjāj narrated to us, Ibn Abī Dhi’b narrated to us on authority of Shurahbīl bin Sa’d , and he was imputed [with lying regarding Ḥadīth near the end of his life]’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 86,
+            "hadithNum_inBook": 86,
+            "title": "Sahih Muslim Introduction 87",
+            "narrator": "Muhammad bin Abd Allah bin Quhzādh narrated to me, he said, I heard Abū Ishāq at-Tālqānī saying, I heard Ibn al-Mubārak saying:",
+            "english_text": "‘If I had to choose between entering Paradise and meeting Abd Allah bin Muharrar, I would have chosen to meet him, then enter Paradise. Then when I saw him, dung was more preferred to me than him’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 87,
+            "hadithNum_inBook": 87,
+            "title": "Sahih Muslim Introduction 88",
+            "narrator": "Al-Faḍl bin Sahl narrated to me, Walīd bin Sālih narrated to us, he said, Ubayd Allah bin Amr said, Zayd- meaning Ibn Abī Unaysah – said:",
+            "english_text": "‘Do not take [Ḥadīth] from my brother ’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 88,
+            "hadithNum_inBook": 88,
+            "title": "Sahih Muslim Introduction 89",
+            "narrator": "Ahmad bin Ibrāhīm ad-Dawraqī narrated to me, he said, Abd us-Salām al-Wābisī narrated to me, he said, Abd Allah bin Ja’far ar-Raqqī narrated to me, on authority of Ubayd Allah bin Amr, he said:",
+            "english_text": "‘Yahyā bin Abī Unaysah was a liar’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 89,
+            "hadithNum_inBook": 89,
+            "title": "Sahih Muslim Introduction 90",
+            "narrator": "Ahmad bin Ibrāhīm narrated to me, he said, Sulaymān bin Harb narrated to me, on authority of Hammād bin Zayd, he said, Farqad was mentioned near Ayyūb, so he said:",
+            "english_text": "‘Indeed Farqad is not a companion of Ḥadīth’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 90,
+            "hadithNum_inBook": 90,
+            "title": "Sahih Muslim Introduction 91",
+            "narrator": "Abd ur-Rahman bin Bishr al-Abdī narrated to me, he said, I heard Muhammad bin Abd Allah bin Ubayd bin Umayr al-Laythī was mentioned near Yahyā bin Sa’īd al-Qattān, so he weakened him severely. Then it was said to Yahyā:",
+            "english_text": "‘More weak than Ya’qūb bin Atā ’?’ He said: ‘Yes’. Then he said: ‘I did not see anyone transmitting on authority of Muhammad bin Abd Allah bin Ubayd bin Umayr’.",
+            "grade": "none"
+        },
+        {
+            "hadithNum_inChapter": 91,
+            "hadithNum_inBook": 91,
+            "title": "Sahih Muslim Introduction 92",
+            "narrator": "Bishr bin al-Hakam narrated to me, he said, I heard Yahyā bin Sa’īd al-Qattān weaken Hakīm bin Jubayr and Abd al-A’lā; and he weakened Yahyā Mūsā bin Dīnār [there is no ‘bin’ between ‘Yahyā’ and ‘Mūsā’]; [Yahyā] said:",
+            "english_text": "‘His Ḥadīth are Rīh or ‘wind’ [i.e., not established and weak]. [Yahyā] weakened Mūsā bin Dihqān and Īsā bin Abī Īsā al-Madanī. [Muslim] said, ‘I heard al-Hasan bin Īsā saying ‘Ibn al-Mubārak said to me: ‘When you go to Jarīr then write down all of his knowledge except the Ḥadīth of 3 [people] - do not write the Ḥadīth of Ubaydah bin Mu’attib, as-Sarī bin Ismā’īl, or Muhammad bin Sālim’.’",
+            "grade": "none"
+        }
+    ]
+}

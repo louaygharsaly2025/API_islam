@@ -1,0 +1,688 @@
+{
+  "book_name_english": "bukhari",
+  "book_name_arabic": "صحيح البخاري",
+  "book_short_desc": "Ṣaḥīḥ al-Bukhārī is a collection of hadīth compiled by Abu Abdullāh Muhammad Ibn Ismā`īl al-Bukhārī(rahimahullāh). His collection is recognized by the overwhelming majority of the Muslim world to be one of the most authentic collections of the Sunnah of the Prophet (). It contains roughly 7563 hadīth (with repetitions) in 98 books. The translation provided here is by Dr. M. Muhsin Khan.",
+  "total_hadiths_inBook": 7277,
+  "total_chapters_inBook": 97,
+  "all_chapters_detail": [
+    {
+      "chapter_title_english": "Revelation",
+      "chapter_title_arabic": "كتاب بدء الوحى",
+      "total_hadiths_inChapter": 7,
+      "chapter_first_hadith": 1,
+      "chapter_last_hadith": 7
+    },
+    {
+      "chapter_title_english": "Belief",
+      "chapter_title_arabic": "كتاب الإيمان",
+      "total_hadiths_inChapter": 51,
+      "chapter_first_hadith": 8,
+      "chapter_last_hadith": 58
+    },
+    {
+      "chapter_title_english": "Knowledge",
+      "chapter_title_arabic": "كتاب العلم",
+      "total_hadiths_inChapter": 76,
+      "chapter_first_hadith": 59,
+      "chapter_last_hadith": 134
+    },
+    {
+      "chapter_title_english": "Ablutions (Wudu')",
+      "chapter_title_arabic": "كتاب الوضوء",
+      "total_hadiths_inChapter": 113,
+      "chapter_first_hadith": 135,
+      "chapter_last_hadith": 247
+    },
+    {
+      "chapter_title_english": "Bathing (Ghusl)",
+      "chapter_title_arabic": "كتاب الغسل",
+      "total_hadiths_inChapter": 45,
+      "chapter_first_hadith": 248,
+      "chapter_last_hadith": 292
+    },
+    {
+      "chapter_title_english": "Menstrual Periods",
+      "chapter_title_arabic": "كتاب الحيض",
+      "total_hadiths_inChapter": 37,
+      "chapter_first_hadith": 293,
+      "chapter_last_hadith": 329
+    },
+    {
+      "chapter_title_english": "Rubbing hands and feet with dust (Tayammum)",
+      "chapter_title_arabic": "كتاب التيمم",
+      "total_hadiths_inChapter": 15,
+      "chapter_first_hadith": 330,
+      "chapter_last_hadith": 344
+    },
+    {
+      "chapter_title_english": "Prayers (Salat)",
+      "chapter_title_arabic": "كتاب الصلاة",
+      "total_hadiths_inChapter": 167,
+      "chapter_first_hadith": 345,
+      "chapter_last_hadith": 511
+    },
+    {
+      "chapter_title_english": "Times of the Prayers",
+      "chapter_title_arabic": "كتاب مواقيت الصلاة",
+      "total_hadiths_inChapter": 77,
+      "chapter_first_hadith": 512,
+      "chapter_last_hadith": 588
+    },
+    {
+      "chapter_title_english": "Call to Prayers (Adhaan)",
+      "chapter_title_arabic": "كتاب الأذان",
+      "total_hadiths_inChapter": 266,
+      "chapter_first_hadith": 589,
+      "chapter_last_hadith": 854
+    },
+    {
+      "chapter_title_english": "Friday Prayer",
+      "chapter_title_arabic": "كتاب الجمعة",
+      "total_hadiths_inChapter": 65,
+      "chapter_first_hadith": 855,
+      "chapter_last_hadith": 919
+    },
+    {
+      "chapter_title_english": "Fear Prayer",
+      "chapter_title_arabic": "كتاب صلاة الخوف",
+      "total_hadiths_inChapter": 6,
+      "chapter_first_hadith": 920,
+      "chapter_last_hadith": 925
+    },
+    {
+      "chapter_title_english": "The Two Festivals (Eids)",
+      "chapter_title_arabic": "كتاب العيدين",
+      "total_hadiths_inChapter": 37,
+      "chapter_first_hadith": 926,
+      "chapter_last_hadith": 962
+    },
+    {
+      "chapter_title_english": "Witr Prayer",
+      "chapter_title_arabic": "كتاب الوتر",
+      "total_hadiths_inChapter": 15,
+      "chapter_first_hadith": 963,
+      "chapter_last_hadith": 977
+    },
+    {
+      "chapter_title_english": "Invoking Allah for Rain (Istisqaa)",
+      "chapter_title_arabic": "كتاب الاستسقاء",
+      "total_hadiths_inChapter": 34,
+      "chapter_first_hadith": 978,
+      "chapter_last_hadith": 1011
+    },
+    {
+      "chapter_title_english": "Eclipses",
+      "chapter_title_arabic": "كتاب الكسوف",
+      "total_hadiths_inChapter": 24,
+      "chapter_first_hadith": 1012,
+      "chapter_last_hadith": 1035
+    },
+    {
+      "chapter_title_english": "Prostration During Recital of Qur'an",
+      "chapter_title_arabic": "كتاب سجود القرآن",
+      "total_hadiths_inChapter": 13,
+      "chapter_first_hadith": 1036,
+      "chapter_last_hadith": 1048
+    },
+    {
+      "chapter_title_english": "Shortening the Prayers (At-Taqseer)",
+      "chapter_title_arabic": "كتاب التقصير",
+      "total_hadiths_inChapter": 39,
+      "chapter_first_hadith": 1049,
+      "chapter_last_hadith": 1087
+    },
+    {
+      "chapter_title_english": "Prayer at Night (Tahajjud)",
+      "chapter_title_arabic": "كتاب التهجد",
+      "total_hadiths_inChapter": 63,
+      "chapter_first_hadith": 1088,
+      "chapter_last_hadith": 1150
+    },
+    {
+      "chapter_title_english": "Virtues of Prayer at Masjid Makkah and Madinah",
+      "chapter_title_arabic": "كتاب فضل الصلاة فى مسجد مكة والمدينة",
+      "total_hadiths_inChapter": 9,
+      "chapter_first_hadith": 1151,
+      "chapter_last_hadith": 1159
+    },
+    {
+      "chapter_title_english": "Actions while Praying",
+      "chapter_title_arabic": "كتاب العمل فى الصلاة",
+      "total_hadiths_inChapter": 27,
+      "chapter_first_hadith": 1160,
+      "chapter_last_hadith": 1186
+    },
+    {
+      "chapter_title_english": "Forgetfulness in Prayer",
+      "chapter_title_arabic": "كتاب السهو",
+      "total_hadiths_inChapter": 14,
+      "chapter_first_hadith": 1187,
+      "chapter_last_hadith": 1200
+    },
+    {
+      "chapter_title_english": "Funerals (Al-Janaa'iz)",
+      "chapter_title_arabic": "كتاب الجنائز",
+      "total_hadiths_inChapter": 148,
+      "chapter_first_hadith": 1201,
+      "chapter_last_hadith": 1348
+    },
+    {
+      "chapter_title_english": "Obligatory Charity Tax (Zakat)",
+      "chapter_title_arabic": "كتاب الزكاة",
+      "total_hadiths_inChapter": 112,
+      "chapter_first_hadith": 1349,
+      "chapter_last_hadith": 1460
+    },
+    {
+      "chapter_title_english": "Hajj (Pilgrimage)",
+      "chapter_title_arabic": "كتاب الحج",
+      "total_hadiths_inChapter": 247,
+      "chapter_first_hadith": 1461,
+      "chapter_last_hadith": 1707
+    },
+    {
+      "chapter_title_english": "`Umrah (Minor pilgrimage)",
+      "chapter_title_arabic": "كتاب العمرة",
+      "total_hadiths_inChapter": 30,
+      "chapter_first_hadith": 1708,
+      "chapter_last_hadith": 1737
+    },
+    {
+      "chapter_title_english": "Pilgrims Prevented from Completing the Pilgrimage",
+      "chapter_title_arabic": "كتاب المحصر",
+      "total_hadiths_inChapter": 15,
+      "chapter_first_hadith": 1738,
+      "chapter_last_hadith": 1752
+    },
+    {
+      "chapter_title_english": "Penalty of Hunting while on Pilgrimage",
+      "chapter_title_arabic": "كتاب جزاء الصيد",
+      "total_hadiths_inChapter": 46,
+      "chapter_first_hadith": 1753,
+      "chapter_last_hadith": 1798
+    },
+    {
+      "chapter_title_english": "Virtues of Madinah",
+      "chapter_title_arabic": "كتاب فضائل المدينة",
+      "total_hadiths_inChapter": 24,
+      "chapter_first_hadith": 1799,
+      "chapter_last_hadith": 1822
+    },
+    {
+      "chapter_title_english": "Fasting",
+      "chapter_title_arabic": "كتاب الصوم",
+      "total_hadiths_inChapter": 112,
+      "chapter_first_hadith": 1823,
+      "chapter_last_hadith": 1934
+    },
+    {
+      "chapter_title_english": "Praying at Night in Ramadaan (Taraweeh)",
+      "chapter_title_arabic": "كتاب صلاة التراويح",
+      "total_hadiths_inChapter": 6,
+      "chapter_first_hadith": 1935,
+      "chapter_last_hadith": 1940
+    },
+    {
+      "chapter_title_english": "Virtues of the Night of Qadr",
+      "chapter_title_arabic": "كتاب فضل ليلة القدر",
+      "total_hadiths_inChapter": 11,
+      "chapter_first_hadith": 1941,
+      "chapter_last_hadith": 1951
+    },
+    {
+      "chapter_title_english": "Retiring to a Mosque for Remembrance of Allah (I'tikaf)",
+      "chapter_title_arabic": "كتاب الاعتكاف",
+      "total_hadiths_inChapter": 21,
+      "chapter_first_hadith": 1952,
+      "chapter_last_hadith": 1972
+    },
+    {
+      "chapter_title_english": "Sales and Trade",
+      "chapter_title_arabic": "كتاب البيوع",
+      "total_hadiths_inChapter": 184,
+      "chapter_first_hadith": 1973,
+      "chapter_last_hadith": 2156
+    },
+    {
+      "chapter_title_english": "Sales in which a Price is paid for Goods to be Delivered Later (As-Salam)",
+      "chapter_title_arabic": "كتاب السلم",
+      "total_hadiths_inChapter": 16,
+      "chapter_first_hadith": 2157,
+      "chapter_last_hadith": 2172
+    },
+    {
+      "chapter_title_english": "Shuf'a",
+      "chapter_title_arabic": "كتاب الشفعة",
+      "total_hadiths_inChapter": 3,
+      "chapter_first_hadith": 2173,
+      "chapter_last_hadith": 2175
+    },
+    {
+      "chapter_title_english": "Hiring",
+      "chapter_title_arabic": "كتاب الإجارة",
+      "total_hadiths_inChapter": 25,
+      "chapter_first_hadith": 2176,
+      "chapter_last_hadith": 2200
+    },
+    {
+      "chapter_title_english": "Transferance of a Debt from One Person to Another (Al-Hawaala)",
+      "chapter_title_arabic": "كتاب الحوالات",
+      "total_hadiths_inChapter": 3,
+      "chapter_first_hadith": 2201,
+      "chapter_last_hadith": 2203
+    },
+    {
+      "chapter_title_english": "Kafalah",
+      "chapter_title_arabic": "كتاب الكفالة",
+      "total_hadiths_inChapter": 9,
+      "chapter_first_hadith": 2204,
+      "chapter_last_hadith": 2212
+    },
+    {
+      "chapter_title_english": "Representation, Authorization, Business by Proxy",
+      "chapter_title_arabic": "كتاب الوكالة",
+      "total_hadiths_inChapter": 18,
+      "chapter_first_hadith": 2213,
+      "chapter_last_hadith": 2230
+    },
+    {
+      "chapter_title_english": "Agriculture",
+      "chapter_title_arabic": "كتاب المزارعة",
+      "total_hadiths_inChapter": 28,
+      "chapter_first_hadith": 2231,
+      "chapter_last_hadith": 2258
+    },
+    {
+      "chapter_title_english": "Distribution of Water",
+      "chapter_title_arabic": "كتاب المساقاة",
+      "total_hadiths_inChapter": 31,
+      "chapter_first_hadith": 2259,
+      "chapter_last_hadith": 2289
+    },
+    {
+      "chapter_title_english": "Loans, Payment of Loans, Freezing of Property, Bankruptcy",
+      "chapter_title_arabic": "كتاب فى الاستقراض",
+      "total_hadiths_inChapter": 24,
+      "chapter_first_hadith": 2290,
+      "chapter_last_hadith": 2313
+    },
+    {
+      "chapter_title_english": "Khusoomaat",
+      "chapter_title_arabic": "كتاب الخصومات",
+      "total_hadiths_inChapter": 15,
+      "chapter_first_hadith": 2314,
+      "chapter_last_hadith": 2328
+    },
+    {
+      "chapter_title_english": "Lost Things Picked up by Someone (Luqatah)",
+      "chapter_title_arabic": "كتاب فى اللقطة",
+      "total_hadiths_inChapter": 15,
+      "chapter_first_hadith": 2329,
+      "chapter_last_hadith": 2343
+    },
+    {
+      "chapter_title_english": "Oppressions",
+      "chapter_title_arabic": "كتاب المظالم",
+      "total_hadiths_inChapter": 43,
+      "chapter_first_hadith": 2344,
+      "chapter_last_hadith": 2386
+    },
+    {
+      "chapter_title_english": "Partnership",
+      "chapter_title_arabic": "كتاب الشركة",
+      "total_hadiths_inChapter": 22,
+      "chapter_first_hadith": 2387,
+      "chapter_last_hadith": 2408
+    },
+    {
+      "chapter_title_english": "Mortgaging",
+      "chapter_title_arabic": "كتاب الرهن",
+      "total_hadiths_inChapter": 8,
+      "chapter_first_hadith": 2409,
+      "chapter_last_hadith": 2416
+    },
+    {
+      "chapter_title_english": "Manumission of Slaves",
+      "chapter_title_arabic": "كتاب العتق",
+      "total_hadiths_inChapter": 41,
+      "chapter_first_hadith": 2417,
+      "chapter_last_hadith": 2457
+    },
+    {
+      "chapter_title_english": "Makaatib",
+      "chapter_title_arabic": "كتاب المكاتب",
+      "total_hadiths_inChapter": 6,
+      "chapter_first_hadith": 2458,
+      "chapter_last_hadith": 2463
+    },
+    {
+      "chapter_title_english": "Gifts",
+      "chapter_title_arabic": "كتاب الهبة وفضلها والتحريض عليها",
+      "total_hadiths_inChapter": 68,
+      "chapter_first_hadith": 2464,
+      "chapter_last_hadith": 2531
+    },
+    {
+      "chapter_title_english": "Witnesses",
+      "chapter_title_arabic": "كتاب الشهادات",
+      "total_hadiths_inChapter": 50,
+      "chapter_first_hadith": 2532,
+      "chapter_last_hadith": 2581
+    },
+    {
+      "chapter_title_english": "Peacemaking",
+      "chapter_title_arabic": "كتاب الصلح",
+      "total_hadiths_inChapter": 20,
+      "chapter_first_hadith": 2582,
+      "chapter_last_hadith": 2601
+    },
+    {
+      "chapter_title_english": "Conditions",
+      "chapter_title_arabic": "كتاب الشروط",
+      "total_hadiths_inChapter": 24,
+      "chapter_first_hadith": 2602,
+      "chapter_last_hadith": 2625
+    },
+    {
+      "chapter_title_english": "Wills and Testaments (Wasaayaa)",
+      "chapter_title_arabic": "كتاب الوصايا",
+      "total_hadiths_inChapter": 44,
+      "chapter_first_hadith": 2626,
+      "chapter_last_hadith": 2669
+    },
+    {
+      "chapter_title_english": "Fighting for the Cause of Allah (Jihaad)",
+      "chapter_title_arabic": "كتاب الجهاد والسير",
+      "total_hadiths_inChapter": 294,
+      "chapter_first_hadith": 2670,
+      "chapter_last_hadith": 2963
+    },
+    {
+      "chapter_title_english": "One-fifth of Booty to the Cause of Allah (Khumus)",
+      "chapter_title_arabic": "كتاب فرض الخمس",
+      "total_hadiths_inChapter": 63,
+      "chapter_first_hadith": 2964,
+      "chapter_last_hadith": 3026
+    },
+    {
+      "chapter_title_english": "Jizyah and Mawaada'ah",
+      "chapter_title_arabic": "كتاب الجزية والموادعة",
+      "total_hadiths_inChapter": 30,
+      "chapter_first_hadith": 3027,
+      "chapter_last_hadith": 3056
+    },
+    {
+      "chapter_title_english": "Beginning of Creation",
+      "chapter_title_arabic": "كتاب بدء الخلق",
+      "total_hadiths_inChapter": 131,
+      "chapter_first_hadith": 3057,
+      "chapter_last_hadith": 3187
+    },
+    {
+      "chapter_title_english": "Prophets",
+      "chapter_title_arabic": "كتاب أحاديث الأنبياء",
+      "total_hadiths_inChapter": 154,
+      "chapter_first_hadith": 3188,
+      "chapter_last_hadith": 3341
+    },
+    {
+      "chapter_title_english": "Virtues and Merits of the Prophet (pbuh) and his Companions",
+      "chapter_title_arabic": "كتاب المناقب",
+      "total_hadiths_inChapter": 151,
+      "chapter_first_hadith": 3342,
+      "chapter_last_hadith": 3492
+    },
+    {
+      "chapter_title_english": "Companions of the Prophet",
+      "chapter_title_arabic": "كتاب فضائل أصحاب النبى صلى الله عليه وسلم",
+      "total_hadiths_inChapter": 120,
+      "chapter_first_hadith": 3493,
+      "chapter_last_hadith": 3612
+    },
+    {
+      "chapter_title_english": "Merits of the Helpers in Madinah (Ansaar)",
+      "chapter_title_arabic": "كتاب مناقب الأنصار",
+      "total_hadiths_inChapter": 172,
+      "chapter_first_hadith": 3613,
+      "chapter_last_hadith": 3784
+    },
+    {
+      "chapter_title_english": "Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)",
+      "chapter_title_arabic": "كتاب المغازى",
+      "total_hadiths_inChapter": 488,
+      "chapter_first_hadith": 3785,
+      "chapter_last_hadith": 4272
+    },
+    {
+      "chapter_title_english": "Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))",
+      "chapter_title_arabic": "كتاب التفسير",
+      "total_hadiths_inChapter": 499,
+      "chapter_first_hadith": 4273,
+      "chapter_last_hadith": 4771
+    },
+    {
+      "chapter_title_english": "Virtues of the Qur'an",
+      "chapter_title_arabic": "كتاب فضائل القرآن",
+      "total_hadiths_inChapter": 87,
+      "chapter_first_hadith": 4772,
+      "chapter_last_hadith": 4858
+    },
+    {
+      "chapter_title_english": "Wedlock, Marriage (Nikaah)",
+      "chapter_title_arabic": "كتاب النكاح",
+      "total_hadiths_inChapter": 183,
+      "chapter_first_hadith": 4859,
+      "chapter_last_hadith": 5041
+    },
+    {
+      "chapter_title_english": "Divorce",
+      "chapter_title_arabic": "كتاب الطلاق",
+      "total_hadiths_inChapter": 95,
+      "chapter_first_hadith": 5042,
+      "chapter_last_hadith": 5136
+    },
+    {
+      "chapter_title_english": "Supporting the Family",
+      "chapter_title_arabic": "كتاب النفقات",
+      "total_hadiths_inChapter": 22,
+      "chapter_first_hadith": 5137,
+      "chapter_last_hadith": 5158
+    },
+    {
+      "chapter_title_english": "Food, Meals",
+      "chapter_title_arabic": "كتاب الأطعمة",
+      "total_hadiths_inChapter": 95,
+      "chapter_first_hadith": 5159,
+      "chapter_last_hadith": 5253
+    },
+    {
+      "chapter_title_english": "Sacrifice on Occasion of Birth (`Aqiqa)",
+      "chapter_title_arabic": "كتاب العقيقة",
+      "total_hadiths_inChapter": 9,
+      "chapter_first_hadith": 5254,
+      "chapter_last_hadith": 5262
+    },
+    {
+      "chapter_title_english": "Hunting, Slaughtering",
+      "chapter_title_arabic": "كتاب الذبائح والصيد",
+      "total_hadiths_inChapter": 69,
+      "chapter_first_hadith": 5263,
+      "chapter_last_hadith": 5331
+    },
+    {
+      "chapter_title_english": "Al-Adha Festival Sacrifice (Adaahi)",
+      "chapter_title_arabic": "كتاب الأضاحي",
+      "total_hadiths_inChapter": 30,
+      "chapter_first_hadith": 5332,
+      "chapter_last_hadith": 5361
+    },
+    {
+      "chapter_title_english": "Drinks",
+      "chapter_title_arabic": "كتاب الأشربة",
+      "total_hadiths_inChapter": 65,
+      "chapter_first_hadith": 5362,
+      "chapter_last_hadith": 5426
+    },
+    {
+      "chapter_title_english": "Patients",
+      "chapter_title_arabic": "كتاب المرضى",
+      "total_hadiths_inChapter": 37,
+      "chapter_first_hadith": 5427,
+      "chapter_last_hadith": 5463
+    },
+    {
+      "chapter_title_english": "Medicine",
+      "chapter_title_arabic": "كتاب الطب",
+      "total_hadiths_inChapter": 93,
+      "chapter_first_hadith": 5464,
+      "chapter_last_hadith": 5556
+    },
+    {
+      "chapter_title_english": "Dress",
+      "chapter_title_arabic": "كتاب اللباس",
+      "total_hadiths_inChapter": 185,
+      "chapter_first_hadith": 5557,
+      "chapter_last_hadith": 5741
+    },
+    {
+      "chapter_title_english": "Good Manners and Form (Al-Adab)",
+      "chapter_title_arabic": "كتاب الأدب",
+      "total_hadiths_inChapter": 250,
+      "chapter_first_hadith": 5742,
+      "chapter_last_hadith": 5991
+    },
+    {
+      "chapter_title_english": "Asking Permission",
+      "chapter_title_arabic": "كتاب الاستئذان",
+      "total_hadiths_inChapter": 75,
+      "chapter_first_hadith": 5992,
+      "chapter_last_hadith": 6066
+    },
+    {
+      "chapter_title_english": "Invocations",
+      "chapter_title_arabic": "كتاب الدعوات",
+      "total_hadiths_inChapter": 106,
+      "chapter_first_hadith": 6067,
+      "chapter_last_hadith": 6172
+    },
+    {
+      "chapter_title_english": "To make the Heart Tender (Ar-Riqaq)",
+      "chapter_title_arabic": "كتاب الرقاق",
+      "total_hadiths_inChapter": 181,
+      "chapter_first_hadith": 6173,
+      "chapter_last_hadith": 6353
+    },
+    {
+      "chapter_title_english": "Divine Will (Al-Qadar)",
+      "chapter_title_arabic": "كتاب القدر",
+      "total_hadiths_inChapter": 26,
+      "chapter_first_hadith": 6354,
+      "chapter_last_hadith": 6379
+    },
+    {
+      "chapter_title_english": "Oaths and Vows",
+      "chapter_title_arabic": "كتاب الأيمان والنذور",
+      "total_hadiths_inChapter": 84,
+      "chapter_first_hadith": 6380,
+      "chapter_last_hadith": 6463
+    },
+    {
+      "chapter_title_english": "Expiation for Unfulfilled Oaths",
+      "chapter_title_arabic": "كتاب كفارات الأيمان",
+      "total_hadiths_inChapter": 15,
+      "chapter_first_hadith": 6464,
+      "chapter_last_hadith": 6478
+    },
+    {
+      "chapter_title_english": "Laws of Inheritance (Al-Faraa'id)",
+      "chapter_title_arabic": "كتاب الفرائض",
+      "total_hadiths_inChapter": 47,
+      "chapter_first_hadith": 6479,
+      "chapter_last_hadith": 6525
+    },
+    {
+      "chapter_title_english": "Limits and Punishments set by Allah (Hudood)",
+      "chapter_title_arabic": "كتاب الحدود",
+      "total_hadiths_inChapter": 81,
+      "chapter_first_hadith": 6526,
+      "chapter_last_hadith": 6606
+    },
+    {
+      "chapter_title_english": "Blood Money (Ad-Diyat)",
+      "chapter_title_arabic": "كتاب الديات",
+      "total_hadiths_inChapter": 55,
+      "chapter_first_hadith": 6607,
+      "chapter_last_hadith": 6661
+    },
+    {
+      "chapter_title_english": "Apostates",
+      "chapter_title_arabic": "كتاب استتابة المرتدين والمعاندين وقتالهم",
+      "total_hadiths_inChapter": 21,
+      "chapter_first_hadith": 6662,
+      "chapter_last_hadith": 6682
+    },
+    {
+      "chapter_title_english": "(Statements made under) Coercion",
+      "chapter_title_arabic": "كتاب الإكراه",
+      "total_hadiths_inChapter": 13,
+      "chapter_first_hadith": 6683,
+      "chapter_last_hadith": 6695
+    },
+    {
+      "chapter_title_english": "Tricks",
+      "chapter_title_arabic": "كتاب الحيل",
+      "total_hadiths_inChapter": 28,
+      "chapter_first_hadith": 6696,
+      "chapter_last_hadith": 6723
+    },
+    {
+      "chapter_title_english": "Interpretation of Dreams",
+      "chapter_title_arabic": "كتاب التعبير",
+      "total_hadiths_inChapter": 61,
+      "chapter_first_hadith": 6724,
+      "chapter_last_hadith": 6784
+    },
+    {
+      "chapter_title_english": "Afflictions and the End of the World",
+      "chapter_title_arabic": "كتاب الفتن",
+      "total_hadiths_inChapter": 83,
+      "chapter_first_hadith": 6785,
+      "chapter_last_hadith": 6867
+    },
+    {
+      "chapter_title_english": "Judgments (Ahkaam)",
+      "chapter_title_arabic": "كتاب الأحكام",
+      "total_hadiths_inChapter": 84,
+      "chapter_first_hadith": 6868,
+      "chapter_last_hadith": 6951
+    },
+    {
+      "chapter_title_english": "Wishes",
+      "chapter_title_arabic": "كتاب التمنى",
+      "total_hadiths_inChapter": 20,
+      "chapter_first_hadith": 6952,
+      "chapter_last_hadith": 6971
+    },
+    {
+      "chapter_title_english": "Accepting Information Given by a Truthful Person",
+      "chapter_title_arabic": "كتاب أخبار الآحاد",
+      "total_hadiths_inChapter": 21,
+      "chapter_first_hadith": 6972,
+      "chapter_last_hadith": 6992
+    },
+    {
+      "chapter_title_english": "Holding Fast to the Qur'an and Sunnah",
+      "chapter_title_arabic": "كتاب الاعتصام بالكتاب والسنة",
+      "total_hadiths_inChapter": 97,
+      "chapter_first_hadith": 6993,
+      "chapter_last_hadith": 7089
+    },
+    {
+      "chapter_title_english": "Oneness, Uniqueness of Allah (Tawheed)",
+      "chapter_title_arabic": "كتاب التوحيد",
+      "total_hadiths_inChapter": 188,
+      "chapter_first_hadith": 7090,
+      "chapter_last_hadith": 7277
+    }
+  ]
+}

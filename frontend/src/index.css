@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Import font-face */
+@font-face {
+  font-family: 'UthmaniFont';
+  src: url('/fonts/UthmaniFont.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LPMQ IsepMisbah';
+  src: url('/fonts/LPMQ IsepMisbah.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Handlee';
+  src: url('/fonts/Handlee.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EduQLDHand';
+  src: url('/fonts/EduQLDHand.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ShadowsIntoLight';
+  src: url('/fonts/ShadowsIntoLight.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Mushaf;
+  src: url('/fonts/mushaf.ttf');
+}
+
+.font-mushaf {
+  font-family: Mushaf;
+}
+
+/* Kelas utilitas untuk font */
+.font-uthmani {
+  font-family: 'UthmaniFont', 'Traditional Arabic', serif;
+}
+
+.font-lpmq {
+  font-family: 'LPMQ IsepMisbah', 'Traditional Arabic', serif;
+}
+
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-handlee {
+  font-family: 'Handlee', cursive;
+}
+
+.font-eduhand {
+  font-family: 'EduQLDHand', cursive;
+}
+
+.font-shadows {
+  font-family: 'ShadowsIntoLight', cursive;
+}
+
+/* globals.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+
+   @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+
+    70% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 1.5s ease-out;
+  }
+
+  .animate-slide-in {
+    animation: slideIn 1s ease-out;
+  }
+
+  .animate-pulse {
+    animation: pulse 2s infinite;
+  }
+
+  html,
+  body,
+  #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #ffffff;
+    /* samain sama bg app */
+  }
+
+  /* untuk iOS safe area */
+  body {
+    background-color: #ffffff;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+

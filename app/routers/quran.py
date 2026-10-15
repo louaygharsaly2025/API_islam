@@ -258,7 +258,7 @@ def get_surahs(
         _SURAHS_INFO_CACHE = surahs_list
 
     res = _SURAHS_INFO_CACHE
-    if revelation_type:
+    if revelation_type and isinstance(revelation_type, str):
         res = [s for s in res if s.get("revelation_type", "").lower() == revelation_type.lower()]
 
     return {
@@ -423,3 +423,201 @@ def get_reciters():
         "count": len(reciters),
         "data": reciters
     }
+
+
+# =========================================================================
+# 🌍 MULTILINGUAL TRANSLATIONS & METADATA (97+ Languages & 114 Surahs)
+# =========================================================================
+
+_TRANSLATIONS_META_CACHE: Optional[Dict[str, Any]] = None
+_TRANSLATION_EDITIONS_CACHE: Dict[str, List[Dict[str, Any]]] = {}
+
+
+def get_quran_metadata_raw() -> Optional[Dict[str, Any]]:
+    global _TRANSLATIONS_META_CACHE
+    if _TRANSLATIONS_META_CACHE is not None:
+        return _TRANSLATIONS_META_CACHE
+
+    meta_file = os.path.join(LEGACY_QURAN_DIR, "metadata.json")
+    if os.path.exists(meta_file):
+        try:
+            with open(meta_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list) and len(data) > 0:
+                    _TRANSLATIONS_META_CACHE = data[0]
+                    return _TRANSLATIONS_META_CACHE
+        except Exception:
+            pass
+    return None
+
+
+def load_translation_language(language: str) -> Optional[List[Dict[str, Any]]]:
+    lang_key = language.strip().lower()
+    if lang_key in _TRANSLATION_EDITIONS_CACHE:
+        return _TRANSLATION_EDITIONS_CACHE[lang_key]
+
+    edition_dir = os.path.join(LEGACY_QURAN_DIR, "edition")
+    if not os.path.exists(edition_dir):
+        return None
+
+    matched_folder = None
+    for folder in os.listdir(edition_dir):
+        if folder.lower() == lang_key:
+            matched_folder = folder
+            break
+
+    if not matched_folder:
+        return None
+
+    file_path = os.path.join(edition_dir, matched_folder, "array.json")
+    if not os.path.exists(file_path):
+        return None
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            content = json.load(f)
+            _TRANSLATION_EDITIONS_CACHE[lang_key] = content
+            return content
+    except Exception:
+        return None
+
+
+@router.get("/metadata", summary="Get comprehensive Quran metadata (114 Surahs, 30 Juz, 14 Sajdah verses)")
+def get_quran_metadata():
+    meta = get_quran_metadata_raw()
+    if not meta:
+        raise HTTPException(status_code=404, detail="Quran metadata not found")
+
+    return {
+        "status": "success",
+        "data": {
+            "quran_name": meta.get("quran_name", "Holy Quran"),
+            "total_verses": meta.get("total_verses", 6236),
+            "total_surahs": meta.get("total_surahs", 114),
+            "total_juz": meta.get("total_juz", 30),
+            "total_hizb": meta.get("total_hizb", 60),
+            "total_rub_el_hizb": meta.get("total_rub_el_hizb", 240),
+            "total_ayat_al_sajda": meta.get("total_ayat_al_sajda", 14),
+            "total_pages": meta.get("total_pages", 604),
+            "details": meta.get("details", {}),
+            "chapter_details": meta.get("chapter_details", []),
+            "juz_details": meta.get("juz_details", []),
+            "ayat_al_sajda_reference": meta.get("ayat_al_sajda_reference", [])
+        }
+    }
+
+
+@router.get("/translations/languages", summary="Get list of all 97+ available Quran translation languages")
+def get_translation_languages():
+    meta = get_quran_metadata_raw()
+    sources = meta.get("source", []) if meta else []
+
+    edition_dir = os.path.join(LEGACY_QURAN_DIR, "edition")
+    existing_dirs = set(os.listdir(edition_dir)) if os.path.exists(edition_dir) else set()
+
+    languages_list = []
+    for s in sources:
+        lang_name = s.get("language")
+        languages_list.append({
+            "language": lang_name,
+            "identifier": s.get("name"),
+            "author": s.get("author"),
+            "direction": s.get("direction", "ltr"),
+            "source": s.get("source", ""),
+            "available_locally": lang_name in existing_dirs or lang_name.capitalize() in existing_dirs
+        })
+
+    return {
+        "status": "success",
+        "total_languages": len(languages_list),
+        "data": languages_list
+    }
+
+
+def get_surah_info_by_id(surah_id: int) -> Optional[Dict[str, Any]]:
+    surahs_res = get_surahs(revelation_type=None)
+    data = surahs_res.get("data", [])
+    for s in data:
+        if s.get("number") == surah_id:
+            return {
+                "name_arabic": s.get("name_ar", ""),
+                "name_english": s.get("name_en", "")
+            }
+    return None
+
+
+@router.get("/translations/{language}/surah/{surah_id}", summary="Get Quran translation for a Surah in any of the 97+ languages")
+def get_surah_translation(language: str, surah_id: int):
+    if surah_id < 1 or surah_id > 114:
+        raise HTTPException(status_code=400, detail="Surah ID must be between 1 and 114")
+
+    content = load_translation_language(language)
+    if not content:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Translation language '{language}' not found. Check /api/v1/quran/translations/languages for available options."
+        )
+
+    # Surahs in array are 1-indexed by 'chapter'
+    surah_data = next((ch for ch in content if ch.get("chapter") == surah_id), None)
+    if not surah_data:
+        raise HTTPException(status_code=404, detail=f"Surah {surah_id} not found in {language} translation")
+
+    # Retrieve Surah metadata if available
+    surah_meta = get_surah_info_by_id(surah_id)
+
+    formatted_verses = []
+    for idx, verse_text in enumerate(surah_data.get("verses", []), start=1):
+        formatted_verses.append({
+            "verse_number": idx,
+            "translation_text": verse_text
+        })
+
+    return {
+        "status": "success",
+        "language": language.capitalize(),
+        "surah_id": surah_id,
+        "surah_name_ar": surah_meta.get("name_arabic", "") if surah_meta else "",
+        "surah_name_en": surah_meta.get("name_english", "") if surah_meta else "",
+        "verses_count": len(formatted_verses),
+        "verses": formatted_verses
+    }
+
+
+@router.get("/translations/{language}/ayah/{surah_id}/{ayah_id}", summary="Get Quran translation for a single Ayah in any language")
+def get_ayah_translation(language: str, surah_id: int, ayah_id: int):
+    if surah_id < 1 or surah_id > 114:
+        raise HTTPException(status_code=400, detail="Surah ID must be between 1 and 114")
+    if ayah_id < 1:
+        raise HTTPException(status_code=400, detail="Ayah ID must be greater than 0")
+
+    content = load_translation_language(language)
+    if not content:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Translation language '{language}' not found. Check /api/v1/quran/translations/languages"
+        )
+
+    surah_data = next((ch for ch in content if ch.get("chapter") == surah_id), None)
+    if not surah_data:
+        raise HTTPException(status_code=404, detail=f"Surah {surah_id} not found in {language} translation")
+
+    verses = surah_data.get("verses", [])
+    if ayah_id > len(verses):
+        raise HTTPException(
+            status_code=404,
+            detail=f"Ayah {ayah_id} not found in Surah {surah_id} (Surah has {len(verses)} ayahs)"
+        )
+
+    surah_meta = get_surah_info_by_id(surah_id)
+
+    return {
+        "status": "success",
+        "language": language.capitalize(),
+        "surah_id": surah_id,
+        "surah_name_ar": surah_meta.get("name_arabic", "") if surah_meta else "",
+        "surah_name_en": surah_meta.get("name_english", "") if surah_meta else "",
+        "ayah_id": ayah_id,
+        "translation_text": verses[ayah_id - 1]
+    }
+

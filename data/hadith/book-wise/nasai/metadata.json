@@ -1,0 +1,366 @@
+{
+  "book_name_english": "nasai",
+  "book_name_arabic": "سنن النسائي",
+  "book_short_desc": "Sunan an-Nasā'ī is a collection of hadīth compiled by Imām Aḥmad an-Nasā'ī (rahimahullāh). His collection is unanimously considered to be one of the six canonical collections of hadith (Kutub as-Sittah) of the Sunnah of the Prophet (). It contains roughly 5700 hadīth (with repetitions) in 51 books.",
+  "total_hadiths_inBook": 5685,
+  "total_chapters_inBook": 51,
+  "all_chapters_detail": [
+    {
+      "chapter_title_english": "The Book of Purification",
+      "chapter_title_arabic": "كتاب الطهارة",
+      "total_hadiths_inChapter": 325,
+      "chapter_first_hadith": 1,
+      "chapter_last_hadith": 325
+    },
+    {
+      "chapter_title_english": "The Book of Water",
+      "chapter_title_arabic": "كتاب المياه",
+      "total_hadiths_inChapter": 23,
+      "chapter_first_hadith": 326,
+      "chapter_last_hadith": 348
+    },
+    {
+      "chapter_title_english": "The Book of Menstruation and Istihadah",
+      "chapter_title_arabic": "كتاب الحيض والاستحاضة",
+      "total_hadiths_inChapter": 48,
+      "chapter_first_hadith": 349,
+      "chapter_last_hadith": 396
+    },
+    {
+      "chapter_title_english": "The Book of Ghusl and Tayammum",
+      "chapter_title_arabic": "كتاب الغسل والتيمم",
+      "total_hadiths_inChapter": 53,
+      "chapter_first_hadith": 397,
+      "chapter_last_hadith": 449
+    },
+    {
+      "chapter_title_english": "The Book of Salah",
+      "chapter_title_arabic": "كتاب الصلاة",
+      "total_hadiths_inChapter": 46,
+      "chapter_first_hadith": 450,
+      "chapter_last_hadith": 495
+    },
+    {
+      "chapter_title_english": "The Book of the Times (of Prayer)",
+      "chapter_title_arabic": "كتاب المواقيت",
+      "total_hadiths_inChapter": 132,
+      "chapter_first_hadith": 496,
+      "chapter_last_hadith": 627
+    },
+    {
+      "chapter_title_english": "The Book of the Adhan (The Call to Prayer)",
+      "chapter_title_arabic": "كتاب الأذان",
+      "total_hadiths_inChapter": 62,
+      "chapter_first_hadith": 628,
+      "chapter_last_hadith": 689
+    },
+    {
+      "chapter_title_english": "The Book of the Masjids",
+      "chapter_title_arabic": "كتاب المساجد",
+      "total_hadiths_inChapter": 54,
+      "chapter_first_hadith": 690,
+      "chapter_last_hadith": 743
+    },
+    {
+      "chapter_title_english": "The Book of the Qiblah",
+      "chapter_title_arabic": "كتاب القبلة",
+      "total_hadiths_inChapter": 35,
+      "chapter_first_hadith": 744,
+      "chapter_last_hadith": 778
+    },
+    {
+      "chapter_title_english": "The Book of Leading the Prayer (Al-Imamah)",
+      "chapter_title_arabic": "كتاب الإمامة",
+      "total_hadiths_inChapter": 99,
+      "chapter_first_hadith": 779,
+      "chapter_last_hadith": 877
+    },
+    {
+      "chapter_title_english": "The Book of the Commencement of the Prayer",
+      "chapter_title_arabic": "كتاب الافتتاح",
+      "total_hadiths_inChapter": 153,
+      "chapter_first_hadith": 878,
+      "chapter_last_hadith": 1030
+    },
+    {
+      "chapter_title_english": "The Book of The At-Tatbiq (Clasping One's Hands Together)",
+      "chapter_title_arabic": "كتاب التطبيق",
+      "total_hadiths_inChapter": 150,
+      "chapter_first_hadith": 1031,
+      "chapter_last_hadith": 1180
+    },
+    {
+      "chapter_title_english": "The Book of Forgetfulness (In Prayer)",
+      "chapter_title_arabic": "كتاب السهو",
+      "total_hadiths_inChapter": 188,
+      "chapter_first_hadith": 1181,
+      "chapter_last_hadith": 1368
+    },
+    {
+      "chapter_title_english": "The Book of Jumu'ah (Friday Prayer)",
+      "chapter_title_arabic": "كتاب الجمعة",
+      "total_hadiths_inChapter": 69,
+      "chapter_first_hadith": 1369,
+      "chapter_last_hadith": 1437
+    },
+    {
+      "chapter_title_english": "The Book of Shortening the Prayer When Traveling",
+      "chapter_title_arabic": "كتاب تقصير الصلاة فى السفر",
+      "total_hadiths_inChapter": 26,
+      "chapter_first_hadith": 1438,
+      "chapter_last_hadith": 1463
+    },
+    {
+      "chapter_title_english": "The Book of Eclipses",
+      "chapter_title_arabic": "كتاب الكسوف",
+      "total_hadiths_inChapter": 45,
+      "chapter_first_hadith": 1464,
+      "chapter_last_hadith": 1508
+    },
+    {
+      "chapter_title_english": "The Book of Praying for Rain (Al-Istisqa')",
+      "chapter_title_arabic": "كتاب الاستسقاء",
+      "total_hadiths_inChapter": 25,
+      "chapter_first_hadith": 1509,
+      "chapter_last_hadith": 1533
+    },
+    {
+      "chapter_title_english": "The Book of the Fear Prayer",
+      "chapter_title_arabic": "كتاب صلاة الخوف",
+      "total_hadiths_inChapter": 27,
+      "chapter_first_hadith": 1534,
+      "chapter_last_hadith": 1560
+    },
+    {
+      "chapter_title_english": "The Book of the Prayer for the Two 'Eids",
+      "chapter_title_arabic": "كتاب صلاة العيدين",
+      "total_hadiths_inChapter": 42,
+      "chapter_first_hadith": 1561,
+      "chapter_last_hadith": 1602
+    },
+    {
+      "chapter_title_english": "The Book of Qiyam Al-Lail (The Night Prayer) and Voluntary Prayers During the Day",
+      "chapter_title_arabic": "كتاب قيام الليل وتطوع النهار",
+      "total_hadiths_inChapter": 220,
+      "chapter_first_hadith": 1603,
+      "chapter_last_hadith": 1822
+    },
+    {
+      "chapter_title_english": "The Book of Funerals",
+      "chapter_title_arabic": "كتاب الجنائز",
+      "total_hadiths_inChapter": 272,
+      "chapter_first_hadith": 1823,
+      "chapter_last_hadith": 2094
+    },
+    {
+      "chapter_title_english": "The Book of Fasting",
+      "chapter_title_arabic": "كتاب الصيام",
+      "total_hadiths_inChapter": 345,
+      "chapter_first_hadith": 2095,
+      "chapter_last_hadith": 2439
+    },
+    {
+      "chapter_title_english": "The Book of Zakah",
+      "chapter_title_arabic": "كتاب الزكاة",
+      "total_hadiths_inChapter": 184,
+      "chapter_first_hadith": 2440,
+      "chapter_last_hadith": 2623
+    },
+    {
+      "chapter_title_english": "The Book of Hajj",
+      "chapter_title_arabic": "كتاب مناسك الحج",
+      "total_hadiths_inChapter": 467,
+      "chapter_first_hadith": 2624,
+      "chapter_last_hadith": 3090
+    },
+    {
+      "chapter_title_english": "The Book of Jihad",
+      "chapter_title_arabic": "كتاب الجهاد",
+      "total_hadiths_inChapter": 111,
+      "chapter_first_hadith": 3091,
+      "chapter_last_hadith": 3201
+    },
+    {
+      "chapter_title_english": "The Book of Marriage",
+      "chapter_title_arabic": "كتاب النكاح",
+      "total_hadiths_inChapter": 193,
+      "chapter_first_hadith": 3202,
+      "chapter_last_hadith": 3394
+    },
+    {
+      "chapter_title_english": "The Book of Divorce",
+      "chapter_title_arabic": "كتاب الطلاق",
+      "total_hadiths_inChapter": 174,
+      "chapter_first_hadith": 3395,
+      "chapter_last_hadith": 3568
+    },
+    {
+      "chapter_title_english": "The Book of Horses, Races and Shooting",
+      "chapter_title_arabic": "كتاب الخيل",
+      "total_hadiths_inChapter": 33,
+      "chapter_first_hadith": 3569,
+      "chapter_last_hadith": 3601
+    },
+    {
+      "chapter_title_english": "The Book of Endowments",
+      "chapter_title_arabic": "كتاب الإحباس",
+      "total_hadiths_inChapter": 17,
+      "chapter_first_hadith": 3602,
+      "chapter_last_hadith": 3618
+    },
+    {
+      "chapter_title_english": "The Book of Wills",
+      "chapter_title_arabic": "كتاب الوصايا",
+      "total_hadiths_inChapter": 61,
+      "chapter_first_hadith": 3619,
+      "chapter_last_hadith": 3679
+    },
+    {
+      "chapter_title_english": "The Book of Presents",
+      "chapter_title_arabic": "كتاب النحل",
+      "total_hadiths_inChapter": 16,
+      "chapter_first_hadith": 3680,
+      "chapter_last_hadith": 3695
+    },
+    {
+      "chapter_title_english": "The Book of Gifts",
+      "chapter_title_arabic": "كتاب الهبة",
+      "total_hadiths_inChapter": 18,
+      "chapter_first_hadith": 3696,
+      "chapter_last_hadith": 3713
+    },
+    {
+      "chapter_title_english": "The Book of ar-Ruqba",
+      "chapter_title_arabic": "كتاب الرقبى",
+      "total_hadiths_inChapter": 14,
+      "chapter_first_hadith": 3714,
+      "chapter_last_hadith": 3727
+    },
+    {
+      "chapter_title_english": "The Book of 'Umra",
+      "chapter_title_arabic": "كتاب العمرى",
+      "total_hadiths_inChapter": 42,
+      "chapter_first_hadith": 3728,
+      "chapter_last_hadith": 3769
+    },
+    {
+      "chapter_title_english": "The Book of Oaths and Vows",
+      "chapter_title_arabic": "كتاب الأيمان والنذور",
+      "total_hadiths_inChapter": 96,
+      "chapter_first_hadith": 3770,
+      "chapter_last_hadith": 3865
+    },
+    {
+      "chapter_title_english": "The Book of the Kind Treatment of Women",
+      "chapter_title_arabic": "كتاب عشرة النساء",
+      "total_hadiths_inChapter": 27,
+      "chapter_first_hadith": 3866,
+      "chapter_last_hadith": 3892
+    },
+    {
+      "chapter_title_english": "The Book of Fighting [The Prohibition of Bloodshed]",
+      "chapter_title_arabic": "كتاب تحريم الدم",
+      "total_hadiths_inChapter": 167,
+      "chapter_first_hadith": 3893,
+      "chapter_last_hadith": 4059
+    },
+    {
+      "chapter_title_english": "The Book of Distribution of Al-Fay'",
+      "chapter_title_arabic": "كتاب قسم الفىء",
+      "total_hadiths_inChapter": 16,
+      "chapter_first_hadith": 4060,
+      "chapter_last_hadith": 4075
+    },
+    {
+      "chapter_title_english": "The Book of al-Bay'ah",
+      "chapter_title_arabic": "كتاب البيعة",
+      "total_hadiths_inChapter": 63,
+      "chapter_first_hadith": 4076,
+      "chapter_last_hadith": 4138
+    },
+    {
+      "chapter_title_english": "The Book of al-'Aqiqah",
+      "chapter_title_arabic": "كتاب العقيقة",
+      "total_hadiths_inChapter": 10,
+      "chapter_first_hadith": 4139,
+      "chapter_last_hadith": 4148
+    },
+    {
+      "chapter_title_english": "The Book of al-Fara' and al-'Atirah",
+      "chapter_title_arabic": "كتاب الفرع والعتيرة",
+      "total_hadiths_inChapter": 41,
+      "chapter_first_hadith": 4149,
+      "chapter_last_hadith": 4189
+    },
+    {
+      "chapter_title_english": "The Book of Hunting and Slaughtering",
+      "chapter_title_arabic": "كتاب الصيد والذبائح",
+      "total_hadiths_inChapter": 98,
+      "chapter_first_hadith": 4190,
+      "chapter_last_hadith": 4287
+    },
+    {
+      "chapter_title_english": "The Book of ad-Dahaya (Sacrifices)",
+      "chapter_title_arabic": "كتاب الضحايا",
+      "total_hadiths_inChapter": 88,
+      "chapter_first_hadith": 4288,
+      "chapter_last_hadith": 4375
+    },
+    {
+      "chapter_title_english": "The Book of Financial Transactions",
+      "chapter_title_arabic": "كتاب البيوع",
+      "total_hadiths_inChapter": 257,
+      "chapter_first_hadith": 4376,
+      "chapter_last_hadith": 4632
+    },
+    {
+      "chapter_title_english": "The Book of Oaths (qasamah), Retaliation and Blood Money",
+      "chapter_title_arabic": "كتاب القسامة",
+      "total_hadiths_inChapter": 164,
+      "chapter_first_hadith": 4633,
+      "chapter_last_hadith": 4796
+    },
+    {
+      "chapter_title_english": "The Book of Cutting off the Hand of the Thief",
+      "chapter_title_arabic": "كتاب قطع السارق",
+      "total_hadiths_inChapter": 114,
+      "chapter_first_hadith": 4797,
+      "chapter_last_hadith": 4910
+    },
+    {
+      "chapter_title_english": "The Book Of Faith and its Signs",
+      "chapter_title_arabic": "كتاب الإيمان وشرائعه",
+      "total_hadiths_inChapter": 55,
+      "chapter_first_hadith": 4911,
+      "chapter_last_hadith": 4965
+    },
+    {
+      "chapter_title_english": "The Book of Adornment",
+      "chapter_title_arabic": "كتاب الزينة من السنن",
+      "total_hadiths_inChapter": 339,
+      "chapter_first_hadith": 4966,
+      "chapter_last_hadith": 5304
+    },
+    {
+      "chapter_title_english": "The Book of the Etiquette of Judges",
+      "chapter_title_arabic": "كتاب آداب القضاة",
+      "total_hadiths_inChapter": 49,
+      "chapter_first_hadith": 5305,
+      "chapter_last_hadith": 5353
+    },
+    {
+      "chapter_title_english": "The Book of Seeking Refuge with Allah",
+      "chapter_title_arabic": "كتاب الاستعاذة",
+      "total_hadiths_inChapter": 112,
+      "chapter_first_hadith": 5354,
+      "chapter_last_hadith": 5465
+    },
+    {
+      "chapter_title_english": "The Book of Drinks",
+      "chapter_title_arabic": "كتاب الأشربة",
+      "total_hadiths_inChapter": 220,
+      "chapter_first_hadith": 5466,
+      "chapter_last_hadith": 5685
+    }
+  ]
+}

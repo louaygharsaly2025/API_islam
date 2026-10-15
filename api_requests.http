@@ -118,18 +118,48 @@ GET {{baseUrl}}/adhkar/category/morning
 ### 23. Get Random Dhikr
 GET {{baseUrl}}/adhkar/random
 
-### ================= HADITH =================
+### ================= HADITH & KUTUB AS-SITTAH =================
 
-### 24. Get Hadith Collections
-GET {{baseUrl}}/hadith/collections
+### 24. Get All Hadith Collections (Kutub as-Sittah + Nawawi 40)
+GET {{baseUrl}}/hadith/books
 
-### 25. Get 40 Nawawi Hadiths
-GET {{baseUrl}}/hadith/collection/nawawi40
+### 25. Get Book Overview & Chapter Metadata (Sahih al-Bukhari)
+GET {{baseUrl}}/hadith/book/bukhari
 
-### 26. Get Random Hadith
-GET {{baseUrl}}/hadith/random
+### 26. Get Chapters List for Sahih Muslim
+GET {{baseUrl}}/hadith/book/muslim/chapters
+
+### 27. Get Specific Chapter Hadiths (Bilingual Arabic & English)
+GET {{baseUrl}}/hadith/book/bukhari/chapter/1?lang=both
+
+### 28. Lookup Specific Hadith by Number in Book (O(1) Instant)
+GET {{baseUrl}}/hadith/book/bukhari/hadith/1
+
+### 29. Get Random Hadith from Specific Book
+GET {{baseUrl}}/hadith/random?book=muslim
+
+### 30. Search in Hadith Texts Across Collections
+GET {{baseUrl}}/hadith/search?q=النية
+
+### ================= MULTILINGUAL QURAN TRANSLATIONS =================
+
+### 31. Get All 97 Available Translation Languages
+GET {{baseUrl}}/quran/translations/languages
+
+### 32. Get Comprehensive Quran Metadata (Surahs, Juz, Sajdah)
+GET {{baseUrl}}/quran/metadata
+
+### 33. Get Full Surah Translation (English - Al-Fatihah)
+GET {{baseUrl}}/quran/translations/english/surah/1
+
+### 34. Get Full Surah Translation (French - Al-Fatihah)
+GET {{baseUrl}}/quran/translations/french/surah/1
+
+### 35. Get Single Ayah Translation
+GET {{baseUrl}}/quran/translations/english/ayah/1/1
 
 ### ================= PRAYER TIMES =================
 
-### 27. Calculate Prayer Times (Tunis Coordinates)
+### 36. Calculate Prayer Times (Tunis Coordinates)
 GET {{baseUrl}}/prayer-times/calculate?latitude=36.8065&longitude=10.1815&timezone=1&method=EGYPT
+
