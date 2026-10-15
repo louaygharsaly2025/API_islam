@@ -11,6 +11,8 @@ Works seamlessly in **Node.js, Browser, Next.js, React, Vue, Svelte, Angular, Re
 
 ## 🌟 Features
 
+- 📚 **Kutub as-Sittah Hadith Encyclopedia**: Full authentic collections (Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami` at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah) and 40 Hadith Nawawi with 34,100+ Hadiths in Arabic and English, chapters, random Hadith, and $O(1)$ fast lookup.
+- 🌍 **97 Quran Translations**: Complete Surah and Ayah translations in 97 world languages with structural Quran metadata (30 Juzs, 14 Sajdah verses).
 - 📖 **Holy Quran with 9 Qira'at**: Hafs, Warsh, Qaloon, Doori, Soosi, Shouba, Bazzi, Qumbul, Hafs Smart.
 - 🎨 **Tajweed Colored Rules**: Rules categorization and segment breakdown for recitation.
 - 🕌 **Prayer Times & Qibla**: Highly accurate timings calculation and Kaaba compass bearing & distance.
@@ -22,6 +24,7 @@ Works seamlessly in **Node.js, Browser, Next.js, React, Vue, Svelte, Angular, Re
 - 💰 **Zakat Calculator**: Instant Nisab and Zakat calculation on Cash, Gold, Silver, and Trade goods.
 - 📻 **Live Islamic Radios**: Global Quran and Islamic radio streams.
 - 🖼️ **Mushaf Page Images**: High-resolution Mushaf page images (1–604) with CDN fallback.
+
 
 ---
 

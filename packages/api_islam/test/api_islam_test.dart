@@ -197,6 +197,71 @@ void main() {
       expect(res.zakatDue, 250.0);
     });
 
+    test('HadithService getBooks and getHadith', () async {
+      final mockClient = MockClient((request) async {
+        if (request.url.path == '/api/v1/hadith/books') {
+          return http.Response(
+            jsonEncode([
+              {
+                'id': 'bukhari',
+                'name_ar': 'صحيح البخاري',
+                'name_en': 'Sahih al-Bukhari',
+                'hadiths_count': 7563,
+                'chapters_count': 97
+              }
+            ]),
+            200,
+            headers: {'content-type': 'application/json'},
+          );
+        } else if (request.url.path == '/api/v1/hadith/book/bukhari/hadith/1') {
+          return http.Response(
+            jsonEncode({
+              'hadith_number': 1,
+              'book_id': 'bukhari',
+              'chapter_number': 1,
+              'arabic': 'إنما الأعمال بالنيات',
+              'english': 'Actions are according to intentions'
+            }),
+            200,
+            headers: {'content-type': 'application/json'},
+          );
+        }
+        return http.Response('Not Found', 404);
+      });
+
+      final api = ApiIslam(httpClient: mockClient);
+      final books = await api.hadith.getBooks();
+      expect(books.length, 1);
+      expect(books.first.id, 'bukhari');
+      expect(books.first.hadithsCount, 7563);
+
+      final hadith = await api.hadith.getHadith('bukhari', 1);
+      expect(hadith.hadithNumber, 1);
+      expect(hadith.arabic, contains('النيات'));
+      expect(hadith.english, contains('intentions'));
+    });
+
+    test('QuranService getTranslationLanguages and getTranslationSurah', () async {
+      final mockClient = MockClient((request) async {
+        if (request.url.path == '/api/v1/quran/translations/languages') {
+          return http.Response(
+            jsonEncode({
+              'total_languages': 97,
+              'languages': ['English', 'French', 'Urdu']
+            }),
+            200,
+            headers: {'content-type': 'application/json'},
+          );
+        }
+        return http.Response('Not Found', 404);
+      });
+
+      final api = ApiIslam(httpClient: mockClient);
+      final langs = await api.quran.getTranslationLanguages();
+      expect(langs.length, 3);
+      expect(langs, contains('English'));
+    });
+
     test('Handles 404 with NotFoundException', () async {
       final mockClient = MockClient((request) async {
         return http.Response('Not Found', 404);
@@ -207,3 +272,4 @@ void main() {
     });
   });
 }
+

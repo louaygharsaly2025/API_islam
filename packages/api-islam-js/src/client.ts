@@ -1,5 +1,6 @@
 import { ApiIslamConfig } from './config';
 import { QuranService } from './services/quran';
+import { HadithService } from './services/hadith';
 import { TajweedService } from './services/tajweed';
 import { PrayersService } from './services/prayers';
 import { AzkarService } from './services/azkar';
@@ -12,6 +13,7 @@ import { ToolsService } from './services/tools';
 export class ApiIslam {
   readonly config: ApiIslamConfig;
   readonly quran: QuranService;
+  readonly hadith: HadithService;
   readonly tajweed: TajweedService;
   readonly prayers: PrayersService;
   readonly azkar: AzkarService;
@@ -26,6 +28,7 @@ export class ApiIslam {
     };
 
     this.quran = new QuranService(this.config);
+    this.hadith = new HadithService(this.config);
     this.tajweed = new TajweedService(this.config);
     this.prayers = new PrayersService(this.config);
     this.azkar = new AzkarService(this.config);
@@ -33,3 +36,4 @@ export class ApiIslam {
     this.tools = new ToolsService(this.config);
   }
 }
+

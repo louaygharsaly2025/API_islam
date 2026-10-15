@@ -1,4 +1,5 @@
 export 'quran_models.dart';
+export 'hadith_models.dart';
 export 'tajweed_models.dart';
 export 'prayer_models.dart';
 export 'azkar_models.dart';

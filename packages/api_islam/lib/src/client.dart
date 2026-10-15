@@ -1,6 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'config.dart';
 import 'services/quran_service.dart';
+import 'services/hadith_service.dart';
 import 'services/tajweed_service.dart';
 import 'services/prayer_service.dart';
 import 'services/azkar_service.dart';
@@ -13,6 +14,7 @@ class ApiIslam {
   final http.Client _client;
 
   late final QuranService quran;
+  late final HadithService hadith;
   late final TajweedService tajweed;
   late final PrayerService prayers;
   late final AzkarService azkar;
@@ -44,12 +46,14 @@ class ApiIslam {
 
   void _initServices() {
     quran = QuranService(config: config, client: _client);
+    hadith = HadithService(config: config, client: _client);
     tajweed = TajweedService(config: config, client: _client);
     prayers = PrayerService(config: config, client: _client);
     azkar = AzkarService(config: config, client: _client);
     media = MediaService(config: config, client: _client);
     tools = ToolsService(config: config, client: _client);
   }
+
 
   /// Closes the underlying HTTP client.
   void close() {

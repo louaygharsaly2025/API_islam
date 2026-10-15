@@ -6,6 +6,7 @@ export 'src/config.dart';
 export 'src/exceptions.dart';
 export 'src/models/models.dart';
 export 'src/services/quran_service.dart';
+export 'src/services/hadith_service.dart';
 export 'src/services/tajweed_service.dart';
 export 'src/services/prayer_service.dart';
 export 'src/services/azkar_service.dart';

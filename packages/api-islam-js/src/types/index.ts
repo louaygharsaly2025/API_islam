@@ -1,4 +1,5 @@
 export * from './quran';
+export * from './hadith';
 export * from './tajweed';
 export * from './prayers';
 export * from './azkar';
@@ -7,3 +8,4 @@ export * from './ruqyah';
 export * from './zakat';
 export * from './radio';
 export * from './mushaf';
+

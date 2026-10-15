@@ -86,6 +86,59 @@ describe('ApiIslam JavaScript / TypeScript SDK', () => {
     expect(result.zakat_due).toBe(250);
   });
 
+  it('fetches Hadith books and individual Hadith', async () => {
+    global.fetch = vi.fn().mockImplementation(async (url: string) => {
+      if (url.includes('/api/v1/hadith/books')) {
+        return {
+          ok: true,
+          json: async () => [
+            {
+              id: 'bukhari',
+              name_ar: 'صحيح البخاري',
+              name_en: 'Sahih al-Bukhari',
+              hadiths_count: 7563,
+              chapters_count: 97,
+            },
+          ],
+        } as any;
+      } else if (url.includes('/api/v1/hadith/book/bukhari/hadith/1')) {
+        return {
+          ok: true,
+          json: async () => ({
+            hadith_number: 1,
+            book_id: 'bukhari',
+            chapter_number: 1,
+            arabic: 'إنما الأعمال بالنيات',
+            english: 'Actions are according to intentions',
+          }),
+        } as any;
+      }
+      return { ok: false, status: 404, text: async () => 'Not Found' } as any;
+    });
+
+    const books = await api.hadith.getBooks();
+    expect(books).toHaveLength(1);
+    expect(books[0].id).toBe('bukhari');
+
+    const hadith = await api.hadith.getHadith('bukhari', 1);
+    expect(hadith.hadith_number).toBe(1);
+    expect(hadith.arabic).toContain('النيات');
+  });
+
+  it('fetches Quran translation languages', async () => {
+    global.fetch = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        total_languages: 97,
+        languages: ['English', 'French', 'Urdu'],
+      }),
+    } as any);
+
+    const langs = await api.quran.getTranslationLanguages();
+    expect(langs).toHaveLength(3);
+    expect(langs).toContain('English');
+  });
+
   it('handles HTTP error correctly with ApiException', async () => {
     global.fetch = vi.fn().mockResolvedValue({
       ok: false,
@@ -96,3 +149,4 @@ describe('ApiIslam JavaScript / TypeScript SDK', () => {
     await expect(api.quran.getSurah(999)).rejects.toThrow(ApiException);
   });
 });
+

@@ -72,4 +72,30 @@ class QuranService {
     final data = await _get('/api/v1/quran/search', {'q': query, 'qiraah': qiraah});
     return QuranSearchResult.fromJson(data as Map<String, dynamic>);
   }
+
+  /// Get Quran structural metadata (Surahs, 30 Juzs, 14 Sajdahs, translation sources).
+  Future<Map<String, dynamic>> getMetadata() async {
+    final data = await _get('/api/v1/quran/metadata');
+    return data as Map<String, dynamic>;
+  }
+
+  /// Get list of all 97 supported translation languages and editions.
+  Future<List<String>> getTranslationLanguages() async {
+    final data = await _get('/api/v1/quran/translations/languages');
+    final list = data is List ? data : (data['languages'] as List? ?? []);
+    return list.map((e) => e.toString()).toList();
+  }
+
+  /// Get a full Surah translation in any of the 97 languages.
+  Future<Map<String, dynamic>> getTranslationSurah(String lang, int surahId) async {
+    final data = await _get('/api/v1/quran/translations/$lang/surah/$surahId');
+    return data as Map<String, dynamic>;
+  }
+
+  /// Get a specific Ayah translation in any of the 97 languages.
+  Future<Map<String, dynamic>> getTranslationAyah(String lang, int surahId, int ayahId) async {
+    final data = await _get('/api/v1/quran/translations/$lang/ayah/$surahId/$ayahId');
+    return data as Map<String, dynamic>;
+  }
 }
+

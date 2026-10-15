@@ -106,4 +106,34 @@ export class QuranService {
       results: data.results || [],
     };
   }
+
+  /**
+   * Get Quran structural metadata (Surahs, 30 Juzs, 14 Sajdahs, translation sources).
+   */
+  async getMetadata(): Promise<any> {
+    return this.request<any>('/api/v1/quran/metadata');
+  }
+
+  /**
+   * Get list of all 97 supported translation languages and editions.
+   */
+  async getTranslationLanguages(): Promise<string[]> {
+    const data = await this.request<any>('/api/v1/quran/translations/languages');
+    return Array.isArray(data) ? data : (data.languages || []);
+  }
+
+  /**
+   * Get a full Surah translation in any of the 97 languages.
+   */
+  async getTranslationSurah(lang: string, surahId: number): Promise<any> {
+    return this.request<any>(`/api/v1/quran/translations/${lang}/surah/${surahId}`);
+  }
+
+  /**
+   * Get a specific Ayah translation in any of the 97 languages.
+   */
+  async getTranslationAyah(lang: string, surahId: number, ayahId: number): Promise<any> {
+    return this.request<any>(`/api/v1/quran/translations/${lang}/ayah/${surahId}/${ayahId}`);
+  }
 }
+

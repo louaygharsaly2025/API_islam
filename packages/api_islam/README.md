@@ -9,6 +9,8 @@ A modern, fast, and feature-rich **Dart & Flutter SDK** for **API_ISLAM** — Th
 
 ## 🌟 Features
 
+- 📚 **Kutub as-Sittah Hadith Encyclopedia**: Full authentic collections (Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami` at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah) and 40 Hadith Nawawi with 34,100+ Hadiths in Arabic and English, chapters, random Hadith, and $O(1)$ fast lookup.
+- 🌍 **97 Quran Translations**: Complete Surah and Ayah translations in 97 world languages with structural Quran metadata (30 Juzs, 14 Sajdah verses).
 - 📖 **Holy Quran with 9 Qira'at**: Hafs, Warsh, Qaloon, Doori, Soosi, Shouba, Bazzi, Qumbul, and Hafs Smart with King Fahd Complex official fonts.
 - 🎨 **Tajweed Rules**: Colored Tajweed text segment breakdown by rules (Ghunnah, Ikhfa, Idgham, Qalqalah, etc.).
 - 🕌 **Prayer Times & Qibla**: Highly accurate prayer timings calculation (12+ global calculation methods) + exact Kaaba compass direction & distance.
@@ -20,6 +22,7 @@ A modern, fast, and feature-rich **Dart & Flutter SDK** for **API_ISLAM** — Th
 - 💰 **Zakat Calculator**: Instant Nisab and Zakat calculation on Cash, Gold, Silver, and Trade goods.
 - 📻 **Live Islamic Radios**: High-quality global Quran and Islamic radio streams.
 - 🖼️ **Mushaf Page Images**: High-resolution Mushaf page images (1–604) with CDN fallback.
+
 
 ---
 
