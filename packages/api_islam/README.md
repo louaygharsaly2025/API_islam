@@ -32,7 +32,7 @@ Add `api_islam` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  api_islam: ^1.0.0
+  api_islam: ^1.1.1
 ```
 
 Then run:
@@ -130,6 +130,36 @@ final zakat = await api.tools.calculateZakat(
 print('Is Eligible: ${zakat.isEligible}');
 print('Zakat Due: ${zakat.zakatDue} ${zakat.currency}');
 ```
+
+### 📚 Kutub as-Sittah Hadith Encyclopedia
+```dart
+// 1. List available Hadith collections (Bukhari, Muslim, Tirmidhi, etc.)
+final books = await api.hadith.getBooks();
+
+// 2. Fast O(1) single Hadith lookup (e.g. Sahih al-Bukhari Hadith #1)
+final hadith = await api.hadith.getHadith('bukhari', 1);
+print('Arabic: ${hadith.arabic}');
+print('English: ${hadith.english}');
+
+// 3. Get a random authentic Hadith
+final randomHadith = await api.hadith.getRandomHadith(book: 'muslim');
+
+// 4. Search across Hadiths
+final searchResults = await api.hadith.search('prayer', book: 'bukhari', lang: 'en');
+```
+
+### 🌍 97 Quran Translations
+```dart
+// List available languages (English, French, Urdu, Indonesian, etc.)
+final languages = await api.quran.getTranslationLanguages();
+
+// Get Surah Al-Fatihah translation in French
+final frenchSurah = await api.quran.getTranslationSurah('French', 1);
+
+// Get single Ayah translation in English
+final englishAyah = await api.quran.getTranslationAyah('English', 1, 1);
+```
+
 
 ---
 

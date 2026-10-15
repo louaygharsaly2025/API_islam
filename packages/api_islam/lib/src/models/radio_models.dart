@@ -1,5 +1,6 @@
-/// Islamic Live Radios Model.
+// Islamic Live Radios Model.
 
+/// Information about an Islamic live radio broadcast.
 class IslamicRadio {
   final int id;
   final String name;

@@ -1,5 +1,6 @@
-/// Models for Prayer Times, Qibla, and Hijri Calendar.
+// Models for Prayer Times, Qibla, and Hijri Calendar.
 
+/// Calculated daily prayer times and timings.
 class PrayerTimesData {
   final String fajr;
   final String sunrise;

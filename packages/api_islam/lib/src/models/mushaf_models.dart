@@ -1,5 +1,6 @@
-/// Mushaf page and font models.
+// Mushaf page and font models.
 
+/// Represents a physical Mushaf page (1 to 604).
 class MushafPage {
   final int pageNumber;
   final String imageUrl;

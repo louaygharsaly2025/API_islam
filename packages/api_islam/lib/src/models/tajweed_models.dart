@@ -1,5 +1,6 @@
-/// Models for Tajweed rules and colored text.
+// Models for Tajweed rules and colored text.
 
+/// Tajweed pronunciation rule definition.
 class TajweedRule {
   final String id;
   final String nameArabic;

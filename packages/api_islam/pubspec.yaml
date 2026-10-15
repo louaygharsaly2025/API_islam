@@ -1,6 +1,6 @@
 name: api_islam
 description: A comprehensive Dart & Flutter SDK for API_ISLAM — Kutub as-Sittah Hadith, 97 Quran Translations, 9 Qiraat, Tajweed, Prayer times, Azkar, and Zakat.
-version: 1.1.0
+version: 1.1.1
 homepage: https://github.com/louaygharsaly2025/API_islam
 repository: https://github.com/louaygharsaly2025/API_islam/tree/main/packages/api_islam
 issue_tracker: https://github.com/louaygharsaly2025/API_islam/issues

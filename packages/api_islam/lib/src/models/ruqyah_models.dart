@@ -1,5 +1,6 @@
-/// Ruqyah Shariah Models.
+// Ruqyah Shariah Models.
 
+/// Represents an Islamic Ruqyah supplication or Quranic verse.
 class RuqyahItem {
   final int id;
   final String title;

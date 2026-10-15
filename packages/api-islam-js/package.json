@@ -1,6 +1,6 @@
 {
   "name": "api-islam",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "The official TypeScript & JavaScript SDK for API_ISLAM — Kutub as-Sittah Hadith, 97 Quran Translations, 9 Qiraat, Tajweed rules, Prayer times, Hijri calendar, Azkar, 99 Names of Allah, and Zakat calculator.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -42,7 +42,7 @@
     "sdk",
     "typescript"
   ],
-  "author": "Louay Gharsallah",
+  "author": "Louay Gharsalli",
   "license": "MIT",
   "homepage": "https://github.com/louaygharsaly2025/API_islam",
   "repository": {

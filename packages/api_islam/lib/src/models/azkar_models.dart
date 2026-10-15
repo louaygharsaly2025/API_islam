@@ -1,5 +1,6 @@
-/// Models for Azkar and Duas.
+// Models for Azkar and Duas.
 
+/// Supplication or remembrance item.
 class ZekrItem {
   final int id;
   final String category;

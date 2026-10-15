@@ -2,7 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.1.1
+
+- Enhanced API documentation comments across all public models and client methods for 100% pub.dev score.
+- Fixed dangling library doc comments.
+- Updated README.md installation instructions and added detailed code examples for Kutub as-Sittah Hadith and 97 Quran Translations.
+
 ## 1.1.0
+
 
 - Added `HadithService` (`api.hadith`):
   - Full support for Kutub as-Sittah (Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami` at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah) and 40 Hadith Nawawi (34,100+ Hadiths in Arabic and English).

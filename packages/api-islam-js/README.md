@@ -108,6 +108,36 @@ const radios = await api.media.getRadios();
 const imageUrl = api.media.getMushafPageImageUrl(1);
 ```
 
+### 📚 Kutub as-Sittah Hadith Encyclopedia
+```typescript
+// 1. List Hadith books
+const books = await api.hadith.getBooks();
+
+// 2. Fast O(1) Hadith lookup (e.g. Sahih al-Bukhari Hadith #1)
+const hadith = await api.hadith.getHadith('bukhari', 1);
+console.log(`Hadith: ${hadith.arabic}`);
+console.log(`Translation: ${hadith.english}`);
+
+// 3. Random Hadith
+const randomHadith = await api.hadith.getRandomHadith({ book: 'muslim' });
+
+// 4. Search Hadiths
+const searchResults = await api.hadith.search('prayer', { book: 'bukhari', lang: 'en' });
+```
+
+### 🌍 97 Quran Translations
+```typescript
+// List available languages
+const languages = await api.quran.getTranslationLanguages();
+
+// Get Surah translation
+const frenchSurah = await api.quran.getTranslationSurah('French', 1);
+
+// Get single Ayah translation
+const englishAyah = await api.quran.getTranslationAyah('English', 1, 1);
+```
+
+
 ---
 
 ## 📄 License

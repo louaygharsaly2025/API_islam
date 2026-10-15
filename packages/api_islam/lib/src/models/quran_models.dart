@@ -1,5 +1,6 @@
-/// Models for Holy Quran and Surahs/Ayahs.
+// Models for Holy Quran and Surahs/Ayahs.
 
+/// Information about a Surah in the Holy Quran.
 class SurahInfo {
   final int id;
   final String name;

@@ -1,12 +1,23 @@
-/// Models for Kutub as-Sittah Hadith Encyclopedia.
+// Models for Kutub as-Sittah Hadith Encyclopedia.
 
+/// Information about a Hadith book collection (e.g. Bukhari, Muslim).
 class HadithBook {
+  /// Unique identifier of the book (e.g., 'bukhari').
   final String id;
+
+  /// Arabic title of the book.
   final String nameArabic;
+
+  /// English title of the book.
   final String nameEnglish;
+
+  /// Total count of Hadiths in this book.
   final int hadithsCount;
+
+  /// Total count of chapters in this book.
   final int chaptersCount;
 
+  /// Creates a [HadithBook] instance.
   const HadithBook({
     required this.id,
     required this.nameArabic,
@@ -15,6 +26,7 @@ class HadithBook {
     required this.chaptersCount,
   });
 
+  /// Creates a [HadithBook] from a JSON map.
   factory HadithBook.fromJson(Map<String, dynamic> json) {
     return HadithBook(
       id: json['id'] as String? ?? json['book_id'] as String? ?? '',
@@ -25,6 +37,7 @@ class HadithBook {
     );
   }
 
+  /// Converts this instance to a JSON map.
   Map<String, dynamic> toJson() => {
         'id': id,
         'name_ar': nameArabic,
@@ -34,12 +47,21 @@ class HadithBook {
       };
 }
 
+/// A chapter within a Hadith collection.
 class HadithChapter {
+  /// The chapter number.
   final int chapterNumber;
+
+  /// The chapter title in Arabic.
   final String titleArabic;
+
+  /// The chapter title in English.
   final String titleEnglish;
+
+  /// Total hadiths in this chapter.
   final int hadithsCount;
 
+  /// Creates a [HadithChapter] instance.
   const HadithChapter({
     required this.chapterNumber,
     required this.titleArabic,
@@ -47,6 +69,7 @@ class HadithChapter {
     required this.hadithsCount,
   });
 
+  /// Creates a [HadithChapter] from a JSON map.
   factory HadithChapter.fromJson(Map<String, dynamic> json) {
     return HadithChapter(
       chapterNumber: json['chapter_number'] as int? ?? json['id'] as int? ?? int.tryParse(json['chapter_number']?.toString() ?? '') ?? 0,
@@ -56,6 +79,7 @@ class HadithChapter {
     );
   }
 
+  /// Converts this instance to a JSON map.
   Map<String, dynamic> toJson() => {
         'chapter_number': chapterNumber,
         'title_ar': titleArabic,
@@ -64,13 +88,24 @@ class HadithChapter {
       };
 }
 
+/// A single Hadith narration with Arabic text and English translation.
 class HadithItem {
+  /// The Hadith number in the collection.
   final int hadithNumber;
+
+  /// The Arabic matn and isnad text.
   final String arabic;
+
+  /// The English translation.
   final String english;
+
+  /// The book identifier, if available.
   final String? bookId;
+
+  /// The chapter number, if available.
   final int? chapterNumber;
 
+  /// Creates a [HadithItem] instance.
   const HadithItem({
     required this.hadithNumber,
     required this.arabic,
@@ -79,8 +114,8 @@ class HadithItem {
     this.chapterNumber,
   });
 
+  /// Creates a [HadithItem] from a JSON map.
   factory HadithItem.fromJson(Map<String, dynamic> json) {
-    // English can sometimes be an object or string
     String parsedEnglish = '';
     final rawEn = json['english'];
     if (rawEn is String) {
@@ -102,6 +137,7 @@ class HadithItem {
     );
   }
 
+  /// Converts this instance to a JSON map.
   Map<String, dynamic> toJson() => {
         'hadith_number': hadithNumber,
         'arabic': arabic,
@@ -111,12 +147,21 @@ class HadithItem {
       };
 }
 
+/// Results of a Hadith search operation.
 class HadithSearchResult {
+  /// Total number of matching results.
   final int count;
+
+  /// The original search query.
   final String query;
+
+  /// The filtered book ID, if any.
   final String? book;
+
+  /// The list of matching Hadiths.
   final List<HadithItem> results;
 
+  /// Creates a [HadithSearchResult] instance.
   const HadithSearchResult({
     required this.count,
     required this.query,
@@ -124,6 +169,7 @@ class HadithSearchResult {
     required this.results,
   });
 
+  /// Creates a [HadithSearchResult] from a JSON map.
   factory HadithSearchResult.fromJson(Map<String, dynamic> json) {
     final rawResults = json['results'] as List<dynamic>? ?? [];
     return HadithSearchResult(

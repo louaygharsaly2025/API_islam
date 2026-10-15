@@ -1,6 +1,12 @@
 # Changelog
 
+## 1.1.1
+
+- Added detailed README.md usage examples for Kutub as-Sittah Hadith and 97 Quran Translations.
+- TypeScript declaration file improvements.
+
 ## 1.1.0
+
 
 - Added `HadithService` (`api.hadith`):
   - Full support for Kutub as-Sittah (Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami` at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah) and 40 Hadith Nawawi (34,100+ Hadiths in Arabic and English).

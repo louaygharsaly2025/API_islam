@@ -1,5 +1,6 @@
-/// Zakat Calculator Models.
+// Zakat Calculator Models.
 
+/// Result of a Zakat calculation.
 class ZakatCalculationResult {
   final double totalWealth;
   final double nisabThreshold;
