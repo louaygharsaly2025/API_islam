@@ -7,6 +7,7 @@ import 'services/prayer_service.dart';
 import 'services/azkar_service.dart';
 import 'services/media_service.dart';
 import 'services/tools_service.dart';
+import 'services/tafsir_service.dart';
 
 /// The central API_ISLAM Client for Flutter and Dart.
 class ApiIslam {
@@ -34,6 +35,9 @@ class ApiIslam {
 
   /// Zakat Calculator and Islamic calculation tools.
   late final ToolsService tools;
+
+  /// Quran Tafsir & Exegesis service.
+  late final TafsirService tafsir;
 
   /// Creates an [ApiIslam] instance with optional [baseUrl], [timeout], and [headers].
   ApiIslam({
@@ -69,6 +73,7 @@ class ApiIslam {
     azkar = AzkarService(config: config, client: _client);
     media = MediaService(config: config, client: _client);
     tools = ToolsService(config: config, client: _client);
+    tafsir = TafsirService(config: config, client: _client);
   }
 
 

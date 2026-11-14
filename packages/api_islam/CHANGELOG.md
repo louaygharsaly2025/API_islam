@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## 1.1.1
+## 1.2.0
+
+- Added `TafsirService` (`api.tafsir`):
+  - Full Quran Tafsir & Exegesis support with methods: `getBooks()`, `getSurahTafsir(tafsirId, surahNumber)`, `getAyahTafsir(tafsirId, surahNumber, ayahNumber)`.
+- Added `getReciters()` and `getJuz()` to `QuranService` (`api.quran`):
+  - Top Quran reciters streaming links (Al-Afasy, Al-Husary, Abdul Basit, Minshawi, Hudhaify, Yassin Al-Jazairi).
+  - Direct 30 Juz retrieval.
+- Fixed field mapping and null safety in `Ayah.fromJson` and `SurahInfo.fromJson`:
+  - Added support for KFGQPC standardized keys (`aya_text`, `aya_no`, `sora`, `jozz`, `name_ar`, `start_page`, `end_page`).
+- Fixed Qiraat endpoint resolution:
+  - Supports both `/api/v1/quran/editions` and `/api/v1/quran/qiraat`.
 
 - Enhanced API documentation comments across all public models and client methods for 100% pub.dev score.
 - Fixed dangling library doc comments.

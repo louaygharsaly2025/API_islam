@@ -205,6 +205,7 @@ def normalize_arabic(text: str) -> str:
 
 
 @router.get("/editions", summary="List all 9 available Quran Qiraat & Riwayat (KFGQPC)")
+@router.get("/qiraat", summary="Alias for /editions: List all 9 available Quran Qiraat & Riwayat (KFGQPC)")
 def get_editions():
     return {
         "status": "success",

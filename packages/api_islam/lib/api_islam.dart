@@ -12,3 +12,4 @@ export 'src/services/prayer_service.dart';
 export 'src/services/azkar_service.dart';
 export 'src/services/media_service.dart';
 export 'src/services/tools_service.dart';
+export 'src/services/tafsir_service.dart';

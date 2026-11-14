@@ -262,6 +262,106 @@ void main() {
       expect(langs, contains('English'));
     });
 
+    test('TafsirService getBooks and getAyahTafsir', () async {
+      final mockClient = MockClient((request) async {
+        if (request.url.path == '/api/v1/tafsir/books') {
+          return http.Response(
+            jsonEncode({
+              'status': 'success',
+              'data': [
+                {
+                  'id': 'muyassar',
+                  'name_ar': 'التفسير الميسر',
+                  'name_en': 'Tafsir Al-Muyassar',
+                  'language': 'ar',
+                  'author': 'نخبة من العلماء'
+                }
+              ]
+            }),
+            200,
+            headers: {'content-type': 'application/json'},
+          );
+        } else if (request.url.path == '/api/v1/tafsir/muyassar/ayah/1/1') {
+          return http.Response(
+            jsonEncode({
+              'status': 'success',
+              'tafsir_id': 'muyassar',
+              'surah_number': 1,
+              'ayah_number': 1,
+              'tafsir_text': 'أبتدئ قراءتي مستعينا بالله'
+            }),
+            200,
+            headers: {'content-type': 'application/json'},
+          );
+        }
+        return http.Response('Not Found', 404);
+      });
+
+      final api = ApiIslam(httpClient: mockClient);
+      final books = await api.tafsir.getBooks();
+      expect(books.length, 1);
+      expect(books.first.id, 'muyassar');
+
+      final ayahTafsir = await api.tafsir.getAyahTafsir('muyassar', 1, 1);
+      expect(ayahTafsir.surahNumber, 1);
+      expect(ayahTafsir.ayahNumber, 1);
+      expect(ayahTafsir.text, contains('مستعينا بالله'));
+    });
+
+    test('QuranService getReciters and getJuz and KFGQPC field parsing', () async {
+      final mockClient = MockClient((request) async {
+        if (request.url.path == '/api/v1/quran/reciters') {
+          return http.Response(
+            jsonEncode({
+              'status': 'success',
+              'data': [
+                {
+                  'id': 'mishari_al_afasy',
+                  'name_ar': 'مشاري راشد العفاسي',
+                  'name_en': 'Mishari Rashid Al-Afasy',
+                  'riwayah': 'حفص عن عاصم',
+                  'server': 'https://server8.mp3quran.net/afs'
+                }
+              ]
+            }),
+            200,
+            headers: {'content-type': 'application/json'},
+          );
+        } else if (request.url.path == '/api/v1/quran/juz/30') {
+          return http.Response(
+            jsonEncode({
+              'status': 'success',
+              'juz_number': 30,
+              'data': [
+                {
+                  'sora': 78,
+                  'aya_no': 1,
+                  'aya_text': 'عَمَّ يَتَسَاءَلُونَ',
+                  'jozz': 30,
+                  'page': 582
+                }
+              ]
+            }),
+            200,
+            headers: {'content-type': 'application/json'},
+          );
+        }
+        return http.Response('Not Found', 404);
+      });
+
+      final api = ApiIslam(httpClient: mockClient);
+      final reciters = await api.quran.getReciters();
+      expect(reciters.length, 1);
+      expect(reciters.first.nameArabic, 'مشاري راشد العفاسي');
+
+      final juzVerses = await api.quran.getJuz(30);
+      expect(juzVerses.length, 1);
+      expect(juzVerses.first.text, 'عَمَّ يَتَسَاءَلُونَ');
+      expect(juzVerses.first.surahId, 78);
+      expect(juzVerses.first.verseNumber, 1);
+      expect(juzVerses.first.juz, 30);
+    });
+
     test('Handles 404 with NotFoundException', () async {
       final mockClient = MockClient((request) async {
         return http.Response('Not Found', 404);

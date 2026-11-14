@@ -25,13 +25,24 @@ class SurahInfo {
   factory SurahInfo.fromJson(Map<String, dynamic> json) {
     return SurahInfo(
       id: json['id'] as int? ?? json['number'] as int? ?? 0,
-      name: json['name'] as String? ?? '',
-      englishName: json['englishName'] as String? ?? json['name_en'] as String? ?? '',
+      name: json['name'] as String? ??
+          json['name_ar'] as String? ??
+          json['name_arabic'] as String? ??
+          json['sora_name_ar'] as String? ??
+          '',
+      englishName: json['englishName'] as String? ??
+          json['name_en'] as String? ??
+          json['name_english'] as String? ??
+          json['sora_name_en'] as String? ??
+          '',
       englishNameTranslation: json['englishNameTranslation'] as String? ?? '',
-      totalVerses: json['total_verses'] as int? ?? json['numberOfAyahs'] as int? ?? 0,
-      revelationType: json['revelation_type'] as String? ?? json['revelationType'] as String? ?? '',
-      pageStart: json['page_start'] as int? ?? 0,
-      pageEnd: json['page_end'] as int? ?? 0,
+      totalVerses:
+          json['total_verses'] as int? ?? json['numberOfAyahs'] as int? ?? 0,
+      revelationType: json['revelation_type'] as String? ??
+          json['revelationType'] as String? ??
+          '',
+      pageStart: json['page_start'] as int? ?? json['start_page'] as int? ?? 0,
+      pageEnd: json['page_end'] as int? ?? json['end_page'] as int? ?? 0,
     );
   }
 
@@ -73,11 +84,18 @@ class Ayah {
   factory Ayah.fromJson(Map<String, dynamic> json) {
     return Ayah(
       id: json['id'] as int? ?? json['number'] as int? ?? 0,
-      surahId: json['surah_id'] as int? ?? json['surahNumber'] as int? ?? 0,
-      verseNumber: json['verse_number'] as int? ?? json['numberInSurah'] as int? ?? 0,
-      text: json['text'] as String? ?? '',
+      surahId: json['surah_id'] as int? ??
+          json['surahNumber'] as int? ??
+          json['sora'] as int? ??
+          json['sura_no'] as int? ??
+          0,
+      verseNumber: json['verse_number'] as int? ??
+          json['numberInSurah'] as int? ??
+          json['aya_no'] as int? ??
+          0,
+      text: json['text'] as String? ?? json['aya_text'] as String? ?? '',
       page: json['page'] as int? ?? 0,
-      juz: json['juz'] as int? ?? 0,
+      juz: json['juz'] as int? ?? json['jozz'] as int? ?? 0,
       hizbQuarter: json['hizbQuarter'] as int? ?? 0,
       audioUrl: json['audio_url'] as String? ?? json['audio'] as String?,
       translation: json['translation'] as String?,
@@ -170,4 +188,39 @@ class QuranSearchResult {
       results: rawResults.map((e) => Ayah.fromJson(e as Map<String, dynamic>)).toList(),
     );
   }
+}
+
+/// Information about a Quran reciter and their audio stream links.
+class ReciterInfo {
+  final String id;
+  final String nameArabic;
+  final String nameEnglish;
+  final String riwayah;
+  final String server;
+
+  const ReciterInfo({
+    required this.id,
+    required this.nameArabic,
+    required this.nameEnglish,
+    required this.riwayah,
+    required this.server,
+  });
+
+  factory ReciterInfo.fromJson(Map<String, dynamic> json) {
+    return ReciterInfo(
+      id: json['id'] as String? ?? '',
+      nameArabic: json['name_ar'] as String? ?? json['name'] as String? ?? '',
+      nameEnglish: json['name_en'] as String? ?? json['englishName'] as String? ?? '',
+      riwayah: json['riwayah'] as String? ?? json['rewaya'] as String? ?? 'حفص عن عاصم',
+      server: json['server'] as String? ?? json['audio_url'] as String? ?? '',
+    );
+  }
+
+  Map<String, dynamic> toJson() => {
+        'id': id,
+        'name_ar': nameArabic,
+        'name_en': nameEnglish,
+        'riwayah': riwayah,
+        'server': server,
+      };
 }

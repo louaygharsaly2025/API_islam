@@ -43,9 +43,45 @@ class QuranService {
 
   /// Get list of supported 9 Qira'at and their font information.
   Future<List<QiraahInfo>> getQiraat() async {
-    final data = await _get('/api/v1/quran/qiraat');
-    final list = data is List ? data : (data['qiraat'] as List? ?? []);
-    return list.map((e) => QiraahInfo.fromJson(e as Map<String, dynamic>)).toList();
+    dynamic data;
+    try {
+      data = await _get('/api/v1/quran/editions');
+    } catch (_) {
+      data = await _get('/api/v1/quran/qiraat');
+    }
+    final list = data is List
+        ? data
+        : (data['data'] as List? ??
+            data['qiraat'] as List? ??
+            data['editions'] as List? ??
+            []);
+    return list
+        .map((e) => QiraahInfo.fromJson(e as Map<String, dynamic>))
+        .toList();
+  }
+
+  /// Get list of available Quran Reciters and audio stream links.
+  Future<List<ReciterInfo>> getReciters() async {
+    final data = await _get('/api/v1/quran/reciters');
+    final list = data is List
+        ? data
+        : (data['data'] as List? ?? data['reciters'] as List? ?? []);
+    return list
+        .map((e) => ReciterInfo.fromJson(e as Map<String, dynamic>))
+        .toList();
+  }
+
+  /// Get all verses in a specific Juz (1 to 30) with an optional specific Qira'ah.
+  Future<List<Ayah>> getJuz(int juzNumber, {String qiraah = 'hafs'}) async {
+    final data =
+        await _get('/api/v1/quran/juz/$juzNumber', {'qiraah': qiraah});
+    final list = data is List
+        ? data
+        : (data['data'] as List? ??
+            data['verses'] as List? ??
+            data['ayahs'] as List? ??
+            []);
+    return list.map((e) => Ayah.fromJson(e as Map<String, dynamic>)).toList();
   }
 
   /// Get full Surah details and verses with an optional specific Qira'ah.

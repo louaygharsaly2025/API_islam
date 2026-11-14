@@ -8,3 +8,4 @@ export 'ruqyah_models.dart';
 export 'zakat_models.dart';
 export 'radio_models.dart';
 export 'mushaf_models.dart';
+export 'tafsir_models.dart';
