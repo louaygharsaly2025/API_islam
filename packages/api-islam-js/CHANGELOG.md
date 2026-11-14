@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.1
+
+- Updated README and documentation with complete Tafsir and Reciters examples.
+- Synced distribution artifacts.
+
 ## 1.2.0
 
 - Added `TafsirService` (`api.tafsir`):

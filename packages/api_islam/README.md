@@ -34,7 +34,7 @@ Add `api_islam` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  api_islam: ^1.2.0
+  api_islam: ^1.2.1
 ```
 
 Then run:

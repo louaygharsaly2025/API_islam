@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.2.1
+
+- Updated documentation and README with Tafsir and Reciters audio streaming examples.
+- Synchronized latest model definitions and dependencies.
+
 ## 1.2.0
 
 - Added `TafsirService` (`api.tafsir`):

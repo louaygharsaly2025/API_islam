@@ -1,6 +1,6 @@
 {
   "name": "api-islam",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The official TypeScript & JavaScript SDK for API_ISLAM — Holy Quran (9 Qiraat, 97 Translations, Reciters, Tafsir), Kutub as-Sittah Hadith, Tajweed rules, Prayer times, Hijri calendar, Azkar, 99 Names of Allah, and Zakat calculator.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
