@@ -8,4 +8,5 @@ export * from './ruqyah';
 export * from './zakat';
 export * from './radio';
 export * from './mushaf';
+export * from './tafsir';
 

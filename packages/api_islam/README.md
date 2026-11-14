@@ -12,6 +12,8 @@ A modern, fast, and feature-rich **Dart & Flutter SDK** for **API_ISLAM** — Th
 - 📚 **Kutub as-Sittah Hadith Encyclopedia**: Full authentic collections (Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami` at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah) and 40 Hadith Nawawi with 34,100+ Hadiths in Arabic and English, chapters, random Hadith, and $O(1)$ fast lookup.
 - 🌍 **97 Quran Translations**: Complete Surah and Ayah translations in 97 world languages with structural Quran metadata (30 Juzs, 14 Sajdah verses).
 - 📖 **Holy Quran with 9 Qira'at**: Hafs, Warsh, Qaloon, Doori, Soosi, Shouba, Bazzi, Qumbul, and Hafs Smart with King Fahd Complex official fonts.
+- 📚 **Quran Tafsir**: Multi-book authentic Tafsir (Ibn Kathir, Al-Saadi, Al-Baghawi, Al-Qurtubi, Al-Tabari, Al-Muyassar) for full Surahs and single Ayahs.
+- 🎙️ **Reciters & Audio**: Complete audio streaming servers, reciters metadata with narration types and high-bitrate MP3 links.
 - 🎨 **Tajweed Rules**: Colored Tajweed text segment breakdown by rules (Ghunnah, Ikhfa, Idgham, Qalqalah, etc.).
 - 🕌 **Prayer Times & Qibla**: Highly accurate prayer timings calculation (12+ global calculation methods) + exact Kaaba compass direction & distance.
 - 📅 **Hijri Calendar**: Accurate Gregorian to Islamic Hijri date converter with Islamic holidays.
@@ -32,7 +34,7 @@ Add `api_islam` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  api_islam: ^1.1.1
+  api_islam: ^1.2.0
 ```
 
 Then run:

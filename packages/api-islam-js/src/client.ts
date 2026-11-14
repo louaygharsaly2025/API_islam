@@ -6,6 +6,7 @@ import { PrayersService } from './services/prayers';
 import { AzkarService } from './services/azkar';
 import { MediaService } from './services/media';
 import { ToolsService } from './services/tools';
+import { TafsirService } from './services/tafsir';
 
 /**
  * The Main API_ISLAM Client.
@@ -19,6 +20,7 @@ export class ApiIslam {
   readonly azkar: AzkarService;
   readonly media: MediaService;
   readonly tools: ToolsService;
+  readonly tafsir: TafsirService;
 
   constructor(config: ApiIslamConfig = {}) {
     this.config = {
@@ -34,6 +36,7 @@ export class ApiIslam {
     this.azkar = new AzkarService(this.config);
     this.media = new MediaService(this.config);
     this.tools = new ToolsService(this.config);
+    this.tafsir = new TafsirService(this.config);
   }
 }
 

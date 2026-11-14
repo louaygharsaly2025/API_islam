@@ -14,6 +14,8 @@ Works seamlessly in **Node.js, Browser, Next.js, React, Vue, Svelte, Angular, Re
 - 📚 **Kutub as-Sittah Hadith Encyclopedia**: Full authentic collections (Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami` at-Tirmidhi, Sunan an-Nasa'i, Sunan Ibn Majah) and 40 Hadith Nawawi with 34,100+ Hadiths in Arabic and English, chapters, random Hadith, and $O(1)$ fast lookup.
 - 🌍 **97 Quran Translations**: Complete Surah and Ayah translations in 97 world languages with structural Quran metadata (30 Juzs, 14 Sajdah verses).
 - 📖 **Holy Quran with 9 Qira'at**: Hafs, Warsh, Qaloon, Doori, Soosi, Shouba, Bazzi, Qumbul, Hafs Smart.
+- 📚 **Quran Tafsir**: Multi-book authentic Tafsir (Ibn Kathir, Al-Saadi, Al-Baghawi, Al-Qurtubi, Al-Tabari, Al-Muyassar) for full Surahs and single Ayahs.
+- 🎙️ **Reciters & Audio**: Complete audio streaming servers, reciters metadata with narration types and high-bitrate MP3 links.
 - 🎨 **Tajweed Colored Rules**: Rules categorization and segment breakdown for recitation.
 - 🕌 **Prayer Times & Qibla**: Highly accurate timings calculation and Kaaba compass bearing & distance.
 - 📅 **Hijri Calendar**: Accurate Gregorian to Islamic Hijri conversion.

@@ -139,6 +139,100 @@ describe('ApiIslam JavaScript / TypeScript SDK', () => {
     expect(langs).toContain('English');
   });
 
+  it('fetches Tafsir books and Ayah explanation', async () => {
+    global.fetch = vi.fn().mockImplementation(async (url: string) => {
+      if (url.includes('/api/v1/tafsir/books')) {
+        return {
+          ok: true,
+          json: async () => ({
+            status: 'success',
+            data: [
+              {
+                id: 'muyassar',
+                name_ar: 'التفسير الميسر',
+                name_en: 'Tafsir Al-Muyassar',
+                language: 'ar',
+                author: 'نخبة من العلماء',
+              },
+            ],
+          }),
+        };
+      } else if (url.includes('/api/v1/tafsir/muyassar/ayah/1/1')) {
+        return {
+          ok: true,
+          json: async () => ({
+            status: 'success',
+            tafsir_id: 'muyassar',
+            surah_number: 1,
+            ayah_number: 1,
+            tafsir_text: 'أبتدئ قراءتي مستعينا بالله',
+          }),
+        };
+      }
+      return { ok: false, status: 404, text: async () => 'Not Found' };
+    });
+
+    const books = await api.tafsir.getBooks();
+    expect(books).toHaveLength(1);
+    expect(books[0].id).toBe('muyassar');
+
+    const tafsir = await api.tafsir.getAyahTafsir('muyassar', 1, 1);
+    expect(tafsir.surah_number).toBe(1);
+    expect(tafsir.ayah_number).toBe(1);
+    expect(tafsir.tafsir_text).toContain('مستعينا بالله');
+  });
+
+  it('fetches Quran reciters and Juz verses', async () => {
+    global.fetch = vi.fn().mockImplementation(async (url: string) => {
+      if (url.includes('/api/v1/quran/reciters')) {
+        return {
+          ok: true,
+          json: async () => ({
+            status: 'success',
+            data: [
+              {
+                id: 'mishari_al_afasy',
+                name_ar: 'مشاري راشد العفاسي',
+                name_en: 'Mishari Rashid Al-Afasy',
+                riwayah: 'حفص عن عاصم',
+                server: 'https://server8.mp3quran.net/afs',
+              },
+            ],
+          }),
+        };
+      } else if (url.includes('/api/v1/quran/juz/30')) {
+        return {
+          ok: true,
+          json: async () => ({
+            status: 'success',
+            juz_number: 30,
+            data: [
+              {
+                sora: 78,
+                aya_no: 1,
+                aya_text: 'عَمَّ يَتَسَاءَلُونَ',
+                jozz: 30,
+                page: 582,
+              },
+            ],
+          }),
+        };
+      }
+      return { ok: false, status: 404, text: async () => 'Not Found' };
+    });
+
+    const reciters = await api.quran.getReciters();
+    expect(reciters).toHaveLength(1);
+    expect(reciters[0].name_ar).toBe('مشاري راشد العفاسي');
+
+    const juzVerses = await api.quran.getJuz(30);
+    expect(juzVerses).toHaveLength(1);
+    expect(juzVerses[0].text).toBe('عَمَّ يَتَسَاءَلُونَ');
+    expect(juzVerses[0].surah_id).toBe(78);
+    expect(juzVerses[0].verse_number).toBe(1);
+    expect(juzVerses[0].juz).toBe(30);
+  });
+
   it('handles HTTP error correctly with ApiException', async () => {
     global.fetch = vi.fn().mockResolvedValue({
       ok: false,

@@ -1,5 +1,25 @@
 import { ApiIslamConfig, ApiException } from '../config';
-import { SurahInfo, SurahDetail, Ayah, QiraahInfo, QuranSearchResult } from '../types/quran';
+import { SurahInfo, SurahDetail, Ayah, QiraahInfo, QuranSearchResult, ReciterInfo } from '../types/quran';
+
+function normalizeAyah(a: any): Ayah {
+  return {
+    id: a.id ?? a.number ?? 0,
+    surah_id: a.surah_id ?? a.surahNumber ?? a.sora ?? a.sura_no ?? 0,
+    verse_number: a.verse_number ?? a.numberInSurah ?? a.aya_no ?? 0,
+    text: a.text ?? a.aya_text ?? '',
+    page: a.page ?? 0,
+    juz: a.juz ?? a.jozz ?? 0,
+    hizbQuarter: a.hizbQuarter ?? 0,
+    audio_url: a.audio_url ?? a.audio,
+    translation: a.translation,
+    sora: a.sora,
+    sura_no: a.sura_no,
+    aya_no: a.aya_no,
+    aya_text: a.aya_text,
+    aya_text_emlaey: a.aya_text_emlaey,
+    jozz: a.jozz,
+  };
+}
 
 export class QuranService {
   private baseUrl: string;
@@ -61,8 +81,34 @@ export class QuranService {
    * Get list of supported 9 authentic Qira'at and fonts.
    */
   async getQiraat(): Promise<QiraahInfo[]> {
-    const data = await this.request<any>('/api/v1/quran/qiraat');
-    return Array.isArray(data) ? data : (data.qiraat || []);
+    try {
+      const data = await this.request<any>('/api/v1/quran/editions');
+      return Array.isArray(data)
+        ? data
+        : (data.data || data.qiraat || data.editions || []);
+    } catch {
+      const data = await this.request<any>('/api/v1/quran/qiraat');
+      return Array.isArray(data)
+        ? data
+        : (data.data || data.qiraat || data.editions || []);
+    }
+  }
+
+  /**
+   * Get list of top Quran Reciters and audio streaming servers.
+   */
+  async getReciters(): Promise<ReciterInfo[]> {
+    const data = await this.request<any>('/api/v1/quran/reciters');
+    return Array.isArray(data) ? data : (data.data || data.reciters || []);
+  }
+
+  /**
+   * Get all verses in a specific Juz (1 to 30) with optional Qira'ah.
+   */
+  async getJuz(juzNumber: number, qiraah: string = 'hafs'): Promise<Ayah[]> {
+    const data = await this.request<any>(`/api/v1/quran/juz/${juzNumber}`, { qiraah });
+    const raw: any[] = Array.isArray(data) ? data : (data.data || data.verses || data.ayahs || []);
+    return raw.map(normalizeAyah);
   }
 
   /**
@@ -70,8 +116,19 @@ export class QuranService {
    */
   async getSurah(surahId: number, qiraah: string = 'hafs'): Promise<SurahDetail> {
     const data = await this.request<any>(`/api/v1/quran/surah/${surahId}`, { qiraah });
-    const info: SurahInfo = data.info || data;
-    const verses: Ayah[] = data.verses || data.ayahs || [];
+    const rawInfo = data.info || data.surah || data;
+    const info: SurahInfo = {
+      id: rawInfo.id || rawInfo.number || surahId,
+      name: rawInfo.name || rawInfo.name_ar || rawInfo.name_arabic || rawInfo.name_arabic_uthmani || '',
+      englishName: rawInfo.englishName || rawInfo.name_en || rawInfo.name_english || '',
+      englishNameTranslation: rawInfo.englishNameTranslation || '',
+      total_verses: rawInfo.total_verses || rawInfo.numberOfAyahs || 0,
+      revelation_type: rawInfo.revelation_type || rawInfo.revelationType || '',
+      page_start: rawInfo.page_start || rawInfo.start_page || 1,
+      page_end: rawInfo.page_end || rawInfo.end_page || 1,
+    };
+    const rawVerses: any[] = data.verses || data.ayahs || [];
+    const verses: Ayah[] = rawVerses.map(normalizeAyah);
     return {
       info,
       verses,
@@ -83,7 +140,8 @@ export class QuranService {
    * Get specific Ayah with optional Qira'ah.
    */
   async getAyah(surahId: number, ayahNumber: number, qiraah: string = 'hafs'): Promise<Ayah> {
-    return this.request<Ayah>(`/api/v1/quran/ayah/${surahId}/${ayahNumber}`, { qiraah });
+    const raw = await this.request<any>(`/api/v1/quran/ayah/${surahId}/${ayahNumber}`, { qiraah });
+    return normalizeAyah(raw.data || raw);
   }
 
   /**
@@ -91,7 +149,8 @@ export class QuranService {
    */
   async getPage(pageNumber: number, qiraah: string = 'hafs'): Promise<Ayah[]> {
     const data = await this.request<any>(`/api/v1/quran/page/${pageNumber}`, { qiraah });
-    return Array.isArray(data) ? data : (data.ayahs || data.verses || []);
+    const raw: any[] = Array.isArray(data) ? data : (data.data || data.ayahs || data.verses || []);
+    return raw.map(normalizeAyah);
   }
 
   /**
